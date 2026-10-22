@@ -1,0 +1,52 @@
+[ {
+  "oid" : "51",
+  "attribute" : "name",
+  "cell_ref" : "51.name",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "Frank"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "Frank-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "31",
+  "attribute" : "salary",
+  "cell_ref" : "31.salary",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "3000.0"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "3000.0-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "36",
+  "attribute" : "salary",
+  "cell_ref" : "36.salary",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1000.0"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1000.0-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+} ]

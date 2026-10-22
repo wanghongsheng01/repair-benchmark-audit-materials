@@ -1,0 +1,1218 @@
+{
+  "schema": "audit-bart-source-provenance",
+  "official_project": "https://db.unibas.it/projects/bart/",
+  "official_repository": "https://github.com/dbunibas/BART",
+  "commit": "354f503f401d5360e9a6957f4edd096d3dc413f6",
+  "source_archive_url": "https://codeload.github.com/dbunibas/BART/zip/354f503f401d5360e9a6957f4edd096d3dc413f6",
+  "source_archive_sha256": "0b8ecf0dfcd18c740f8de66e70c58adb7e34a38aac54eaec84a737724ac2dd83",
+  "upstream_license": "MIT, copyright (c) 2015 dbunibas; preserved LICENSE_BART_MIT.txt",
+  "redistributed_upstream_content": "No upstream dataset, XML task source, repository archive, dependency JAR, or compiled class is in the delivery; only MIT license notice plus provenance/hash/restoration commands. Native generated observations remain as audit evidence.",
+  "wiki_url": "https://github.com/dbunibas/BART/wiki/How-to-evaluate-a-data-cleaning-tool",
+  "wiki_snapshot_sha256": "b1599eeb506c44cefbd5805ced9961806e6a9756b1a5926460fe4d8293ecb25c",
+  "wiki_last_edit_as_displayed": "2016-11-22",
+  "wiki_quote_under_25_words": "cell ref (OID.attributeName); clean value; dirty value",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "5b627c2b6cc1959f1efbf1d5ff2de1637fe750ca03f1f5ae13899cc681d06b99",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3650,
+      "sha256": "e94ce53f139782187a830fbe273be497d680059d637ae4c2ebd7b4e084e658a5",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/README.md"
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/APrioriGenerator.java",
+      "bytes": 11810,
+      "sha256": "23707dad78c63a63f27fa30618a6b75b5c5220ef42ca1d9ca52d7cf2c394a881",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/model/errorgenerator/operator/APrioriGenerator.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExportCellChangesCSV.java",
+      "bytes": 3175,
+      "sha256": "f6362cbd8263618223675217618176f950267d65c7928bb0f69fe37dd0d19104",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/model/errorgenerator/operator/ExportCellChangesCSV.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExportDatabaseCSV.java",
+      "bytes": 5139,
+      "sha256": "4ce0f1032ce2708a353b36492368490a8df7500ed6319508bd6ac95a62843369",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/model/errorgenerator/operator/ExportDatabaseCSV.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/CellChanges.java",
+      "bytes": 3225,
+      "sha256": "5c076269c034c705a21f953b735bda0ad3db7232298a5b6f03be07f645229e92",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/model/errorgenerator/CellChanges.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/DAOCSVRepair.java",
+      "bytes": 4383,
+      "sha256": "17b65da79b1654ae97ba09b8c60af75652bb6e9b97bb3562c79af03f4ecc5202",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/comparison/repairs/DAOCSVRepair.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/ComputeQualityOfRepairs.java",
+      "bytes": 7191,
+      "sha256": "6c28fe64f54cefb15d1278bc9600275f72035e641422255fc33453b70efd746f",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/comparison/repairs/ComputeQualityOfRepairs.java"
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/Repair.java",
+      "bytes": 3172,
+      "sha256": "1040f8f6693de102d194f419423c4952776ac100c683c8f20d9516ea67b0bf02",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/src/bart/comparison/repairs/Repair.java"
+    },
+    {
+      "path": "Bart_Engine/misc/resources/employees/employees-egtask.xml",
+      "bytes": 2047,
+      "sha256": "d0d0657a6028fc47f924fd95c0dc691f498887df12a929b4622bf8875e294a58",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/misc/resources/employees/employees-egtask.xml"
+    },
+    {
+      "path": "Bart_Engine/misc/resources/employees/employees-random-egtask.xml",
+      "bytes": 2489,
+      "sha256": "d0341b7c7667e7e83a05069462eb6d2ba611919ee151e906d3cc26afa243b143",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/misc/resources/employees/employees-random-egtask.xml"
+    },
+    {
+      "path": "Bart_Engine/misc/resources/employees/employees-symmetrictest-egtask.xml",
+      "bytes": 3179,
+      "sha256": "c3971c3d798409ef63d0d64f5a8017dd4348c8f333fc18551d307d38536401bb",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/misc/resources/employees/employees-symmetrictest-egtask.xml"
+    },
+    {
+      "path": "Bart_Engine/misc/resources/misc/synthetic_01-egtask.xml",
+      "bytes": 890,
+      "sha256": "371b9ef99fcf76967a698ac41ff0259311903f7f951c61e29510a7f56e644541",
+      "url": "https://raw.githubusercontent.com/dbunibas/BART/354f503f401d5360e9a6957f4edd096d3dc413f6/Bart_Engine/misc/resources/misc/synthetic_01-egtask.xml"
+    }
+  ],
+  "dependency_jars": [
+    {
+      "path": "lib/antlr-3.1.1-runtime.jar",
+      "sha256": "a855b65bb495d4cdf4a29d2418c75ba9a486ffba4aecc48ac00fc64b84e6cbad",
+      "bytes": 116205
+    },
+    {
+      "path": "lib/c3p0-0.9.5-pre8.jar",
+      "sha256": "b8f105b2b52bcf3f25d166046b0c59575cbf4a7a2a8e0ca504a1f8751ca663ee",
+      "bytes": 483634
+    },
+    {
+      "path": "lib/commons-csv-1.1.jar",
+      "sha256": "2c68b98c087e095b3c8254295e7dbe713f589328e39bf8d1bcfe5533ebc04f2e",
+      "bytes": 36888
+    },
+    {
+      "path": "lib/commons-io-2.4.jar",
+      "sha256": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581",
+      "bytes": 185140
+    },
+    {
+      "path": "lib/commons-lang-2.6.jar",
+      "sha256": "50f11b09f877c294d56f24463f47d28f929cf5044f648661c0f0cfbae9a2f49c",
+      "bytes": 284220
+    },
+    {
+      "path": "lib/commons-logging-1.1.jar",
+      "sha256": "9e8d01f172301b966f1f404aa6fc0bdbec478ae9197256ad95bfcad1ef927601",
+      "bytes": 52915
+    },
+    {
+      "path": "lib/commons-math3-3.4.1.jar",
+      "sha256": "d1075b14a71087038b0bfd198f0f7dd8e49b5b3529d8e2eba99e7d9eb8565e4b",
+      "bytes": 2035066
+    },
+    {
+      "path": "lib/concurrent.jar",
+      "sha256": "9be245d1e3795069d8ff6e2ef5d6f39c5a6f5d46b107043e9c20416cfb93d2e2",
+      "bytes": 200252
+    },
+    {
+      "path": "lib/guava-14.0.1.jar",
+      "sha256": "d69df3331840605ef0e5fe4add60f2d28e870e3820937ea29f713d2035d9ab97",
+      "bytes": 2189117
+    },
+    {
+      "path": "lib/h2-1.4.182.jar",
+      "sha256": "e48ff70e2b91cd976e6cba16efed467ff6325db320e7f4a21167ee9d31e1c09d",
+      "bytes": 1685416
+    },
+    {
+      "path": "lib/hamcrest-core-1.3.jar",
+      "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+      "bytes": 45024
+    },
+    {
+      "path": "lib/jackson-annotations-2.7.4.jar",
+      "sha256": "ac70a1a68e2af7d0caf6f50e971d32122f309dd94150b022d653f0ede404ef9a",
+      "bytes": 50897
+    },
+    {
+      "path": "lib/jackson-core-2.7.4.jar",
+      "sha256": "1357396efdd4cbbbf3a3f5cb97201ee9270f4188b6c10ee5762705f522c54694",
+      "bytes": 253001
+    },
+    {
+      "path": "lib/jackson-databind-2.7.4.jar",
+      "sha256": "36a2930d03247a785bda763be9b9b0559d895b2d333c1ae394ae9ff26aa90c03",
+      "bytes": 1204187
+    },
+    {
+      "path": "lib/jackson-dataformat-csv-2.7.4.jar",
+      "sha256": "612239e246fecceb6c5c9505094e424044c0ff5796f961ab237883b5eba8c3a4",
+      "bytes": 92041
+    },
+    {
+      "path": "lib/jcs-1.3.jar",
+      "sha256": "6ec8f3a3974113846d1705f48ed6dba94aea2f8deeef968301dd37d4955c1982",
+      "bytes": 435347
+    },
+    {
+      "path": "lib/jdom.jar",
+      "sha256": "3b23bc3979aec14a952a12aafc483010dc57579775f2ffcacef5256a90eeda02",
+      "bytes": 153253
+    },
+    {
+      "path": "lib/jep-2.4.1.jar",
+      "sha256": "c9ee5526641d26024b48f3aa07a372e323e3e4b5c4e149197da0f969d3b7e1e2",
+      "bytes": 144912
+    },
+    {
+      "path": "lib/jgrapht-core-0.9.1.jar",
+      "sha256": "6547e6fd3faba9efa12c078d6141140506d5338e65ed2f949d37cb7b9b87b8f9",
+      "bytes": 351225
+    },
+    {
+      "path": "lib/jgrapht-ext-0.9.1.jar",
+      "sha256": "5a249e0f910cbd0fdc1d34b091e1951fe772d77880dd0da359c037a84fefad58",
+      "bytes": 34223
+    },
+    {
+      "path": "lib/jgraphx-3.7.5.jar",
+      "sha256": "17ac254bd14e1e0f26b4bb7b10d8e071473f7ed8b1899f9779b406926f5177d0",
+      "bytes": 604909
+    },
+    {
+      "path": "lib/js-engine.jar",
+      "sha256": "6d7c04745c20cf71959a9e5530ff982382ce57c45b1ea7de4d2ef94566b53235",
+      "bytes": 38524
+    },
+    {
+      "path": "lib/js.jar",
+      "sha256": "d40dc06eed6a5fecaa3614c59fc8a189a78c58008354cd41181a61af0169bc87",
+      "bytes": 813521
+    },
+    {
+      "path": "lib/junit-4.11.jar",
+      "sha256": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe",
+      "bytes": 245039
+    },
+    {
+      "path": "lib/logback-classic-1.1.2.jar",
+      "sha256": "b4ecaf8bd993f5df004e44cd7869af6184342db51fccf3c2e03757b8e1d3f149",
+      "bytes": 270747
+    },
+    {
+      "path": "lib/logback-core-1.1.2.jar",
+      "sha256": "0252340d20a44cf2c49ed3fecd16cdf4582442981c6f6e11cbf0b84a4ece1f10",
+      "bytes": 427729
+    },
+    {
+      "path": "lib/mchange-commons-java-0.2.7.jar",
+      "sha256": "6adf08650fd572135279b3f4089d099457f5438f1ef7efea88ac6776846758f5",
+      "bytes": 602233
+    },
+    {
+      "path": "lib/mybatis-3.1.1.jar",
+      "sha256": "3d5561088062ba69fa8865add891dcb856600fbfa255f28504c370503108afb6",
+      "bytes": 651643
+    },
+    {
+      "path": "lib/postgresql-42.1.4.jar",
+      "sha256": "4523ed32e9245e762e1df9f0942a147bece06561770a9195db093d9802297735",
+      "bytes": 713037
+    },
+    {
+      "path": "lib/simmetrics-1.6.2.jar",
+      "sha256": "910cb4188aa2a9dfc876e2a9c4d272b161789ce48c1c10f8b6fd01e0338cb515",
+      "bytes": 133555
+    },
+    {
+      "path": "lib/slf4j-api-1.7.7.jar",
+      "sha256": "3c5b5c3411e1cf2d1f44513d7280eb72180875cbb5d4c924bb378cf3b7968267",
+      "bytes": 29257
+    },
+    {
+      "path": "lib/speedy-0.2.jar",
+      "sha256": "c84cf3ac1bd87812c3560abd8b8e7d38ff7838e99d96e093b1c95c65730f0bcd",
+      "bytes": 492436
+    },
+    {
+      "path": "lib/swingx-all-1.6.5-1.jar",
+      "sha256": "2a4f82979cd16d8f1c9eea232a985dff62bf69c4794a37b96099b20d322907c0",
+      "bytes": 1495328
+    },
+    {
+      "path": "lib/xercesImpl.jar",
+      "sha256": "9c55051d9473f1a8d27b00eeeb139fd89983cd93a8b8da187abad53eaa84c3d4",
+      "bytes": 1223877
+    }
+  ],
+  "build_sources": [
+    {
+      "path": "Bart_Engine/src/bart/BartConstants.java",
+      "sha256": "d74ba0b48304090567b055ce7816d6515ae9bdda2a1a5646ccd63d85310ebacf",
+      "bytes": 3551
+    },
+    {
+      "path": "Bart_Engine/src/bart/CompareInstance.java",
+      "sha256": "c7bda9624dbf4eeb6bdcfa259fa277ba70613986eea6f6c316208f5c8abcbd07",
+      "bytes": 8893
+    },
+    {
+      "path": "Bart_Engine/src/bart/IInitializableOperator.java",
+      "sha256": "430d66fb4cab0eef1f6f6193b12d8fecf930636468cb441d47a6b5469daf63c1",
+      "bytes": 147
+    },
+    {
+      "path": "Bart_Engine/src/bart/Main.java",
+      "sha256": "46533c11b3e83c6b33b47ca0bf95f5f9e47dee2e4b25207aeeb41c180477170e",
+      "bytes": 6951
+    },
+    {
+      "path": "Bart_Engine/src/bart/OperatorFactory.java",
+      "sha256": "78119222f701973d8bbfd713de02cbcc28fb8a183b2ab54d3ecb06ce7a9ea71a",
+      "bytes": 6355
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/AttributeValueMap.java",
+      "sha256": "9eae0e458a7e6af4a6de51e6ecbd21497de790979296fdbbfba42f4ceb7d841d",
+      "bytes": 1529
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ComparisonConfiguration.java",
+      "sha256": "f1f083e9a5e654ee08715a8dbf4ac293848c61e41854a76cf8480797d6ecc7c5",
+      "bytes": 4138
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ComparisonStats.java",
+      "sha256": "ae0e5189620e13efd434f65b6b4794f1bb26fffc7a733350d41b9fb4758d31c5",
+      "bytes": 4396
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ComparisonUtility.java",
+      "sha256": "395c99856f4566640849d3a4a88f530ee900ef0bf98732de73550e32e3af0f2a",
+      "bytes": 2736
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/CompatibilityCache.java",
+      "sha256": "4f2808e9decc27903e93d27d2fb92591e5474a34fa0ef353186e96f3e5204c66",
+      "bytes": 1375
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/CompatibilityMap.java",
+      "sha256": "3b2a16e02961965f14c5b7a104256f7e173dd806fab7772cf6ab11ded06f2db2",
+      "bytes": 1023
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/InstanceMatchTask.java",
+      "sha256": "031e09feab91d08d3bf023f2980d45e997e945f2a2dd34e82df52585983f01eb",
+      "bytes": 1351
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/SignatureAttributes.java",
+      "sha256": "544f42cc851d343848835bfef14190110fb4ec19c43dd65ed93bc2330b7a99b1",
+      "bytes": 1519
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/SignatureMap.java",
+      "sha256": "de0181bbee23ff8173b1f3ce23dab61b45480ceca866051e4569caee11f9c696",
+      "bytes": 2039
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/SignatureMapCollection.java",
+      "sha256": "55244ede50cb795b84ceb374dd8543b5905e7d6e2fa3f06221bdbc3dc6adb234",
+      "bytes": 2728
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/SimilarityResult.java",
+      "sha256": "2a30d49f5dc489b2ebe200b05ce07b3aa91bc67f7cbd0244db284def6292588f",
+      "bytes": 1246
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/TableSimilarity.java",
+      "sha256": "8555e2549714c03209ea5a320721a559b89e38a67a82874efd0d16407b49ed97",
+      "bytes": 1309
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/TupleMapping.java",
+      "sha256": "44a61061803fa2dabd3ea1a5641c7a94977cfbf59c5533558b0be985c577b592",
+      "bytes": 4647
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/TupleMatch.java",
+      "sha256": "d44635ea014c151f4b3fe0617a3fcb7d6b47de08f4de55aa016b27bd4f47e568",
+      "bytes": 2064
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/TupleMatches.java",
+      "sha256": "7dd751981646df164e09967ad4c3d81c701b7f84d2d3d7f0bed06ef4ed4d9c6f",
+      "bytes": 1575
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/TupleSignature.java",
+      "sha256": "6a1d3ceb184acd31d7ae045af942e2bcf8e01844a27f57a98026cffdccc1ba02",
+      "bytes": 784
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ValueMapping.java",
+      "sha256": "5bcb60acad2fadead662982cbf3ed9d0d23426ad8cfef878502b6241e71d34cd",
+      "bytes": 2469
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ValueMappings.java",
+      "sha256": "3a9618c5701bfb3aa9f96a9316a5a9e006d75a9ec73a34a7ff748d132a732a9e",
+      "bytes": 2417
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/ValueTupleMap.java",
+      "sha256": "76785476cad495ad56af431f05910c118dc7b45e06e6058b43ad81a501feef50",
+      "bytes": 1085
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/generator/ComparisonScenarioGenerator.java",
+      "sha256": "779792a7b95c12f034bcc6527b3f8c56f74c924354166010abebf815000f8f6f",
+      "bytes": 9769
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/generator/InstancePair.java",
+      "sha256": "c7fa56654575b3aebb76f244e996dd99ba5873654906556e07f7c3a739d052c9",
+      "bytes": 838
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/CheckTupleMatch.java",
+      "sha256": "4948067c67285b16c77ac13d0a7abd0fb48d553831261a5ecc3ef1710d9715d6",
+      "bytes": 6659
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/CheckTupleMatchCompatibility.java",
+      "sha256": "a55b49082cb4b65221d1776110ea82f64ca915a89e8a43c2484ed4c274f900f5",
+      "bytes": 15228
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/ComputeInstanceSimilarityBlock.java",
+      "sha256": "ba6f1f4c5b0066bc1727a1c4983ad87ce2aa862d5bf31b5c077dcc3a61c451ef",
+      "bytes": 12360
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/ComputeInstanceSimilarityBruteForce.java",
+      "sha256": "580357217d43d018f88760a5d362f3e0d30739852d0d004e7f1f6f94136053e6",
+      "bytes": 3324
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/ComputeInstanceSimilarityBruteForceCompatibility.java",
+      "sha256": "3d42b070b154eee31524ff5434fcff7276956868fd222817a729cac2b43d8b54",
+      "bytes": 2324
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/ComputeInstanceSimilarityHashing.java",
+      "sha256": "35d083999d32ae6d7e77d76d88e0724cbefc68cbd15c7d14659d3dc6a0b882f4",
+      "bytes": 17818
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/ComputeScore.java",
+      "sha256": "6b6b74068925109dbcc785a79050b89a860a90d3c6f3e0fa0bffd422f8d50db7",
+      "bytes": 9961
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/FindBestTupleMapping.java",
+      "sha256": "109e609e92267144bd2e163546304afee63f21b055c142803bddde425ac4de70",
+      "bytes": 11503
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/FindCompatibleTuples.java",
+      "sha256": "412d6f5f490653ecc6fc7065eee904185ab04173093e06a7ac45fe408d2efb85",
+      "bytes": 5247
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/FindHomomorphism.java",
+      "sha256": "ee86a6d3278d280435def7c076dfc0562885a66089088f5a3940b81a2ebfcd68",
+      "bytes": 10164
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/FindNonMatchingTuples.java",
+      "sha256": "980d0051dabc8cc0cf8050344fb37e470563dd6c17ad3699e6c28a2d0b1bf411",
+      "bytes": 1569
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/IComputeInstanceSimilarity.java",
+      "sha256": "56873094aa0ffde7a179eda15c3c2c32c0cab6957f4eea38b342fd7394f60d08",
+      "bytes": 255
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/SignatureMapCollectionGenerator.java",
+      "sha256": "64dc1acfb25b926b50d85094426b661039032c815427d38d463fb378fe354f12",
+      "bytes": 3440
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/operators/TupleMatchComparatorScore.java",
+      "sha256": "6e7abf88daefa15c29f0a39b89a91c4f99935d03f0ae88235baa7c2eb4d2c708",
+      "bytes": 312
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/ComputeQualityOfRepairs.java",
+      "sha256": "6c28fe64f54cefb15d1278bc9600275f72035e641422255fc33453b70efd746f",
+      "bytes": 7191
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/DAOCSVRepair.java",
+      "sha256": "17b65da79b1654ae97ba09b8c60af75652bb6e9b97bb3562c79af03f4ecc5202",
+      "bytes": 4383
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/PrecisionAndRecall.java",
+      "sha256": "dd373d7d7473c78e40838b4b7ce89d2a5143c5c379a7265a56cba146db4f23c5",
+      "bytes": 1696
+    },
+    {
+      "path": "Bart_Engine/src/bart/comparison/repairs/Repair.java",
+      "sha256": "1040f8f6693de102d194f419423c4952776ac100c683c8f20d9516ea67b0bf02",
+      "bytes": 3172
+    },
+    {
+      "path": "Bart_Engine/src/bart/exceptions/ErrorGeneratorException.java",
+      "sha256": "5154d63ad4c25ad76301044d6825d6e2358ae8626e1a775d406e274f9e82add8",
+      "bytes": 315
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/EGTask.java",
+      "sha256": "573d74a828774c9d371fd2ee1810f3b1d9daf746a71e91e6a103c8d579d1692e",
+      "bytes": 4087
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/EGTaskConfiguration.java",
+      "sha256": "182568c600105548be1b849455dd62f0eafc912658c1644a6f536bd193ee09e8",
+      "bytes": 16488
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/NumberOfChanges.java",
+      "sha256": "77dec6bd3af4ac88bf7b7b54f115ba942eba6c9cf307a495265d3a9c561c03b8",
+      "bytes": 279
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/OutlierErrorConfiguration.java",
+      "sha256": "2d8a97518b2a4a99d710b831379525efc2f6c28e0896e7235f9ac07a29c7dbf8",
+      "bytes": 4904
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/VioGenQueryConfiguration.java",
+      "sha256": "3c66a7376a6b38a00dc75fe13479327c84a72b28bb56201ef9c58e9ac339bf95",
+      "bytes": 11732
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/BuildAlgebraTree.java",
+      "sha256": "f13c102bbe31a2289b078ebcde99204762d25d6413d95a603bfe49fd81531ce4",
+      "bytes": 6790
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/BuildAlgebraTreeForPositiveFormula.java",
+      "sha256": "4993b1a48faa81feb606ec1dc854a0d11e1604bc9ef80d4175572bd014e63def",
+      "bytes": 20376
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/BuildAlgebraTreeForSymmetricFormula.java",
+      "sha256": "f31d70a236f4f4077e5249990e813934103d9ef6b414b9eb062ef04574cbd748",
+      "bytes": 6880
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/BuildAlgebraTreeUtility.java",
+      "sha256": "229f4f9e4821a4336145a808c9e1216b2b4fc54deed41b84cf4586758999874b",
+      "bytes": 6505
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/ConnectedTables.java",
+      "sha256": "b2890d8e763c872e742221b14cad902518db2289fb5ae62bc1f5b1dbeadb40c5",
+      "bytes": 744
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/Equality.java",
+      "sha256": "dbba42d1ff273d066c32e58e670ad62fbd9ccd7689c67ff93f995d8771317d47",
+      "bytes": 750
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/EqualityGroup.java",
+      "sha256": "2e78024a8a0c9b78add18193e2b6d178db11eb5a91c81bfcbb0cf0f12155fae3",
+      "bytes": 2938
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/algebra/operators/FindConnectedTables.java",
+      "sha256": "7a16753e41c10308cf09e6752faf11c66413c2d7f8294c9dd6bbfe474d5315b8",
+      "bytes": 2593
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/BuiltInAtom.java",
+      "sha256": "cab1b83187cd1c050c5cbf07527cce19fbd7dcd34f051022ac7de2868aacc206",
+      "bytes": 1869
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/ComparisonAtom.java",
+      "sha256": "ef134ebcbfa14d2c49b5e5c1f6b5ec55241f31e983837201c6928818fcfe9895",
+      "bytes": 5790
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/CrossProductFormulas.java",
+      "sha256": "0181ff80a1c64d1436684e176bfe477039063a2c1e79c66d44116ab1091462de",
+      "bytes": 1388
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/Dependency.java",
+      "sha256": "141b2240a95fcebc06a521b84a42f38f29c650bfac788b00fee138aa0c229380",
+      "bytes": 3073
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/DependencyStratification.java",
+      "sha256": "838262a43d4aaa90a89c721edd01b7c6e50436be274cde0ff3d800ee12718af8",
+      "bytes": 871
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaAttribute.java",
+      "sha256": "5a9120126df6fe7ac9221c3c281e491cbf756948fa75d3d46442f9a26f2fd243",
+      "bytes": 1203
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaConstant.java",
+      "sha256": "e9d9a7da92071f37e732b29db1fe0b8768e783b945f98891c020714321181add",
+      "bytes": 1022
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaExpression.java",
+      "sha256": "3df461f5ee354f481bb635f8e955fc91afd545ebd97cff7f94c1104c8afa762f",
+      "bytes": 1052
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaSampling.java",
+      "sha256": "450ab02842383816b807e043774325c9285cef944070bf16e3a23e1f3e6af40e",
+      "bytes": 1242
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaVariable.java",
+      "sha256": "365938f81cec17821167318d1944bbd958ae02fd5f3cf9cfe542c89a625de941",
+      "bytes": 3521
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaVariableOccurrence.java",
+      "sha256": "8ebd07222c175b4cfe47fae8b29586d1682b318d28570b58640b46c433e27bef",
+      "bytes": 1710
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaWithAdornments.java",
+      "sha256": "f14a82f0b7aea2b2c167156ec08140644f4242261fbc9f839b1d0db4e9095984",
+      "bytes": 1453
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/FormulaWithNegations.java",
+      "sha256": "544f860fd940025ea6c4109dd1419f63362865840d34cdaa1c805f85ce7ed734",
+      "bytes": 4216
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/IFormula.java",
+      "sha256": "915c556774412c8f77d7d30669f8a93b380058386529ec94600331031f3aaf29",
+      "bytes": 1363
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/IFormulaAtom.java",
+      "sha256": "a33ff41e07b6de88de0f3257e7e99b472643e895e0a672cfe3e75e446a237929",
+      "bytes": 650
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/IFormulaValue.java",
+      "sha256": "58dcf4bb17be5846e9366f47962ecb017c3a8c46926b9a97448c82037a796f05",
+      "bytes": 254
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/LabeledEdge.java",
+      "sha256": "1e1f6b11f5e0aa3c30aabf0d8053fcccc0786dd85c07ea9552849b6e568ef88b",
+      "bytes": 1410
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/NullFormula.java",
+      "sha256": "448e2835cd69137b0c77460b217ddb49d45b43dd3ca87b1aa41882fa0ff77e4f",
+      "bytes": 1734
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/PositiveFormula.java",
+      "sha256": "8aa5781cb624f3c7014079ef970a43223a0b9f71434ff216ecb8a3d25f6a91e0",
+      "bytes": 9953
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/RelationalAtom.java",
+      "sha256": "a39f5688577396726c9d1ac713bf61542614e7cd9f64f4b55b8c4fa33fe55aeb",
+      "bytes": 3978
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/SelfJoin.java",
+      "sha256": "e403e05ffb9e623b8113b4b15d5718caeaf7f4888b18189be15db60d1aec0405",
+      "bytes": 920
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/SymmetricAtoms.java",
+      "sha256": "4a9047e6d85d0ec227e35853f7602961c82aa87724230ae23072c657b50955af",
+      "bytes": 1131
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/VariableEquivalenceClass.java",
+      "sha256": "c1a542ee05f691020ccf0ad0c2df1680b2fbd261c53c5e500911c4bbee5ff839",
+      "bytes": 1337
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/analysis/FindCrossProductFormulas.java",
+      "sha256": "87dd3a95d859efd16ab1a4a571a6ca9cfae94664b4c5032198771045dd42028a",
+      "bytes": 2962
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/analysis/FindFormulaWithAdornments.java",
+      "sha256": "e804348f06ebb3c2fe09488e2c95cbcce474e1e2ffcbcb26c107b58cb3ed065d",
+      "bytes": 16513
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/analysis/FormulaGraphVertex.java",
+      "sha256": "e5722e0475846482494926c31a4af552ed21f33cca5d3364b2ce7f98caf3d96f",
+      "bytes": 1378
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/analysis/GenerateFormulaWithAdornments.java",
+      "sha256": "f015ab6d7586f171c13052cbcf1eae42752e68c25a968d06d7d2b0cde75d6eb8",
+      "bytes": 7321
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/analysis/VertexEquivalenceComparator.java",
+      "sha256": "ec868ae9304cb5a93deda49f48d9052469883156e6ce78326a01d8835d4e7e63",
+      "bytes": 2404
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/AssignAliasesInFormulas.java",
+      "sha256": "66133e2a2a8629bf0189100ed930d03be84d2f962af3b94caf23fc5b72590ed8",
+      "bytes": 2175
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/CheckVariablesInExpressions.java",
+      "sha256": "80de69e26a58d2377bb6f7e5b2f66e9a59608b79cb6aa85f03f6338979b42933",
+      "bytes": 3419
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/DependencyComparator.java",
+      "sha256": "c1ab301867743781b883fd37cc305c50049945e3f103815112f990f548fa864f",
+      "bytes": 294
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/DependencyToString.java",
+      "sha256": "5e68b3a0da07bd5b0081072ee7c599fa219987102a835151c58fa10b0e110c23",
+      "bytes": 4428
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/ExtractFormulaSampling.java",
+      "sha256": "c4fddf6e3d4cbad6c059d68c9074571665681319d556b7eff761b36af2ef1826",
+      "bytes": 3504
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/FindFormulaVariables.java",
+      "sha256": "3bdd948489322bcb4f2f9c75600f25529219d5896cd9f624fb3b2f6152c6f333",
+      "bytes": 4026
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/FindVariableEquivalenceClasses.java",
+      "sha256": "bfb30e3e2f0132a956fc869f5c584aa7b9f5399a13c7a8ba6f9499e0e5771020",
+      "bytes": 4375
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/GenerateStratification.java",
+      "sha256": "4f07436ea0ded30136090ae3aa27496554e94eb780aa614cfbdb71ef06032f68",
+      "bytes": 7568
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/dependency/operators/IFormulaVisitor.java",
+      "sha256": "e4ac82a2ab8e093ab62580550a53ae7c25c6d3c23eb03c433d2eedfd1cbfbd6c",
+      "bytes": 447
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/RepairabilityStats.java",
+      "sha256": "16a245edf08647bef009d7c23043c31b5ee5ca4fe5768bc3c2445eb576441fed",
+      "bytes": 894
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/Violations.java",
+      "sha256": "d5ce801af73c95c6359810f221e74a27b050dfd80fb32a1f7d482850349343bb",
+      "bytes": 1918
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/CheckDetectableCellChanges.java",
+      "sha256": "a0bd8c5ba5088b0a4bc2812c3f33522a746c559874012806631fb0119609eed1",
+      "bytes": 4442
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/DetectViolationStandard.java",
+      "sha256": "d8db3100d14b755d4673a0cdc07e2b1b2d4c064bed879c8b2ed1ea5ddd082d31",
+      "bytes": 3212
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/DetectViolations.java",
+      "sha256": "b26dec377dc6a991af9d4ae770135cfc786954225e718f50c9c6a4d41a358e32",
+      "bytes": 4237
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/DetectViolationsSymmetric.java",
+      "sha256": "b010d0ccb6b9479911c82725db566aeace1c0b654c27e3497166b3ab5368a7fd",
+      "bytes": 9622
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/EstimateRepairability.java",
+      "sha256": "8b7e9214f0f79d010687c9b1ccf8432786709b5c72248f0957afeb53fe56c5aa",
+      "bytes": 10248
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/detection/operator/IDetectViolations.java",
+      "sha256": "5804a342dc4a393e2772b25182bce9bb672dc7a2af2a4bf1b2c5a4bc3d56ccbe",
+      "bytes": 447
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/AbstractCellChange.java",
+      "sha256": "1ce08b94e6bba5969eaa7bfaa9abac19101d2cea9c07592d78cdc7966c6190e7",
+      "bytes": 2880
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/CellChanges.java",
+      "sha256": "5c076269c034c705a21f953b735bda0ad3db7232298a5b6f03be07f645229e92",
+      "bytes": 3225
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/EquivalenceClass.java",
+      "sha256": "af756b2dfbd1c7a4b62c84fc5b080133117915c186c07ca7176f4f059ff9ea7a",
+      "bytes": 1514
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/EquivalenceClassQuery.java",
+      "sha256": "a46207853f41e34556adc8f2d5ff1f8806c5e73193b01c26807efa2373511e8c",
+      "bytes": 1850
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/ICellChange.java",
+      "sha256": "09c55c6864bda96047bd2fe38721a52543e4529825c7d67d91366fbdf469d2d5",
+      "bytes": 789
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/ISampleStrategy.java",
+      "sha256": "560435ef190520c8556570873da4ae8680609db721ccfd119f4229ef809e2eb4",
+      "bytes": 638
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/OrderingAttribute.java",
+      "sha256": "646a641e8d99a6f435caa44c52c1db890ffb7f2c59c9d2c62c851c1cf1f8b721",
+      "bytes": 1576
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/OutlierCellChange.java",
+      "sha256": "b403a5613515bce254f6910ad5170e958250c966c76885595e037ce2a35b162d",
+      "bytes": 2238
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/RandomCellChange.java",
+      "sha256": "21489a00ca8ab328561409d68dc257314e1501b343aecb63a817655e61f61825",
+      "bytes": 793
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/SampleParameters.java",
+      "sha256": "e03a66c752877b1d79fcd5359228d7aa2ca8d89157d033f2564c0e0c1c80dab8",
+      "bytes": 969
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/ValueConstraint.java",
+      "sha256": "47826e398fc69cfae0c468a7e3496c74b9d516073da1a6f7dbfdc7bc7129b5d2",
+      "bytes": 3277
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/VioGenCell.java",
+      "sha256": "345bc1eed3f1dc3c59e9f081e218033bdd8a226ac6b58db2afdbf1b22eab4201",
+      "bytes": 1191
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/VioGenQuery.java",
+      "sha256": "59be072ef19ce471e4991714971d5d1585e400b8978f0db6bf9d3b73df28e353",
+      "bytes": 3087
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/VioGenQueryCellChange.java",
+      "sha256": "f30eb62ab965b6f6d6624864ad9078528de1050038af50713f877cbe77c485c3",
+      "bytes": 3524
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/ViolationContext.java",
+      "sha256": "a72a34d814dc627d35b899e95aabdc650967c634e2268cd6bca5688c1fc2bdb6",
+      "bytes": 2509
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/APrioriGenerator.java",
+      "sha256": "23707dad78c63a63f27fa30618a6b75b5c5220ef42ca1d9ca52d7cf2c394a881",
+      "bytes": 11810
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/AbstractSampleStrategy.java",
+      "sha256": "59e66aade1e83844a0c9d5aa88ed8f20e33e013b4c6ba2268de15a867e74e02b",
+      "bytes": 6580
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ApplyCellChanges.java",
+      "sha256": "1e7a927022e6f41f7ca59f43d56f9bb1c2061d3ae8070bfa72b03b2a19eb0335",
+      "bytes": 1666
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteOutlierErrors.java",
+      "sha256": "546a16897ec8b1300d635c5a7e742627bb0c693df62b8101b8ec388d9203119c",
+      "bytes": 14613
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecutePartialOrderErrors.java",
+      "sha256": "f3dccb18db206a865eab897b9c73da74409587d4ec38b0c9c1cdb7bb54854880",
+      "bytes": 3321
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteRandomErrors.java",
+      "sha256": "9bbe24bd25295f62544e4806bc545d966ec17d632b99eda00813a1c9125ffae5",
+      "bytes": 5122
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueries.java",
+      "sha256": "cd414eaf41ada8e848a62ea9df13e17f5d4c8d245cdbf8da9a224179aa1f154f",
+      "bytes": 4755
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryInequalityRAMRandomCP.java",
+      "sha256": "76737e952c4666a084b9ed5e3b369faa4b0f93d1ee58b49bee13d368e4b1aa04",
+      "bytes": 13042
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryInequalityRAMRandomCPMultiQuery.java",
+      "sha256": "71cc6fa6d65c9e2ae506ab0a1ac742a589c16054cd85571f91bfbbd729b77363",
+      "bytes": 12404
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryInequalityRAMRandomCPSymmetric.java",
+      "sha256": "bc94e49d80e21a773db5d69021732f1e55a1dddbfc3bf7336eda4cf9ebc823e3",
+      "bytes": 11130
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryStandard.java",
+      "sha256": "e418a3736f91d80e66344b2ae596ec429359d91d0d2ee2a59633f005e44a6b18",
+      "bytes": 3592
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryStandardMainMemoryRandom.java",
+      "sha256": "ac4e7af9f1cb9015ebf3640a5b9bf10189ffe7cc5fd2f3e8f0411d57f0ab4368",
+      "bytes": 7878
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQuerySymmetric.java",
+      "sha256": "6e0b223f9c47e4a2057041c06c74b7f1be2bd1fe9c19e6807b360a77605dc08f",
+      "bytes": 7385
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQuerySymmetricMainMemoryRandom.java",
+      "sha256": "1bcb0803222342a0bb413683355bc7368bd8be7e27ce442885d0da248ad1ec67",
+      "bytes": 11899
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExecuteVioGenQueryUtility.java",
+      "sha256": "b29b95760b34cae6bed1eae9902e81fa507c8effd6c33a339406b2d668c4eb85",
+      "bytes": 12690
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExportCellChangesCSV.java",
+      "sha256": "f6362cbd8263618223675217618176f950267d65c7928bb0f69fe37dd0d19104",
+      "bytes": 3175
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExportDatabaseCSV.java",
+      "sha256": "4ce0f1032ce2708a353b36492368490a8df7500ed6319508bd6ac95a62843369",
+      "bytes": 5139
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/ExtractEquivalenceClasses.java",
+      "sha256": "57fe7e0133f3ec9cfe4581f10829b18c629d05aad2aeda2841e8dd7418ca69a2",
+      "bytes": 7481
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/GenerateAlgebraTreeForSymmetricQuery.java",
+      "sha256": "dc1e3c397b82510725b1af37a443f5fa29979173e3dbce53a3890f9e0ca1a42d",
+      "bytes": 5109
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/GenerateChangesAndContexts.java",
+      "sha256": "b357e16caedcff189b8aaf0bba8a5ba79c9d10db5d99097d1c76078450e9b718",
+      "bytes": 20886
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/GenerateVioGenQueries.java",
+      "sha256": "aa3452c9e12dd444d86a683f93d88bce152ae537c828c5180428b78c067487ff",
+      "bytes": 7643
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/IChangeApplier.java",
+      "sha256": "ef9aaa84ceb84219735e534cd9bc25d9e03c2deffe393f435e4f9b5f7250a9d9",
+      "bytes": 215
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/IExportDatabase.java",
+      "sha256": "c954886e93e9e471dfa05836996a8251c973e11b1fb89d2011bd484225f3cf05",
+      "bytes": 375
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/IVioGenQueryExecutor.java",
+      "sha256": "006cf707ca3d28213aaa8a29cc679393e14473a869e361dae7c257cf138b76cf",
+      "bytes": 372
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/IntersectValueConstraints.java",
+      "sha256": "8258a73d4860391cc185e2f15c1448c0ff516542070c64239266229e72e3fd55",
+      "bytes": 2854
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/SelectQueryExecutor.java",
+      "sha256": "ac9288f485eb4fd4358be0cae9ecbadcc29e32f001bf90150f657391855b01e6",
+      "bytes": 5920
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/TableSizeSampleStrategy.java",
+      "sha256": "8820c6f534567573578ebe5592b5711a63cb1b2d8d03942fc23931cd9fc1d062",
+      "bytes": 2151
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/TuplePair.java",
+      "sha256": "ec2790855b1875ef50cbd1f62886fd69c114f550340a5391c1069c19c4b74f8c",
+      "bytes": 1297
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/ApplyCellChangesOnDeltaDB.java",
+      "sha256": "41a257ddafe57f8b9158a9d83cd860865c82a0a9636b9570940091d2990c195c",
+      "bytes": 4794
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/CellGroupIDGenerator.java",
+      "sha256": "29bb94462f5c4e1c506a25cb6fb5436fdcab63655a7d06865b244411f5648461",
+      "bytes": 1193
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/IBuildDatabaseForChaseStep.java",
+      "sha256": "b612d9c8a0f7edb08faa3c91033c0c0caec7dbba49c33cb81ef0f93f3e318f23",
+      "bytes": 481
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/IBuildDeltaDB.java",
+      "sha256": "36c61468f27bb03fb30f3711ecc3c16b51190e83428d3dc4fc041a547c901f05",
+      "bytes": 232
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/dbms/BuildSQLDBForChaseStep.java",
+      "sha256": "1895a4edd87a63ae5ae8fac2baf13f2da4da89cc4136cbf30bfff1a2989fb423",
+      "bytes": 20333
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/dbms/BuildSQLDeltaDB.java",
+      "sha256": "2eddc9157224ec08c2af068b1359f4057edadce23c26bce3a37fb5ed80140f55",
+      "bytes": 11304
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/mainmemory/BuildMainMemoryDBForChaseStep.java",
+      "sha256": "e49b71acfd0a0445fa1f9d900afb11c46114f0436bf63039edd819be62d10163",
+      "bytes": 17319
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/deltadb/mainmemory/BuildMainMemoryDeltaDB.java",
+      "sha256": "99d5daf52af342a559d8bd1d08fa698d929ad75a80876861327d410d4410521b",
+      "bytes": 14605
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/BasicValueSelector.java",
+      "sha256": "f0f6cbde59651dc2fdc6e053c432b7cdab7cd257bf24c8015cddb57d6efe1965",
+      "bytes": 5015
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/IDirtyStrategy.java",
+      "sha256": "5b46fc8bb8fd422b390323f86f1ec4df2b677e01f67274f1f3c2d3c15d818aa5",
+      "bytes": 759
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/INewValueSelectorStrategy.java",
+      "sha256": "8d1234870440792189f2298552c6919f251938e01163cae64670cb4f3874b282",
+      "bytes": 356
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/OutlierValueSelector.java",
+      "sha256": "d002e2e34fb14309f659d7fd865bdad1d3c79bb8beba27be022e467318bcb94f",
+      "bytes": 4428
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/PartialOrderValueSelector.java",
+      "sha256": "6a1364e3733b3bc294bb969056136f406d0642561bd78547660041d776bf1505",
+      "bytes": 7360
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoActiveDomain.java",
+      "sha256": "8a521afdbafbfba6a2d2f1ba062d7ac71cf36a50c7ddd7bf0b4a96db20d25b4a",
+      "bytes": 2734
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoAddString.java",
+      "sha256": "1a49d26eb5746c55cdf2054f23a6964f1854696eb21583fddcc8f6ad5d33cc32",
+      "bytes": 1911
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoAppendString.java",
+      "sha256": "f11ada9aa9c046e7f3cbb44323a26896a0933ef26b822021a649570694a21f7a",
+      "bytes": 1102
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoRandom.java",
+      "sha256": "94bf084da92eb7974ce45327e15b6a6f5b5771dc7b226320f2464e904d33a8e9",
+      "bytes": 1024
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoRemoveString.java",
+      "sha256": "2c047086cd9e0d24593fbc10a4d3e69472622b1323a998537ea9ddeff7ba2416",
+      "bytes": 1691
+    },
+    {
+      "path": "Bart_Engine/src/bart/model/errorgenerator/operator/valueselectors/TypoSwitchValue.java",
+      "sha256": "6321e37338d106ed5569088367262641d2e1f46d6b9cbdf3b57ab21837b82312",
+      "bytes": 1713
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/DAOEGTask.java",
+      "sha256": "551ff2212a19f503c2c3c8abb7b1119c25818a0b84d3f723a6c4f11752b73edd",
+      "bytes": 12109
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/DAOEGTaskConfiguration.java",
+      "sha256": "4f7c07781f41bcf1fdb43fd1c341073b50b47d52b4703e39f35f44d9772ff007",
+      "bytes": 26069
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/PersistenceConstants.java",
+      "sha256": "a6ddace867babb20e52273f4de237328d72a0b65faaf530639e6a9663960acfc",
+      "bytes": 1102
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/PersistenceUtility.java",
+      "sha256": "974c343d542db8a07a05850c4080f9c78126efa506db3ac497e92b9fc169ba53",
+      "bytes": 1814
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/Types.java",
+      "sha256": "7257dc0ddaaf8cd46f3cc9ed5cf3fec77c1f69a2421602c9c71083ffc1438b67",
+      "bytes": 2095
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserAttribute.java",
+      "sha256": "4554cd821465d39bdd58b4bb25a8adf61c4e825f2b99f7aa97fd6b3e20e60ed2",
+      "bytes": 1656
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserFact.java",
+      "sha256": "0fa7f1261aaed1a20571a06c1880dae8ad6b2a8427ed31aaab700c81507afa00",
+      "bytes": 849
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserInstance.java",
+      "sha256": "8d2e978b87d1b94bef52ae41c7d544278549f4f6b0c4a5dccbedc1bb57b9ba77",
+      "bytes": 832
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserMainMemoryDatabase.java",
+      "sha256": "2305da65a1307e54f0daae3bfdda1b3fa5a4af877f1bd934a6b098ea8223636b",
+      "bytes": 1525
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserSchema.java",
+      "sha256": "0fd8c0e0cf6d565741fe3fdbc791a1df537dcc8d9271476681f6b3b983d0187a",
+      "bytes": 841
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/ParserTable.java",
+      "sha256": "dd8b5af127fcc610f2dc2e281daf63e1f9106fc8528830d04f83f55c453e7dc0",
+      "bytes": 851
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/operators/ParseDatabase.java",
+      "sha256": "96f854af1fc118eef0304e1657d017a30db79f4e0415fea042e1a5d5952c5a2e",
+      "bytes": 7060
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/operators/ParseDependencies.java",
+      "sha256": "4284ca1909b9529dea68b9075fdc329d03d766d1672339889f403f44166c130e",
+      "bytes": 5188
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/output/DatabaseLexer.java",
+      "sha256": "f5afe9b75f688bb3fa6488d4eb07d4cc23769078c5edb8e09d7401384d0ca3c0",
+      "bytes": 20123
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/output/DatabaseParser.java",
+      "sha256": "9f61dc2bb5bbe2713115d5e50e5e03e5077329c5c7f80a7dc0f7c7779a6fd28d",
+      "bytes": 22845
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/output/DependenciesLexer.java",
+      "sha256": "7a23d987fde8803738e10d38e5fc1dbacc74a1f17add095c3cdaaf1ea866bd2d",
+      "bytes": 26455
+    },
+    {
+      "path": "Bart_Engine/src/bart/persistence/parser/output/DependenciesParser.java",
+      "sha256": "3d2c1bf740e3fefdd46085b078c0efc48f9fc89f8c04aa8c5678179a8252bab4",
+      "bytes": 51204
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/AlgebraUtility.java",
+      "sha256": "fe18d324de153343208ffffb4470ecaa66d00e4d646c6454621c68adbf20d7d8",
+      "bytes": 10383
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/BartDBMSUtility.java",
+      "sha256": "3106a329b8532da14323bd7f895f8378bb1865fd047d63381db92e53286169ff",
+      "bytes": 27917
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/BartUtility.java",
+      "sha256": "f115cb9711422ba92120155c57887990968749722c635b55aa0f9ddf0ca4f70d",
+      "bytes": 13739
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/DependencyUtility.java",
+      "sha256": "996f0bf3436cbbce796d71b57fe1d4aeedae6066245b91c31ad7974f18131abf",
+      "bytes": 15402
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/ErrorGeneratorStats.java",
+      "sha256": "08fca4beb81a1bfedbbc0cccc750daa9adb4ee737ecb356746922010ad878e9b",
+      "bytes": 10886
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/JavaUtilLoggingConfig.java",
+      "sha256": "8469d6f556502f0b85888695ad9cb0f39b10ae67439dc34d14851c9558282533",
+      "bytes": 1238
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/comparator/DependencyComparator.java",
+      "sha256": "a8817e23306da9c5fb53fc155bc67c717ccb6ec4514a75a65075444928896c7b",
+      "bytes": 288
+    },
+    {
+      "path": "Bart_Engine/src/bart/utility/comparator/VioGenQueryComparator.java",
+      "sha256": "170890f3d7bb2bce6872ff52e74c274429f7955e9501145e4edd8e173f21d604",
+      "bytes": 396
+    }
+  ]
+}

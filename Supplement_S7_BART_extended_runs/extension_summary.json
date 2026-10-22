@@ -1,0 +1,159 @@
+{
+  "protocol": "PROTOCOL_EXTENSION.md",
+  "tasks": {
+    "employees-random-egtask": {
+      "runs": 30,
+      "failed_runs": 0,
+      "rows_per_run": 8,
+      "cells_per_run": 32,
+      "events_total": 70,
+      "events_per_run_min_median_max": [
+        0,
+        2.0,
+        6
+      ],
+      "event_types": {
+        "Random change": 70
+      },
+      "zero_event_runs": 4,
+      "realized_changes": 70,
+      "unexplained_changes": 0,
+      "unrealized_nonnoop_events": 0,
+      "event_value_mismatches": 0,
+      "noop_events": 0,
+      "exported_events": 70,
+      "documented_order_mismatches": 70,
+      "implemented_order_mismatches": 0,
+      "runs_with_reordered_rows": 30,
+      "reordered_rows_per_run_min_max": [
+        8,
+        8
+      ],
+      "positional_differences_per_run_min_max": [
+        24,
+        27
+      ],
+      "zero_event_runs_flagged_by_position": 4,
+      "wrapper_controls_passed": 60,
+      "csv_only": {
+        "cells": 960,
+        "labels_unique_and_correct": 960,
+        "targets_unique_and_correct": 956,
+        "cells_with_two_supported_targets": 4,
+        "runs_with_target_ambiguity": 2,
+        "false_positive_labels": 0,
+        "false_negative_labels": 0,
+        "native_assignment_optimal_runs": 30
+      },
+      "native_scorer_probes": {
+        "runs_scored": 26,
+        "implemented_order_value_precision_recall_1": 26,
+        "documented_order_value_precision_recall_0": 26,
+        "cell_precision_recall_1_both": 26
+      }
+    },
+    "employees-viogen-egtask": {
+      "runs": 30,
+      "failed_runs": 0,
+      "rows_per_run": 8,
+      "cells_per_run": 32,
+      "events_total": 270,
+      "events_per_run_min_median_max": [
+        9,
+        9.0,
+        9
+      ],
+      "event_types": {
+        "Viogen change": 270
+      },
+      "zero_event_runs": 0,
+      "realized_changes": 270,
+      "unexplained_changes": 0,
+      "unrealized_nonnoop_events": 0,
+      "event_value_mismatches": 0,
+      "noop_events": 0,
+      "exported_events": 270,
+      "documented_order_mismatches": 270,
+      "implemented_order_mismatches": 0,
+      "runs_with_reordered_rows": 30,
+      "reordered_rows_per_run_min_max": [
+        8,
+        8
+      ],
+      "positional_differences_per_run_min_max": [
+        26,
+        26
+      ],
+      "zero_event_runs_flagged_by_position": 0,
+      "wrapper_controls_passed": 60,
+      "csv_only": {
+        "cells": 960,
+        "labels_unique_and_correct": 960,
+        "targets_unique_and_correct": 960,
+        "cells_with_two_supported_targets": 0,
+        "runs_with_target_ambiguity": 0,
+        "false_positive_labels": 0,
+        "false_negative_labels": 0,
+        "native_assignment_optimal_runs": 30
+      },
+      "native_scorer_probes": {
+        "runs_scored": 30,
+        "implemented_order_value_precision_recall_1": 30,
+        "documented_order_value_precision_recall_0": 30,
+        "cell_precision_recall_1_both": 30
+      }
+    },
+    "employees50-viogen-random-egtask": {
+      "runs": 30,
+      "failed_runs": 0,
+      "rows_per_run": 50,
+      "cells_per_run": 200,
+      "events_total": 564,
+      "events_per_run_min_median_max": [
+        15,
+        19.0,
+        24
+      ],
+      "event_types": {
+        "Random change": 208,
+        "Viogen change": 356
+      },
+      "zero_event_runs": 0,
+      "realized_changes": 564,
+      "unexplained_changes": 0,
+      "unrealized_nonnoop_events": 0,
+      "event_value_mismatches": 0,
+      "noop_events": 0,
+      "exported_events": 564,
+      "documented_order_mismatches": 564,
+      "implemented_order_mismatches": 0,
+      "runs_with_reordered_rows": 30,
+      "reordered_rows_per_run_min_max": [
+        48,
+        48
+      ],
+      "positional_differences_per_run_min_max": [
+        191,
+        195
+      ],
+      "zero_event_runs_flagged_by_position": 0,
+      "wrapper_controls_passed": 60,
+      "csv_only": {
+        "cells": 6000,
+        "labels_unique_and_correct": 6000,
+        "targets_unique_and_correct": 6000,
+        "cells_with_two_supported_targets": 0,
+        "runs_with_target_ambiguity": 0,
+        "false_positive_labels": 0,
+        "false_negative_labels": 0,
+        "native_assignment_optimal_runs": 30
+      },
+      "native_scorer_probes": {
+        "runs_scored": 30,
+        "implemented_order_value_precision_recall_1": 30,
+        "documented_order_value_precision_recall_0": 30,
+        "cell_precision_recall_1_both": 30
+      }
+    }
+  }
+}

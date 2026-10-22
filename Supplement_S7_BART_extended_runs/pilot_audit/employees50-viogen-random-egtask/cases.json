@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "employees50-viogen-random-egtask_run01",
+    "rows": 50,
+    "cells": 200,
+    "events": 17,
+    "realized_changes": 17,
+    "unexplained_changes": 0,
+    "unrealized_nonnoop_events": 0,
+    "event_value_mismatches": 0,
+    "noop_events": 0,
+    "exported_events": 17,
+    "wiki_contract_mismatches": 17,
+    "implementation_contract_mismatches": 0,
+    "reordered_rows": 48,
+    "positional_cell_differences": 194,
+    "source_preserved": true,
+    "eligible_applied_pair": true,
+    "execution_basis": "extension run",
+    "input_hashes": {
+      "clean_crosswalk_after_export.json": "08b0b63a1b2997d31be4ed4a01a269898d33f149d38f085a9af5e8ef5289485b",
+      "clean_emp.csv": "2cf27c56841f28ce70cbe4f49774a6c8a2f5e6b2cf4e25174cc21c9776511daf",
+      "clean_snapshot.json": "08b0b63a1b2997d31be4ed4a01a269898d33f149d38f085a9af5e8ef5289485b",
+      "dirty_crosswalk_after_export.json": "59f3a60b0c5608354a0e902eb285123c76a3d0ded4c75a2aeb2ed45baf6b0ca7",
+      "dirty_crosswalk_before_export.json": "59f3a60b0c5608354a0e902eb285123c76a3d0ded4c75a2aeb2ed45baf6b0ca7",
+      "dirty_emp.csv": "ddc181efd79bcbcd7570043903713de791e365bea3c1c53f4dc246c87fcb36e9",
+      "events_native.csv": "dff2fb3d6d095eab85a03ea20dd7749e3263d9c48b50f661c2414961aae86a5f",
+      "events_native.json": "3454280ee8c292868f0c08bb248af0b6195b2391777a8366f738a4a20b89a90a",
+      "native.log": "473e873d0d37c9b642021e3d8f7694d2fff139df5fa7f55aa5feb014c8c5622a",
+      "run_receipt.json": "0f6d03ce7502c60e1f7dfc85f1e08d270108be05641ccb56dcfa885d9953325e",
+      "source_after.json": "0d8e62749b9924326713cb575386fb0d0aa9fc8c724a515e5e8ab37ffba875c7",
+      "source_before.json": "0d8e62749b9924326713cb575386fb0d0aa9fc8c724a515e5e8ab37ffba875c7",
+      "target_after_generation.json": "08b0b63a1b2997d31be4ed4a01a269898d33f149d38f085a9af5e8ef5289485b"
+    },
+    "controls_passed": 2
+  }
+]

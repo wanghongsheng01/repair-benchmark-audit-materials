@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "unique_cases": 32946,
+  "file_counts": {
+    "valid_cases.jsonl": 854,
+    "extended_cases.jsonl": 144,
+    "refusal_cases.jsonl": 10850,
+    "tamper_cases.jsonl": 19390,
+    "idempotence_cases.jsonl": 854,
+    "gold_independence_cases.jsonl": 854
+  },
+  "checker": "verify_certificate.check",
+  "calls_patch_or_rebuild": false
+}

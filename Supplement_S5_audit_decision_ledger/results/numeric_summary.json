@@ -1,0 +1,175 @@
+{
+  "interpretation": "Retrospective conclusion replay of existing saved results. Cases/cells/software calls are not pooled as a defect rate.",
+  "empirical_case_count": 11,
+  "bart_cases": [
+    {
+      "case_id": "employees-egtask",
+      "rows": 8,
+      "cells": 32,
+      "events": 0,
+      "position_fp": 24,
+      "position_differences": 24,
+      "zero_event_false_alarm": true,
+      "cost": 0,
+      "optima": 1,
+      "ambiguous_cells": 0
+    },
+    {
+      "case_id": "employees-random-egtask",
+      "rows": 8,
+      "cells": 32,
+      "events": 6,
+      "position_fp": 19,
+      "position_differences": 25,
+      "zero_event_false_alarm": false,
+      "cost": 6,
+      "optima": 1,
+      "ambiguous_cells": 0
+    },
+    {
+      "case_id": "employees-symmetrictest-egtask",
+      "rows": 12,
+      "cells": 48,
+      "events": 0,
+      "position_fp": 31,
+      "position_differences": 31,
+      "zero_event_false_alarm": true,
+      "cost": 0,
+      "optima": 2,
+      "ambiguous_cells": 0
+    },
+    {
+      "case_id": "synthetic_01-egtask",
+      "rows": 2,
+      "cells": 6,
+      "events": 0,
+      "position_fp": 0,
+      "position_differences": 0,
+      "zero_event_false_alarm": false,
+      "cost": 0,
+      "optima": 1,
+      "ambiguous_cells": 0
+    }
+  ],
+  "bart_endpoint_status_counts": {
+    "native_event_fidelity": {
+      "SUPPORTED": 4
+    },
+    "position_semantic_equivalence": {
+      "CONTRADICTED": 3,
+      "SUPPORTED": 1
+    },
+    "csv_all_optima_determinacy": {
+      "SUPPORTED": 4
+    },
+    "csv_all_optima_native_agreement": {
+      "SUPPORTED": 4
+    },
+    "documented_value_equivalence": {
+      "NOT_APPLICABLE": 3,
+      "CONTRADICTED": 1
+    }
+  },
+  "consumer_cases": [
+    {
+      "case_id": "beers",
+      "rows": 2410,
+      "cells": 26510,
+      "stratum": "default_benchmark",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 4362,
+      "native_labels": 4362,
+      "target_changes": 0
+    },
+    {
+      "case_id": "flights",
+      "rows": 2376,
+      "cells": 16632,
+      "stratum": "default_benchmark",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 4920,
+      "native_labels": 4920,
+      "target_changes": 0
+    },
+    {
+      "case_id": "hospital",
+      "rows": 1000,
+      "cells": 20000,
+      "stratum": "default_benchmark",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 509,
+      "native_labels": 509,
+      "target_changes": 0
+    },
+    {
+      "case_id": "movies_1",
+      "rows": 7390,
+      "cells": 125630,
+      "stratum": "default_benchmark",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 7675,
+      "native_labels": 7675,
+      "target_changes": 0
+    },
+    {
+      "case_id": "rayyan",
+      "rows": 1000,
+      "cells": 11000,
+      "stratum": "default_benchmark",
+      "raw_direct_equivalence": "CONTRADICTED",
+      "raw_hits": 942,
+      "native_labels": 948,
+      "target_changes": 6
+    },
+    {
+      "case_id": "tax",
+      "rows": 200000,
+      "cells": 3000000,
+      "stratum": "scale_extension",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 121219,
+      "native_labels": 121219,
+      "target_changes": 0
+    },
+    {
+      "case_id": "toy",
+      "rows": 6,
+      "cells": 18,
+      "stratum": "toy_control",
+      "raw_direct_equivalence": "SUPPORTED",
+      "raw_hits": 4,
+      "native_labels": 4,
+      "target_changes": 0
+    }
+  ],
+  "consumer_endpoint_status_counts": {
+    "raw_native_label_equivalence": {
+      "SUPPORTED": 7
+    },
+    "official_persistence": {
+      "SUPPORTED": 7
+    },
+    "native_probe_exactness": {
+      "SUPPORTED": 7
+    },
+    "raw_direct_value_equivalence": {
+      "SUPPORTED": 6,
+      "CONTRADICTED": 1
+    },
+    "selfpair_zero_labels": {
+      "SUPPORTED": 7
+    }
+  },
+  "certificate_cohort_count": 6,
+  "saved_constructed_software_records_indexed": 32946,
+  "current_constructed_software_examples": 1,
+  "current_software_outcomes": {
+    "current_wrong_qualifier_authority": {
+      "constructed_supplied_authority_acceptance": "SUPPORTED",
+      "constructed_original_agreement": "CONTRADICTED"
+    }
+  },
+  "business_truth": "UNKNOWN",
+  "new_external_events": 0,
+  "new_algorithm_experiments": 0
+}

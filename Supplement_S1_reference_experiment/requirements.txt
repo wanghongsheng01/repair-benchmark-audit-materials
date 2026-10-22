@@ -1,0 +1,2 @@
+# Only source YAML regeneration needs this dependency. No auto-install.
+PyYAML==6.0.3

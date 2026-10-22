@@ -1,0 +1,1 @@
+{"ledger_sha256": "0a72ae6f6782b35333e4003ee261797e8fd594f2cf1fd23693f781190dae8dc8", "empirical_cases": 11, "certificate_cohorts": 6, "source_files_reopened": false}

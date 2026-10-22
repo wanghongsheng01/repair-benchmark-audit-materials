@@ -1,0 +1,17 @@
+{
+  "schema": "audit-public-run",
+  "mutations": 696,
+  "clean_controls": 158,
+  "predictions": 5124,
+  "sole_independent_checker_acceptances": 854,
+  "adjacency_regression_equal_to_frozen": 5124,
+  "input_digest": "02b2c86a51d187b76ce7896c0d432157e2e2762a6a04763bbcf9336e68a6a6ef",
+  "prediction_sha256": "7049e0167ad7e72ee3a941d610d0fd71070f2f57c4c635b2618dd68f3339fa0b",
+  "runtime": {
+    "python": "3.9.6",
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "timing_scope": "NEW measurements: five synchronous in-memory calls, all five nanosecond samples saved per task; no source parsing, I/O, official compiler, SQL or network; not compared to old timing as speedup",
+  "scientific_scope": "Single-organization official example/test-fixture projection with synthetic mutations; not natural gold or production defects."
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-09T02:49:38.313245+00:00",
+  "stage": "After first native case processing began; independent verifier has never executed.",
+  "discovery": "Parent independent reviewer static source inspection: fourth positional re.sub argument re.UNICODE is count=32, not flags.",
+  "initial_interpretation": "Independent unexecuted code used unlimited substitutions; not semantically faithful.",
+  "correction": "Independent function explicitly uses count=32. Upstream source is unchanged.",
+  "outcomes_available": "Native E1 zero differences for flights/rayyan/tax/toy; beers/hospital/movies_1 rejected by overstrict header precheck; independent verifier never executed. No outcome selected a replacement.",
+  "verifier_sha256_after": "06e0e3e0158a9baa6233133515d25df639faff108d60142da0394c7f74c4df95"
+}

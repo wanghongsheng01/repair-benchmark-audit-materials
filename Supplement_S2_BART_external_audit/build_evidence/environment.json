@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-08T09:59:58.100148+00:00",
+  "python": "3.9.6 (default, Nov 11 2024, 03:15:38) \n[Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-15.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "java_version_output": "openjdk version \"21.0.12\" 2026-07-21\nOpenJDK Runtime Environment Homebrew (build 21.0.12)\nOpenJDK 64-Bit Server VM Homebrew (build 21.0.12, mixed mode, sharing)\n",
+  "source_compile": "190 upstream Java sources; -proc:none; installed JDK; successful exit 0",
+  "installation_performed": false,
+  "native_upstream_execution": "platform-approved exact local main-memory tasks only",
+  "registry_changes": "none; explicit user pause honored"
+}

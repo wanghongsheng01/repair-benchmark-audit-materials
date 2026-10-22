@@ -1,0 +1,6 @@
+{"attribute": "a", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "a2", "dirty": "a2", "event_basis": "absence from native ICellChange records", "expected_new": "a2", "oid": "12", "table": "r"}
+{"attribute": "b", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "b2", "dirty": "b2", "event_basis": "absence from native ICellChange records", "expected_new": "b2", "oid": "12", "table": "r"}
+{"attribute": "c", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "c2", "dirty": "c2", "event_basis": "absence from native ICellChange records", "expected_new": "c2", "oid": "12", "table": "r"}
+{"attribute": "a", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "a1", "dirty": "a1", "event_basis": "absence from native ICellChange records", "expected_new": "a1", "oid": "8", "table": "r"}
+{"attribute": "b", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "b1", "dirty": "b1", "event_basis": "absence from native ICellChange records", "expected_new": "b1", "oid": "8", "table": "r"}
+{"attribute": "c", "authorized": false, "case_id": "synthetic_01-egtask", "changed": false, "clean": "c1", "dirty": "c1", "event_basis": "absence from native ICellChange records", "expected_new": "c1", "oid": "8", "table": "r"}

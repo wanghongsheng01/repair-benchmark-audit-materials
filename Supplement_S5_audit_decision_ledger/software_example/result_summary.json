@@ -1,0 +1,78 @@
+{
+  "schema": "audit-current-software-example-summary",
+  "case_id": "current_wrong_qualifier_authority",
+  "family": "current_software_examples",
+  "case_origin": "fully_author_constructed",
+  "execution_status": "PASS",
+  "certificate_schema": "REFERENCE_OCCURRENCE_CERTIFICATE_V3",
+  "asserted_authority_complete": true,
+  "patch_answered": true,
+  "checker_valid": true,
+  "checker_protocol_status": "RESOLVED",
+  "checker_failure": null,
+  "current_matches_constructed_original": true,
+  "output_matches_constructed_original": false,
+  "output_matches_supplied_authority_projection": true,
+  "output_differs_from_current": true,
+  "original_intent_basis": "author_literal_definition_only",
+  "business_truth": "UNKNOWN",
+  "removed_occurrences": 1,
+  "added_occurrences": 1,
+  "preserved_occurrences": 0,
+  "interpretation": "The current checker accepts consistency with the same supplied but deliberately wrong qualifier authority, while the output differs from the author's literal original definition. This is the intended authority boundary, not evidence of an implementation defect.",
+  "constructed_examples": 1,
+  "new_external_events": 0,
+  "pooled_with_legacy_32946_854_144": false,
+  "third_party_raw_used": false,
+  "code_sha256": {
+    "reference_repair.py": "8ae29823488568f3bc0c2e4a7a8416178190d4dd39b0fca33cef495ceaac2d64",
+    "verify_certificate.py": "32bfe52bdd5a0d844c0025bb6fe26dd566e2eb78f7c22ccaf24252048d433407",
+    "run_example.py": "95d529773d760deebd9c40700915ca159410971514a31360c8b7a605cf45d77a"
+  },
+  "source_refs": [
+    {
+      "path": "author_case.json",
+      "sha256": "6dfe685589cd78ee7c42343a7459d6a60afbe123cd5c318aae3b8db0751b1b51"
+    },
+    {
+      "path": "code_manifest.json",
+      "sha256": "d678d21941afa7e0a83ec4ee8800542a968b32c4b114d6e88a8620af9a1c7674"
+    },
+    {
+      "path": "execution_receipt.json",
+      "sha256": "ffa7d83f411464a621f705a279c7348c857d692a904b01fa04f9d8d3260ff24c",
+      "bytes": 2246
+    },
+    {
+      "path": "input_task.json",
+      "sha256": "26099e444ce107564388bc664529f6dee6d70f8bf6f65688f6cf5af6d7b6227b",
+      "bytes": 578
+    },
+    {
+      "path": "patch_result.json",
+      "sha256": "df2ac61e619a4531f3bbb877cca04db8eb4fb713b11773ab504a181371193c5a",
+      "bytes": 946
+    },
+    {
+      "path": "check_result.json",
+      "sha256": "100a8843421b1cbb76f6d38ae5c4a032683899e870496ae13e3ca1695ea7ad39",
+      "bytes": 72
+    },
+    {
+      "path": "original_comparison.json",
+      "sha256": "c9c5067ef79580125c56ef4ae1626cda21306d15dd3aca8c651044a1c0ecd8eb",
+      "bytes": 589
+    }
+  ],
+  "legacy_context_only": {
+    "source_path": "evidence/v4_robustness_receipt.json",
+    "sha256": "3e41fb07287fd0be8bd44d82c1ed7e99f13018249d2881e924f2ba46de645d91",
+    "json_pointer": "/incorrect_trusted_authority_counterexample",
+    "saved_result": {
+      "answered": true,
+      "changes_author_correct_input": true,
+      "scope": "constructed negative witness, not natural-defect accuracy"
+    },
+    "interpretation": "Historical frozen implementation receipt; not a current checker execution. Runtime does not reopen this path."
+  }
+}

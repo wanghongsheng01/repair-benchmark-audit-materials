@@ -1,0 +1,137 @@
+{
+  "schema": "audit-contract-source-lock",
+  "frozen_on": "2026-10-09",
+  "purpose": "Pin existing author results before deriving new bounded audit ledger; no upstream raw included.",
+  "sources": [
+    {
+      "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+      "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+      "bytes": 7479
+    },
+    {
+      "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_probes.json",
+      "sha256": "576802ff748a056eb03d58eda4be545cdb023ed0310f41c584fd46372cd7bc73",
+      "bytes": 552
+    },
+    {
+      "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_execution_receipt.json",
+      "sha256": "2122cb690d76148b774d81e6209cf6972418ff133c2fdf97d15119ad5d461f9e",
+      "bytes": 1824
+    },
+    {
+      "path": "Supplement_S2_BART_external_audit/native_applied_01/run_manifest.json",
+      "sha256": "585ded9931bf8b8d04d2005f70545957c3a2def416995183f758834818b27f3e",
+      "bytes": 5413
+    },
+    {
+      "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+      "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+      "bytes": 93621
+    },
+    {
+      "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+      "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+      "bytes": 32447
+    },
+    {
+      "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/seals/BLIND_SEAL.json",
+      "sha256": "6f32368ec76faa354125777728b1e44733735b2e50edc55f1edaa277eed21c39",
+      "bytes": 528
+    },
+    {
+      "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/seals/REVEAL_SEAL.json",
+      "sha256": "4a6c01d175f754e6697389be2dd759a70a27fd4fa52c1e1c49e57b487dffe72b",
+      "bytes": 488
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/raha_candidate_protocol_proposal.json",
+      "sha256": "f514d004c42a3713bf257037ad96a3e0dfdd12889b5850be81e74e149ec98d36",
+      "bytes": 5642
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/PROTOCOL_FROZEN.md",
+      "sha256": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+      "bytes": 5269
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+      "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+      "bytes": 8680
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+      "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+      "bytes": 4319
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/saved_records_recheck.json",
+      "sha256": "32b19ec743606566772af63e8c5b07f3fd75cded98a852b72b16b350a5b8e201",
+      "bytes": 355
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json",
+      "sha256": "757eb3168404429651e3d3e75fdd68118217cbda614ee879a44b313817689bb4",
+      "bytes": 9157
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json",
+      "sha256": "72917d5b70c9bc128b4a8ef109a695bf9557c1a04504b2973c1846a67c4370af",
+      "bytes": 9121
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json",
+      "sha256": "1e6564dbc180a64927022ef1b787b7e25f80d98697a9e09bae8511442870e6c7",
+      "bytes": 9501
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json",
+      "sha256": "55779409eca9cd1b1dd2ddef283579fa6307af4e47efe733fe370df0181877db",
+      "bytes": 9413
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json",
+      "sha256": "63a4cfbffe839ec77e0bf38e4305c65525ff279eafa9976e4a3ca77dfe283942",
+      "bytes": 9522
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json",
+      "sha256": "0f98011387c8f68198860b0601efc93f56b97da6a0dd5fb8e16db4acc248e816",
+      "bytes": 9330
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json",
+      "sha256": "c6461ad0f2916a413cfb74d76b374530e078e5afa1d6e74a5e800d5afeb87efc",
+      "bytes": 8808
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl",
+      "sha256": "93e021cf9a1d6e4e32fbe77f12fa6359fde89c5777b159428e902ede7f4bb85f",
+      "bytes": 1263191
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl",
+      "sha256": "9040b3d57c2e545a6dcb2f3b064d79aa1046c266d6eb883be014ca40267ffc5c",
+      "bytes": 282580
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl",
+      "sha256": "f5de4259d9846fda51c3458af70cd2c0564ab4567bab88653614f036bc277c6d",
+      "bytes": 12454009
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl",
+      "sha256": "39bc6b6ccfe83380023f79a38a68c61653d450855457ff97fd99d53d08bbd669",
+      "bytes": 27439617
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl",
+      "sha256": "528d500410f23d824e95e9e603424f5da3ee1a92f711cb797eeb18f5fc244849",
+      "bytes": 1186822
+    },
+    {
+      "path": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl",
+      "sha256": "6ea9ab9c75e8d1fc6361b5f6f2cbbbc42da561f30b2631ee2ad3d0cc4bf02439",
+      "bytes": 1119232
+    }
+  ]
+}

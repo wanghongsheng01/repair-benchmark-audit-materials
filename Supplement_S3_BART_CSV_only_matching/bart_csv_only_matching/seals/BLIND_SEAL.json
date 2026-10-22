@@ -1,0 +1,18 @@
+{
+  "sealed_utc": "2026-10-09T02:53:37.211589Z",
+  "native_identity_or_event_revealed": false,
+  "artifacts": [
+    {
+      "path": "protocol/FREEZE.json",
+      "sha256": "fe42a8009d686bb322da1d06a2ae5e88c391575fdd7d04e2123f49edb1ba9f81"
+    },
+    {
+      "path": "protocol/FREEZE_A1.json",
+      "sha256": "4926308703775fb71fe9b0f6ad669d26ef669771b276ed62687e3281e47fa66e"
+    },
+    {
+      "path": "results/blind_results.json",
+      "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882"
+    }
+  ]
+}

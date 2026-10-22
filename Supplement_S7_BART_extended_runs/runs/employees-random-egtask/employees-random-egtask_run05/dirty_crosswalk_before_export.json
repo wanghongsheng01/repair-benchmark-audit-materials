@@ -1,0 +1,195 @@
+{
+  "emp" : [ {
+    "oid" : "26",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "John"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Marketing"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "2000.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  }, {
+    "oid" : "36",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Mark"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Staff"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "1000.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Frank"
+      }
+    }
+  }, {
+    "oid" : "21",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Bob"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Marketing"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "1000.0-*"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "John"
+      }
+    }
+  }, {
+    "oid" : "46",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Frank"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Sales"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "2500.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  }, {
+    "oid" : "56",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl-*"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Managment"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "5000.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  }, {
+    "oid" : "51",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Frank"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Sales"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "3500.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  }, {
+    "oid" : "31",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "John"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Marketing"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "3000.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  }, {
+    "oid" : "41",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Frank"
+      },
+      "dept" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Sales"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "2000.0"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "Carl"
+      }
+    }
+  } ]
+}

@@ -1,0 +1,290 @@
+[ {
+  "oid" : "207",
+  "attribute" : "manager",
+  "cell_ref" : "207.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "QQWPYQNAOWM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "QQWPYQNAOWM-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "82",
+  "attribute" : "name",
+  "cell_ref" : "82.name",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "NBHUTLZRUDE"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "XUXOIWLXSVE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "107",
+  "attribute" : "dept",
+  "cell_ref" : "107.dept",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD43051"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "Staff"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "62",
+  "attribute" : "manager",
+  "cell_ref" : "62.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "EZXDGPVYDYM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "EZXDGPVYDYM-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "112",
+  "attribute" : "dept",
+  "cell_ref" : "112.dept",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD56908"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "Staff"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "47",
+  "attribute" : "name",
+  "cell_ref" : "47.name",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "TMDXWSCUHSE"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "WXSYOABIWJE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "67",
+  "attribute" : "salary",
+  "cell_ref" : "67.salary",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1088"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1088-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "37",
+  "attribute" : "manager",
+  "cell_ref" : "37.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "Paolo"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "ZEAJXTUDXSE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "42",
+  "attribute" : "manager",
+  "cell_ref" : "42.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "EETBNZSUKAM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "XUXOIWLXSVE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "197",
+  "attribute" : "manager",
+  "cell_ref" : "197.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "RYIUSLZCGYM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "RYIUSLZCGYM-*"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "52",
+  "attribute" : "name",
+  "cell_ref" : "52.name",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "HYHKEQTMHDE"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "GYYVJCBSQOE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "112",
+  "attribute" : "manager",
+  "cell_ref" : "112.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "NGRZZJGSPXM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "NGRZZJGSPXM-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "237",
+  "attribute" : "dept",
+  "cell_ref" : "237.dept",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD94868"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD94868-*"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "87",
+  "attribute" : "name",
+  "cell_ref" : "87.name",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "NAGAJFYOUQE"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "XUXOIWLXSVE"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "277",
+  "attribute" : "manager",
+  "cell_ref" : "277.manager",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "IXTDMCXNNYM"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "IXTDMCXNNYM-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "277",
+  "attribute" : "salary",
+  "cell_ref" : "277.salary",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1010"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "1010-*"
+  },
+  "type" : "Random change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+}, {
+  "oid" : "152",
+  "attribute" : "dept",
+  "cell_ref" : "152.dept",
+  "original" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD59374"
+  },
+  "new" : {
+    "null_reference" : false,
+    "runtime_class" : "speedy.model.database.ConstantValue",
+    "text" : "DD59374-*"
+  },
+  "type" : "Viogen change",
+  "violated_dependencies" : [ ],
+  "exported" : true
+} ]

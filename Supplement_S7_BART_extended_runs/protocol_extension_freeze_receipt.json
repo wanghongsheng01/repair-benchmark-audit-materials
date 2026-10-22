@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-22T02:14:23.335486+00:00",
+  "files": {
+    "PROTOCOL_EXTENSION.md": "65f0d6fe7b9c580d0dacb0e81190539de66b4a7c7e7af44eae593ff204c7b161",
+    "ext_run.py": "a8ebd07d987758e6abe54dc71cfefa18489f604270fc064ab9c129b6ae177786",
+    "ext_audit.py": "3f3f5b9c3b845499ef9524b1e68c961cba22c4ff9539320eb9b80c8ad671758e",
+    "audit_external.py": "5718332b268c518d52dd08ec0af8bfc91448a77e5941bf61147feed1500a6e03",
+    "BartAppliedAuditHarness.java": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+    "ext_tasks/employees-viogen-egtask.xml": "53c365c88bb0d9c09f4b1e60d472b7f8b5873fac448d330a248a0ba3f016317f",
+    "ext_tasks/employees50-viogen-random-egtask.xml": "8f004395394f7c284ba8021e939f7499a2b17dc05380b264bb6c8d328ca86753",
+    "upstream_local/source/Bart_Engine/misc/resources/employees/employees-random-egtask.xml": "d0341b7c7667e7e83a05069462eb6d2ba611919ee151e906d3cc26afa243b143"
+  }
+}

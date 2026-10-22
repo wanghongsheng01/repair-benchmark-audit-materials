@@ -1,0 +1,41 @@
+{
+  "purpose": "Read-only candidate source inspection. No dataset CSV downloaded. No upstream source executed.",
+  "commit": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+  "files": [
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/candidate_source_inspection/raha_dataset.py",
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/raha/dataset.py",
+      "bytes": 5539,
+      "sha256": "43805c3daeca0addeed1ca1b8fb4927ccedf6b98994856deea93dc0c4756ac1b",
+      "fetched_at_utc": "2026-10-09T02:40:30.812724+00:00"
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/candidate_source_inspection/raha_benchmark.py",
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/raha/benchmark.py",
+      "bytes": 31877,
+      "sha256": "817e6d1f2937c096ece09eaccd8897dd77401e0446c71a12b7b91a4681525e82",
+      "fetched_at_utc": "2026-10-09T02:40:31.917935+00:00"
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/candidate_source_inspection/raha_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/LICENSE.md",
+      "bytes": 11346,
+      "sha256": "cc50ffdf979a5b33c26bb6700d650542c0a231083abb92d68ff21da1dc3d850e",
+      "fetched_at_utc": "2026-10-09T02:40:32.923393+00:00"
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/candidate_source_inspection/raha_README.md",
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/README.md",
+      "bytes": 4716,
+      "sha256": "1ea1aafa0f4ad9989db4ef659497259f164c5c3a2a17febb497647bfd65bb1ea",
+      "fetched_at_utc": "2026-10-09T02:40:34.066773+00:00"
+    },
+    {
+      "path": "Supplement_S4_Raha_Baran_consumer_audit/candidate_source_inspection/raha_tree.json",
+      "url": "https://api.github.com/repos/BigDaMa/raha/git/trees/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c?recursive=1",
+      "bytes": 564848,
+      "sha256": "8d0b4eabd39f36e27e0011a949b0b16de02f24b17e1101d16bc1aee4b5e5f6d0",
+      "fetched_at_utc": "2026-10-09T02:40:40.448232+00:00"
+    }
+  ]
+}

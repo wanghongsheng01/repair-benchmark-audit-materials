@@ -1,0 +1,5 @@
+case_id,rows,cells,events,realized_changes,unexplained_changes,unrealized_nonnoop_events,event_value_mismatches,noop_events,exported_events,wiki_contract_mismatches,implementation_contract_mismatches,reordered_rows,positional_cell_differences,source_preserved,eligible_applied_pair,execution_basis
+employees-egtask,8,32,0,0,0,0,0,0,0,0,0,8,24,True,True,"A2 exploratory native APriori apply/export, one run"
+employees-random-egtask,8,32,6,6,0,0,0,0,6,6,0,8,25,True,True,"A2 exploratory native APriori apply/export, one run"
+employees-symmetrictest-egtask,12,48,0,0,0,0,0,0,0,0,0,10,31,True,True,"A2 exploratory native APriori apply/export, one run"
+synthetic_01-egtask,2,6,0,0,0,0,0,0,0,0,0,0,0,True,True,"A2 exploratory native APriori apply/export, one run"

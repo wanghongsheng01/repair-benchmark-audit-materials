@@ -1,0 +1,70 @@
+{
+  "freeze_utc": "2026-10-09T02:52:39.013684Z",
+  "status": "FROZEN BEFORE MATCHER EXECUTION AND BEFORE NATIVE IDENTITY/EVENT REVEAL",
+  "known_outcome_scope": "the external audit section already disclosed native counts and position comparison; new assignment outcomes not computed",
+  "artifacts": [
+    {
+      "path": "inputs/blind_csv/employees-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/clean_emp.csv",
+      "size_bytes": 228,
+      "sha256": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca"
+    },
+    {
+      "path": "inputs/blind_csv/employees-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/dirty_emp.csv",
+      "size_bytes": 228,
+      "sha256": "0679b3668d57d2b1af2a01201b4ee37e8184e5d30b462e50738b98085e60c540"
+    },
+    {
+      "path": "inputs/blind_csv/employees-random-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/clean_emp.csv",
+      "size_bytes": 228,
+      "sha256": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca"
+    },
+    {
+      "path": "inputs/blind_csv/employees-random-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/dirty_emp.csv",
+      "size_bytes": 240,
+      "sha256": "d233060c45a2b30292433e188e10c5b82b635b102f10149e06056f04b61f3371"
+    },
+    {
+      "path": "inputs/blind_csv/employees-symmetrictest-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/clean_emp.csv",
+      "size_bytes": 308,
+      "sha256": "7fa3aa22a940449d9f6e3efb6a254e33de8c43ca1f02eae40b52508c444cb11c"
+    },
+    {
+      "path": "inputs/blind_csv/employees-symmetrictest-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/dirty_emp.csv",
+      "size_bytes": 308,
+      "sha256": "1fe22ddbe10566da97c6b21eb0df2f68b7aa450eea0501ff4658bade1f5870db"
+    },
+    {
+      "path": "inputs/blind_csv/synthetic_01-egtask/clean_r.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/clean_r.csv",
+      "size_bytes": 24,
+      "sha256": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd"
+    },
+    {
+      "path": "inputs/blind_csv/synthetic_01-egtask/dirty_r.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/dirty_r.csv",
+      "size_bytes": 24,
+      "sha256": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd"
+    },
+    {
+      "path": "code/blind_matcher.py",
+      "size_bytes": 9580,
+      "sha256": "10e279221a8cd12153dd65d9cb1df9fe8363e7a2d62fe7198d1fac0038fb4459"
+    },
+    {
+      "path": "protocol/PROTOCOL.md",
+      "size_bytes": 7348,
+      "sha256": "ac33ca595929058544464eab1caf3bd4922816e83b442d00dcf788bcacffc731"
+    },
+    {
+      "path": "protocol/OUTPUT_SCHEMA.json",
+      "size_bytes": 959,
+      "sha256": "b87c9ca0bb1bc88a4677e73f76f0096b783b52f2bdef1c832396ff53fe4c0258"
+    }
+  ]
+}

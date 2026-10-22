@@ -1,0 +1,75 @@
+{
+  "freeze_utc": "2026-10-09T02:53:20.399154Z",
+  "status": "FROZEN BEFORE MATCHER EXECUTION AND BEFORE NATIVE IDENTITY/EVENT REVEAL",
+  "known_outcome_scope": "the external audit section already disclosed native counts and position comparison; new assignment outcomes not computed",
+  "artifacts": [
+    {
+      "path": "inputs/blind_csv/employees-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/clean_emp.csv",
+      "size_bytes": 228,
+      "sha256": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca"
+    },
+    {
+      "path": "inputs/blind_csv/employees-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/dirty_emp.csv",
+      "size_bytes": 228,
+      "sha256": "0679b3668d57d2b1af2a01201b4ee37e8184e5d30b462e50738b98085e60c540"
+    },
+    {
+      "path": "inputs/blind_csv/employees-random-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/clean_emp.csv",
+      "size_bytes": 228,
+      "sha256": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca"
+    },
+    {
+      "path": "inputs/blind_csv/employees-random-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/dirty_emp.csv",
+      "size_bytes": 240,
+      "sha256": "d233060c45a2b30292433e188e10c5b82b635b102f10149e06056f04b61f3371"
+    },
+    {
+      "path": "inputs/blind_csv/employees-symmetrictest-egtask/clean_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/clean_emp.csv",
+      "size_bytes": 308,
+      "sha256": "7fa3aa22a940449d9f6e3efb6a254e33de8c43ca1f02eae40b52508c444cb11c"
+    },
+    {
+      "path": "inputs/blind_csv/employees-symmetrictest-egtask/dirty_emp.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/dirty_emp.csv",
+      "size_bytes": 308,
+      "sha256": "1fe22ddbe10566da97c6b21eb0df2f68b7aa450eea0501ff4658bade1f5870db"
+    },
+    {
+      "path": "inputs/blind_csv/synthetic_01-egtask/clean_r.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/clean_r.csv",
+      "size_bytes": 24,
+      "sha256": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd"
+    },
+    {
+      "path": "inputs/blind_csv/synthetic_01-egtask/dirty_r.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/dirty_r.csv",
+      "size_bytes": 24,
+      "sha256": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd"
+    },
+    {
+      "path": "code/blind_matcher.py",
+      "size_bytes": 9662,
+      "sha256": "586563ec562355e47dedddb2f76574159f37c35d5f0e3025aad23a2a98f66cea"
+    },
+    {
+      "path": "protocol/PROTOCOL.md",
+      "size_bytes": 7348,
+      "sha256": "ac33ca595929058544464eab1caf3bd4922816e83b442d00dcf788bcacffc731"
+    },
+    {
+      "path": "protocol/OUTPUT_SCHEMA.json",
+      "size_bytes": 959,
+      "sha256": "b87c9ca0bb1bc88a4677e73f76f0096b783b52f2bdef1c832396ff53fe4c0258"
+    }
+  ],
+  "amendment": "A1, operational before any assignment result or reveal",
+  "supersedes_freeze_sha256": "fe42a8009d686bb322da1d06a2ae5e88c391575fdd7d04e2123f49edb1ba9f81",
+  "reason": "Initial execution under system Python 3.9 failed closed on lazy standard-library utf_8_sig codec import at first CSV decode, before any comparison or output. Preload that codec and use Python 3.12 to meet declared Python 3.10+ requirement. No cost/input/output rule changed. Initial matcher saved as protocol/blind_matcher_frozen_initial.py.",
+  "python_executable": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+  "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]"
+}

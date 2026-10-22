@@ -1,0 +1,21 @@
+{
+  "official_source_sha256": "43805c3daeca0addeed1ca1b8fb4927ccedf6b98994856deea93dc0c4756ac1b",
+  "python": "3.9.6 (default, Nov 11 2024, 03:15:38) \n[Clang 16.0.0 (clang-1600.0.26.6)]",
+  "pandas": "2.3.3",
+  "platform": "macOS-15.0-arm64-arm-64bit",
+  "native_harness_sha256": "6bb5eaa6039bcffb1b5e079e5639775504f9c8e4d7b00525c12cc3ce34274596",
+  "protocol_sha256": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+  "implementation_note_sha256": "782d05aaa5285d743e6f8f949e29b168392186936bc222c18ebc52e0f1b2b6ac",
+  "case_count": 7,
+  "completed": 4,
+  "case_files": [
+    "beers_native.json",
+    "flights_native.json",
+    "hospital_native.json",
+    "movies_1_native.json",
+    "rayyan_native.json",
+    "tax_native.json",
+    "toy_native.json"
+  ],
+  "finished_at_utc": "2026-10-09T02:49:17.972487+00:00"
+}

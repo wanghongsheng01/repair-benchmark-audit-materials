@@ -1,0 +1,7 @@
+{
+  "frozen_at_utc": "2026-10-08T09:32:35.069873+00:00",
+  "file": "PROTOCOL_AMENDMENT_A1_NATIVE.md",
+  "sha256": "30b4d3bb00a426ee1ad8aacf00631879fc97d5a11842d2428cbce8afbe229955",
+  "prior_inspection": "upstream source/schema inspected; no benchmark execution/results yet",
+  "primary_endpoint_unchanged": true
+}

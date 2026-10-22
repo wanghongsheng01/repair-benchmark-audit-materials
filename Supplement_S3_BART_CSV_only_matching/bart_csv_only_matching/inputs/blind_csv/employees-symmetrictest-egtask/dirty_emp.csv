@@ -1,0 +1,13 @@
+name,dept,salary,manager
+Jess,Shipping,1500,Carl
+John,Marketing,2000,Carl
+Mark,Staff,1000,Frank
+Jeff,Shipping,1300,John
+Jess,Shipping,1500,Carl
+Bob,Marketing,1000,John
+Frank,Sales,2500,Carl
+Carl,Managment,5000,Carl
+Frank,Sales,3000,Carl
+Ross,Shipping,1300,John
+John,Marketing,3000,Carl
+Frank,Sales,2000,Carl

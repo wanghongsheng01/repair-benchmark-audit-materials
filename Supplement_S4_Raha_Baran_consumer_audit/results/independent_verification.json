@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-09T02:51:42.768172+00:00",
+  "finished_at_utc": "2026-10-09T02:51:58.751216+00:00",
+  "python": "3.9.6 (default, Nov 11 2024, 03:15:38) \n[Clang 16.0.0 (clang-1600.0.26.6)]",
+  "verifier_sha256": "1bf02ff6b2604f41c5cc8fbcb71c6c8831b596e276c3e556c4f8a16aa37f1b2d",
+  "source_manifest_sha256": "b6b725e8a71789fe9f81fca50b9ea242714b6864f56775ff207e2b8847f933fd",
+  "protocol_sha256": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+  "upstream_program_imported_by_verifier": false,
+  "pandas_imported_by_verifier": false,
+  "strata": {
+    "default_benchmark": {
+      "datasets": [
+        "beers",
+        "flights",
+        "hospital",
+        "movies_1",
+        "rayyan"
+      ],
+      "rows": 14176,
+      "cells": 199772,
+      "raw_labels": 18414,
+      "native_labels": 18414,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0
+    },
+    "scale_extension": {
+      "datasets": [
+        "tax"
+      ],
+      "rows": 200000,
+      "cells": 3000000,
+      "raw_labels": 121219,
+      "native_labels": 121219,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0
+    },
+    "toy_control": {
+      "datasets": [
+        "toy"
+      ],
+      "rows": 6,
+      "cells": 18,
+      "raw_labels": 4,
+      "native_labels": 4,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0
+    }
+  },
+  "cases": [
+    {
+      "name": "beers",
+      "stratum": "default_benchmark",
+      "native_file_sha256": "757eb3168404429651e3d3e75fdd68118217cbda614ee879a44b313817689bb4",
+      "all_checked_fields_match": true,
+      "rows": 2410,
+      "cells": 26510,
+      "raw_labels": 4362,
+      "native_labels": 4362,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "flights",
+      "stratum": "default_benchmark",
+      "native_file_sha256": "72917d5b70c9bc128b4a8ef109a695bf9557c1a04504b2973c1846a67c4370af",
+      "all_checked_fields_match": true,
+      "rows": 2376,
+      "cells": 16632,
+      "raw_labels": 4920,
+      "native_labels": 4920,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "hospital",
+      "stratum": "default_benchmark",
+      "native_file_sha256": "1e6564dbc180a64927022ef1b787b7e25f80d98697a9e09bae8511442870e6c7",
+      "all_checked_fields_match": true,
+      "rows": 1000,
+      "cells": 20000,
+      "raw_labels": 509,
+      "native_labels": 509,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "movies_1",
+      "stratum": "default_benchmark",
+      "native_file_sha256": "55779409eca9cd1b1dd2ddef283579fa6307af4e47efe733fe370df0181877db",
+      "all_checked_fields_match": true,
+      "rows": 7390,
+      "cells": 125630,
+      "raw_labels": 7675,
+      "native_labels": 7675,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "rayyan",
+      "stratum": "default_benchmark",
+      "native_file_sha256": "63a4cfbffe839ec77e0bf38e4305c65525ff279eafa9976e4a3ca77dfe283942",
+      "all_checked_fields_match": true,
+      "rows": 1000,
+      "cells": 11000,
+      "raw_labels": 948,
+      "native_labels": 948,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        0.9936708860759493,
+        0.9936708860759493,
+        0.9936708860759493
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tax",
+      "stratum": "scale_extension",
+      "native_file_sha256": "0f98011387c8f68198860b0601efc93f56b97da6a0dd5fb8e16db4acc248e816",
+      "all_checked_fields_match": true,
+      "rows": 200000,
+      "cells": 3000000,
+      "raw_labels": 121219,
+      "native_labels": 121219,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy",
+      "stratum": "toy_control",
+      "native_file_sha256": "c6461ad0f2916a413cfb74d76b374530e078e5afa1d6e74a5e800d5afeb87efc",
+      "all_checked_fields_match": true,
+      "rows": 6,
+      "cells": 18,
+      "raw_labels": 4,
+      "native_labels": 4,
+      "normalization_removed_labels": 0,
+      "normalization_added_labels": 0,
+      "nonidempotent_dirty_values": 0,
+      "nonidempotent_clean_values": 0,
+      "roundtrip_removed_labels": 0,
+      "roundtrip_added_labels": 0,
+      "roundtrip_common_target_changes": 0,
+      "native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "raw_coordinates_native_clean_probe": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "mismatches": []
+}

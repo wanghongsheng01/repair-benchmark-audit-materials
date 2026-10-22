@@ -1,0 +1,30 @@
+{
+  "profile_id": "study-saved-results-20261009",
+  "scope": "Fixed inventory from the already pinned native run manifest and release roster. Alternative caller profiles do not claim this census.",
+  "expected_inventory": {
+    "generator": [
+      "employees-egtask",
+      "employees-random-egtask",
+      "employees-symmetrictest-egtask",
+      "synthetic_01-egtask"
+    ],
+    "consumer": [
+      "beers",
+      "flights",
+      "hospital",
+      "movies_1",
+      "rayyan",
+      "tax",
+      "toy"
+    ],
+    "reference_certificate": [
+      "reference/valid",
+      "reference/extended",
+      "reference/refusal",
+      "reference/tamper",
+      "reference/idempotence",
+      "reference/gold_independence",
+      "current_wrong_qualifier_authority"
+    ]
+  }
+}

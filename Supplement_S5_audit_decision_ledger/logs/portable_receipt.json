@@ -1,0 +1,32 @@
+{
+  "byte_identical_outputs": {
+    "audit_decision_table.tex": true,
+    "case_ledger.csv": true,
+    "case_ledger.json": true,
+    "numeric_summary.json": true
+  },
+  "checks": {
+    "replay": {
+      "open_events": 48,
+      "original_user_tree_open_attempts": [],
+      "returncode": 0
+    },
+    "tests": {
+      "open_events": 125,
+      "original_user_tree_open_attempts": [],
+      "returncode": 0
+    }
+  },
+  "guard_sha256": "78b8002ec43e05e7a2b8d12eebe3713c5f4234510df699d3265c43ca0a59c4e0",
+  "input_sha256": "4a0bc7183d610273112617a6e71f4ef8cc4d1545e44c24ef71bbbf7c4ef62f4d",
+  "ledger_sha256": "0a72ae6f6782b35333e4003ee261797e8fd594f2cf1fd23693f781190dae8dc8",
+  "method": "fresh temporary copy, Python audit hook denies original user tree, sockets and subprocess creation; not an operating-system sandbox",
+  "os_sandbox_attempt": "sandbox-exec unavailable: sandbox_apply Operation not permitted",
+  "python": "/opt/homebrew/bin/python3.12",
+  "python_version": "Python 3.12.13",
+  "schema": "audit-portable-software-verification",
+  "scope": "conclusion replay and constructed software tests only; no new external experiment or current-authority example execution",
+  "software_test_count": 35,
+  "temporary_cwd": "/var/folders/f5/3vh1n1ds7xg7fgtlcff6cwkw0000gp/T/audit-contract-audit-guarded-4k26fzkc",
+  "time_utc": "2026-10-09T08:03:42.816969+00:00"
+}

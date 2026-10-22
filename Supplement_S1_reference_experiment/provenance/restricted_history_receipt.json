@@ -1,0 +1,42 @@
+{
+  "schema": "audit-restricted-history-disclosure",
+  "source_report_sha256": "7e96e91d55c3ce859bac501fe4e891bc4b8166115e5dc15b81b11b10c9e996b8",
+  "reported_statistics": {
+    "regenerated_metric_tasks": 383,
+    "tasks_match_archive": 383,
+    "tasks_with_uninjected_measures_of_diff": 170,
+    "uninjected_measures_of_diff_edges": 175,
+    "tasks_not_targeted_by_edge_injector": 146,
+    "metadata_domain_disagrees_with_gold": 75,
+    "archived_routing_tasks": 41
+  },
+  "reported_paired_control": {
+    "n": 231,
+    "formula_exact": 162
+  },
+  "verification_status": "These values are attributed to the retained historical report and the frozen independent record audit; this public package has not rerun restricted inputs.",
+  "source_fingerprints": [
+    {
+      "source_basename": "repair_tasks.jsonl",
+      "sha256": "cf33970169703d65ed4a6a7c08f62d1a45bb8a693cca1cbf825fa8bbb1cf5fef"
+    },
+    {
+      "source_basename": "pred_q14b.json",
+      "sha256": "2e6c1ac1caf3074f02b60b79658903ff750297cbefa11361e1a9ab38b8e52be1"
+    },
+    {
+      "source_basename": "physical_columns_rma.06.23.jsonl",
+      "sha256": "d642ecaddd4e22b620235fe616ec2562cc39b8847f759261ab1df6deb8315ad4"
+    },
+    {
+      "source_basename": "make_benchmark.py",
+      "sha256": "33191fbd2990abd7afdb18114e9b93aa63d8134eb1900a971d75b32f3d9e248b"
+    },
+    {
+      "source_basename": "catalog_model.py",
+      "sha256": "1c65f941167dfe5e3a652ac7cdce1d1baf268fcd014e1fbfe3e8d4ff628c7a75"
+    }
+  ],
+  "distribution_status": "RESTRICTED_INPUTS_NOT_INCLUDED",
+  "reason": "Archive includes production-derived column names and private historical predictions; publication permission or authorized restricted-review channel was not supplied."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "audit-public-fixed-task-input-contract",
+  "tasks": 696,
+  "clean": 158,
+  "models": [
+    "no_change",
+    "leave_catalog_out_constant",
+    "expression_scan",
+    "unqualified_rebuild",
+    "direct_declaration_rebuild",
+    "certified_minimal_patch"
+  ],
+  "files": [
+    {
+      "path": "data/clean_controls.jsonl",
+      "sha256": "3027c9d01c7ed9427ddbf3d12dc895842fee4286c94f4c1e017455aac47c33c9",
+      "bytes": 809200
+    },
+    {
+      "path": "data/tasks.jsonl",
+      "sha256": "6f8dd07a18af1572c124c404b455d493c167790d7676a0925a11f7c04761c5c7",
+      "bytes": 3747863
+    }
+  ]
+}

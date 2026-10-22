@@ -1,0 +1,11 @@
+{
+  "case_id": "employees-viogen-egtask_run19",
+  "task_file": "employees-viogen-egtask.xml",
+  "task_sha256": "53c365c88bb0d9c09f4b1e60d472b7f8b5873fac448d330a248a0ba3f016317f",
+  "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+  "run_index": 19,
+  "started_at_utc": "2026-10-22T02:15:04.612305+00:00",
+  "returncode": 0,
+  "completed": true,
+  "ended_at_utc": "2026-10-22T02:15:05.303117+00:00"
+}

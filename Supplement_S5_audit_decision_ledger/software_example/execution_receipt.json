@@ -1,0 +1,52 @@
+{
+  "schema": "audit-current-software-example-execution-v1",
+  "started_at_utc": "2026-10-09T07:53:36.428346+00:00",
+  "finished_at_utc": "2026-10-09T07:53:36.434217+00:00",
+  "invocation_argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<workspace>/Supplement_S5_audit_decision_ledger/software_example/run_example.py"
+  ],
+  "working_directory": "/private/tmp",
+  "portable_command": "python3 -B /absolute/path/to/software_example/run_example.py",
+  "python": "3.9.6",
+  "diagnostic_elapsed_ns": 4991917,
+  "timing_scope": "One local functional execution including input checks and imports; not a performance benchmark.",
+  "case_sha256": "6dfe685589cd78ee7c42343a7459d6a60afbe123cd5c318aae3b8db0751b1b51",
+  "code_manifest_sha256": "d678d21941afa7e0a83ec4ee8800542a968b32c4b114d6e88a8620af9a1c7674",
+  "code_sha256": {
+    "reference_repair.py": "8ae29823488568f3bc0c2e4a7a8416178190d4dd39b0fca33cef495ceaac2d64",
+    "verify_certificate.py": "32bfe52bdd5a0d844c0025bb6fe26dd566e2eb78f7c22ccaf24252048d433407",
+    "run_example.py": "95d529773d760deebd9c40700915ca159410971514a31360c8b7a605cf45d77a"
+  },
+  "code_hashes_match_copied_author_manifest": true,
+  "same_supplied_task_passed_to_patch_and_checker": true,
+  "original_definition_passed_to_patch_or_checker": false,
+  "source_read_boundary": "Sibling author_case.json, code_manifest.json and copied author modules only; standard-library imports also occur.",
+  "v6_source_files_read_during_execution": false,
+  "network_used": false,
+  "third_party_raw_used": false,
+  "new_external_events": 0,
+  "constructed_software_examples": 1,
+  "artifacts": [
+    {
+      "path": "input_task.json",
+      "sha256": "26099e444ce107564388bc664529f6dee6d70f8bf6f65688f6cf5af6d7b6227b",
+      "bytes": 578
+    },
+    {
+      "path": "patch_result.json",
+      "sha256": "df2ac61e619a4531f3bbb877cca04db8eb4fb713b11773ab504a181371193c5a",
+      "bytes": 946
+    },
+    {
+      "path": "check_result.json",
+      "sha256": "100a8843421b1cbb76f6d38ae5c4a032683899e870496ae13e3ca1695ea7ad39",
+      "bytes": 72
+    },
+    {
+      "path": "original_comparison.json",
+      "sha256": "c9c5067ef79580125c56ef4ae1626cda21306d15dd3aca8c651044a1c0ecd8eb",
+      "bytes": 589
+    }
+  ]
+}

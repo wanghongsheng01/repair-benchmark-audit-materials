@@ -1,0 +1,2317 @@
+{
+  "schema": "audit-audit-decision-ledger",
+  "input_sha256": "4a0bc7183d610273112617a6e71f4ef8cc4d1545e44c24ef71bbbf7c4ef62f4d",
+  "inventory_profile_id": "study-saved-results-20261009",
+  "inventory_profile_sha256": "637f219369d8746efa95b532ede348b4039d1da932e4ce732206dabed0cfd0c5",
+  "code_sha256": {
+    "audit_rules.py": "350cbea56d81aa9c0471bcb21ceb9b9b09de380a8116e3c0de872d9ab45434fe",
+    "run_audit.py": "99c42b76b7123c7c784be2d7b4207ab35f3b04f9613a503292be1d8ca0fbec4a",
+    "build_inputs.py": "a2a5c53063eb77f67b7899b11d18210680746bcfcc7739b8a8ece1c8377ce29b"
+  },
+  "source_files_reopened_during_replay": false,
+  "inventory_complete": true,
+  "status_semantics": {
+    "SUPPORTED": "Selected bounded proposition follows from required saved evidence.",
+    "CONTRADICTED": "Selected equivalence/proposition fails; not automatically a producer or benchmark bug.",
+    "UNKNOWN": "Missing, malformed, ambiguous or insufficient evidence; no branch substitution.",
+    "NOT_APPLICABLE": "Declared test has no endpoint denominator for this case."
+  },
+  "cases": [
+    {
+      "case_id": "employees-egtask",
+      "family": "generator",
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/0",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/0/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/0"
+      },
+      "decisions": {
+        "native_event_fidelity": {
+          "status": "SUPPORTED",
+          "reason": "Native identity-aligned changes versus independently saved native events; this saved run only.",
+          "measurements": {
+            "events": 0,
+            "changes": 0,
+            "unexplained": 0,
+            "unrealized": 0,
+            "value_mismatches": 0,
+            "noop_events": 0,
+            "identity_crosswalk_valid": true,
+            "independent_events_present": true
+          }
+        },
+        "position_semantic_equivalence": {
+          "status": "CONTRADICTED",
+          "reason": "Position pairing judged against native correspondence; apparent differences are not new injections.",
+          "measurements": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 0,
+            "tn": 8,
+            "target_correct": 8,
+            "apparent_changes": 24,
+            "zero_event_false_alarm": true
+          }
+        },
+        "csv_all_optima_determinacy": {
+          "status": "SUPPORTED",
+          "reason": "All saved optimal assignments induce one semantic answer; identity uniqueness is not asserted.",
+          "measurements": {
+            "cost": 0,
+            "optima": 1,
+            "cells": 32,
+            "ambiguous_cells": 0
+          }
+        },
+        "csv_all_optima_native_agreement": {
+          "status": "SUPPORTED",
+          "reason": "All-optima semantic agreement with revealed native witness; no claim of sidecar necessity.",
+          "measurements": {
+            "cost": 0,
+            "optima": 1,
+            "cells": 32,
+            "ambiguous_cells": 0,
+            "bounds": {
+              "fn": {
+                "min": 0,
+                "max": 0
+              },
+              "fp": {
+                "min": 0,
+                "max": 0
+              },
+              "identity_correct_rows": {
+                "min": 8,
+                "max": 8
+              },
+              "label_correct": {
+                "min": 32,
+                "max": 32
+              },
+              "repair_correct": {
+                "min": 0,
+                "max": 0
+              },
+              "target_correct": {
+                "min": 32,
+                "max": 32
+              },
+              "tn": {
+                "min": 32,
+                "max": 32
+              },
+              "tp": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "documented_value_equivalence": {
+          "status": "NOT_APPLICABLE",
+          "reason": "No emitted event on which to score a value-orientation probe; retained zero-event case.",
+          "measurements": {}
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "employees-random-egtask",
+      "family": "generator",
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        },
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_probes.json",
+          "sha256": "576802ff748a056eb03d58eda4be545cdb023ed0310f41c584fd46372cd7bc73",
+          "bytes": 552
+        },
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_execution_receipt.json",
+          "sha256": "2122cb690d76148b774d81e6209cf6972418ff133c2fdf97d15119ad5d461f9e",
+          "bytes": 1824
+        }
+      ],
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/1",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/1/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/1"
+      },
+      "decisions": {
+        "native_event_fidelity": {
+          "status": "SUPPORTED",
+          "reason": "Native identity-aligned changes versus independently saved native events; this saved run only.",
+          "measurements": {
+            "events": 6,
+            "changes": 6,
+            "unexplained": 0,
+            "unrealized": 0,
+            "value_mismatches": 0,
+            "noop_events": 0,
+            "identity_crosswalk_valid": true,
+            "independent_events_present": true
+          }
+        },
+        "position_semantic_equivalence": {
+          "status": "CONTRADICTED",
+          "reason": "Position pairing judged against native correspondence; apparent differences are not new injections.",
+          "measurements": {
+            "tp": 6,
+            "fp": 19,
+            "fn": 0,
+            "tn": 7,
+            "target_correct": 8,
+            "apparent_changes": 25,
+            "zero_event_false_alarm": false
+          }
+        },
+        "csv_all_optima_determinacy": {
+          "status": "SUPPORTED",
+          "reason": "All saved optimal assignments induce one semantic answer; identity uniqueness is not asserted.",
+          "measurements": {
+            "cost": 6,
+            "optima": 1,
+            "cells": 32,
+            "ambiguous_cells": 0
+          }
+        },
+        "csv_all_optima_native_agreement": {
+          "status": "SUPPORTED",
+          "reason": "All-optima semantic agreement with revealed native witness; no claim of sidecar necessity.",
+          "measurements": {
+            "cost": 6,
+            "optima": 1,
+            "cells": 32,
+            "ambiguous_cells": 0,
+            "bounds": {
+              "fn": {
+                "min": 0,
+                "max": 0
+              },
+              "fp": {
+                "min": 0,
+                "max": 0
+              },
+              "identity_correct_rows": {
+                "min": 8,
+                "max": 8
+              },
+              "label_correct": {
+                "min": 32,
+                "max": 32
+              },
+              "repair_correct": {
+                "min": 6,
+                "max": 6
+              },
+              "target_correct": {
+                "min": 32,
+                "max": 32
+              },
+              "tn": {
+                "min": 26,
+                "max": 26
+              },
+              "tp": {
+                "min": 6,
+                "max": 6
+              }
+            }
+          }
+        },
+        "documented_value_equivalence": {
+          "status": "CONTRADICTED",
+          "reason": "Version-specific documented-field versus snapshot-value probe; native consistency is a separate endpoint.",
+          "measurements": {
+            "probe_cells": 6,
+            "wiki_mismatches": 6,
+            "implementation_mismatches": 0,
+            "snapshot_probe": {
+              "value": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "native_f1_text": "1.0"
+              },
+              "cell": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "native_f1_text": "1.0"
+              }
+            },
+            "documented_probe": {
+              "value": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": null,
+                "native_f1_text": "NaN"
+              },
+              "cell": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "native_f1_text": "1.0"
+              }
+            }
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "employees-symmetrictest-egtask",
+      "family": "generator",
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/2",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/2/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/2"
+      },
+      "decisions": {
+        "native_event_fidelity": {
+          "status": "SUPPORTED",
+          "reason": "Native identity-aligned changes versus independently saved native events; this saved run only.",
+          "measurements": {
+            "events": 0,
+            "changes": 0,
+            "unexplained": 0,
+            "unrealized": 0,
+            "value_mismatches": 0,
+            "noop_events": 0,
+            "identity_crosswalk_valid": true,
+            "independent_events_present": true
+          }
+        },
+        "position_semantic_equivalence": {
+          "status": "CONTRADICTED",
+          "reason": "Position pairing judged against native correspondence; apparent differences are not new injections.",
+          "measurements": {
+            "tp": 0,
+            "fp": 31,
+            "fn": 0,
+            "tn": 17,
+            "target_correct": 17,
+            "apparent_changes": 31,
+            "zero_event_false_alarm": true
+          }
+        },
+        "csv_all_optima_determinacy": {
+          "status": "SUPPORTED",
+          "reason": "All saved optimal assignments induce one semantic answer; identity uniqueness is not asserted.",
+          "measurements": {
+            "cost": 0,
+            "optima": 2,
+            "cells": 48,
+            "ambiguous_cells": 0
+          }
+        },
+        "csv_all_optima_native_agreement": {
+          "status": "SUPPORTED",
+          "reason": "All-optima semantic agreement with revealed native witness; no claim of sidecar necessity.",
+          "measurements": {
+            "cost": 0,
+            "optima": 2,
+            "cells": 48,
+            "ambiguous_cells": 0,
+            "bounds": {
+              "fn": {
+                "min": 0,
+                "max": 0
+              },
+              "fp": {
+                "min": 0,
+                "max": 0
+              },
+              "identity_correct_rows": {
+                "min": 10,
+                "max": 12
+              },
+              "label_correct": {
+                "min": 48,
+                "max": 48
+              },
+              "repair_correct": {
+                "min": 0,
+                "max": 0
+              },
+              "target_correct": {
+                "min": 48,
+                "max": 48
+              },
+              "tn": {
+                "min": 48,
+                "max": 48
+              },
+              "tp": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "documented_value_equivalence": {
+          "status": "NOT_APPLICABLE",
+          "reason": "No emitted event on which to score a value-orientation probe; retained zero-event case.",
+          "measurements": {}
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "synthetic_01-egtask",
+      "family": "generator",
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/3",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/3/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/3"
+      },
+      "decisions": {
+        "native_event_fidelity": {
+          "status": "SUPPORTED",
+          "reason": "Native identity-aligned changes versus independently saved native events; this saved run only.",
+          "measurements": {
+            "events": 0,
+            "changes": 0,
+            "unexplained": 0,
+            "unrealized": 0,
+            "value_mismatches": 0,
+            "noop_events": 0,
+            "identity_crosswalk_valid": true,
+            "independent_events_present": true
+          }
+        },
+        "position_semantic_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Position pairing judged against native correspondence; apparent differences are not new injections.",
+          "measurements": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 6,
+            "target_correct": 6,
+            "apparent_changes": 0,
+            "zero_event_false_alarm": false
+          }
+        },
+        "csv_all_optima_determinacy": {
+          "status": "SUPPORTED",
+          "reason": "All saved optimal assignments induce one semantic answer; identity uniqueness is not asserted.",
+          "measurements": {
+            "cost": 0,
+            "optima": 1,
+            "cells": 6,
+            "ambiguous_cells": 0
+          }
+        },
+        "csv_all_optima_native_agreement": {
+          "status": "SUPPORTED",
+          "reason": "All-optima semantic agreement with revealed native witness; no claim of sidecar necessity.",
+          "measurements": {
+            "cost": 0,
+            "optima": 1,
+            "cells": 6,
+            "ambiguous_cells": 0,
+            "bounds": {
+              "fn": {
+                "min": 0,
+                "max": 0
+              },
+              "fp": {
+                "min": 0,
+                "max": 0
+              },
+              "identity_correct_rows": {
+                "min": 2,
+                "max": 2
+              },
+              "label_correct": {
+                "min": 6,
+                "max": 6
+              },
+              "repair_correct": {
+                "min": 0,
+                "max": 0
+              },
+              "target_correct": {
+                "min": 6,
+                "max": 6
+              },
+              "tn": {
+                "min": 6,
+                "max": 6
+              },
+              "tp": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "documented_value_equivalence": {
+          "status": "NOT_APPLICABLE",
+          "reason": "No emitted event on which to score a value-orientation probe; retained zero-event case.",
+          "measurements": {}
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "beers",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json",
+          "sha256": "757eb3168404429651e3d3e75fdd68118217cbda614ee879a44b313817689bb4",
+          "bytes": 9157
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=beers]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 4362,
+            "native": 4362,
+            "removed": 0,
+            "added": 0,
+            "common": 4362,
+            "raw_coordinates_sha256": "6a51c6b0db1c63a73bbe066b052bb20a0865ae6dc54f234ca31c8e8c734e29b4",
+            "native_coordinates_sha256": "6a51c6b0db1c63a73bbe066b052bb20a0865ae6dc54f234ca31c8e8c734e29b4"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 4362,
+            "native_labels": 4362,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "flights",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json",
+          "sha256": "72917d5b70c9bc128b4a8ef109a695bf9557c1a04504b2973c1846a67c4370af",
+          "bytes": 9121
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=flights]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 4920,
+            "native": 4920,
+            "removed": 0,
+            "added": 0,
+            "common": 4920,
+            "raw_coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+            "native_coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 4920,
+            "native_labels": 4920,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "hospital",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json",
+          "sha256": "1e6564dbc180a64927022ef1b787b7e25f80d98697a9e09bae8511442870e6c7",
+          "bytes": 9501
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=hospital]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 509,
+            "native": 509,
+            "removed": 0,
+            "added": 0,
+            "common": 509,
+            "raw_coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+            "native_coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 509,
+            "native_labels": 509,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "movies_1",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json",
+          "sha256": "55779409eca9cd1b1dd2ddef283579fa6307af4e47efe733fe370df0181877db",
+          "bytes": 9413
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=movies_1]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 7675,
+            "native": 7675,
+            "removed": 0,
+            "added": 0,
+            "common": 7675,
+            "raw_coordinates_sha256": "d2899f434379549c7b3190ec7d91a8a495550eec1ddaf60c5bdd53219eb5f261",
+            "native_coordinates_sha256": "d2899f434379549c7b3190ec7d91a8a495550eec1ddaf60c5bdd53219eb5f261"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 7675,
+            "native_labels": 7675,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "rayyan",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json",
+          "sha256": "63a4cfbffe839ec77e0bf38e4305c65525ff279eafa9976e4a3ca77dfe283942",
+          "bytes": 9522
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=rayyan]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 948,
+            "native": 948,
+            "removed": 0,
+            "added": 0,
+            "common": 948,
+            "raw_coordinates_sha256": "294f68567c08521fca2eee4df1228f1450e45645e19298167f74c306fde8e894",
+            "native_coordinates_sha256": "294f68567c08521fca2eee4df1228f1450e45645e19298167f74c306fde8e894"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "CONTRADICTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 942,
+            "native_labels": 948,
+            "target_changes": 6,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              0.9936708860759493,
+              0.9936708860759493,
+              0.9936708860759493
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "tax",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json",
+          "sha256": "0f98011387c8f68198860b0601efc93f56b97da6a0dd5fb8e16db4acc248e816",
+          "bytes": 9330
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=tax]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 121219,
+            "native": 121219,
+            "removed": 0,
+            "added": 0,
+            "common": 121219,
+            "raw_coordinates_sha256": "efd1e2a2152a425a6c0d403950de514dda36290fb4d4c64d5098b4d6184619d0",
+            "native_coordinates_sha256": "efd1e2a2152a425a6c0d403950de514dda36290fb4d4c64d5098b4d6184619d0"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 121219,
+            "native_labels": 121219,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "toy",
+      "family": "consumer",
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json",
+          "sha256": "c6461ad0f2916a413cfb74d76b374530e078e5afa1d6e74a5e800d5afeb87efc",
+          "bytes": 8808
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=toy]"
+      },
+      "decisions": {
+        "raw_native_label_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Raw and native-normalized label coordinates under the released positional interface.",
+          "measurements": {
+            "raw": 4,
+            "native": 4,
+            "removed": 0,
+            "added": 0,
+            "common": 4,
+            "raw_coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+            "native_coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b"
+          }
+        },
+        "official_persistence": {
+          "status": "SUPPORTED",
+          "reason": "Observed-value idempotence plus official export/reload on this supplied pair only.",
+          "measurements": {
+            "dirty_nonidempotent": 0,
+            "clean_nonidempotent": 0,
+            "dirty_value_changes": 0,
+            "clean_value_changes": 0,
+            "removed_labels": 0,
+            "added_labels": 0,
+            "target_changes": 0
+          }
+        },
+        "native_probe_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Normalized direct probe and both official materialized routes recover native labels/targets; these are not repair algorithms.",
+          "measurements": {
+            "normalized_direct_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raw_materialized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "raw_direct_value_equivalence": {
+          "status": "SUPPORTED",
+          "reason": "Fixed-coordinate raw versus normalized direct values; inequality does not establish a native bug or a ranking effect.",
+          "measurements": {
+            "raw_hits": 4,
+            "native_labels": 4,
+            "target_changes": 0,
+            "raw_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "normalized_scores": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "selfpair_zero_labels": {
+          "status": "SUPPORTED",
+          "reason": "Saved clean/dirty self-pair controls; native empty-case scoring convention is retained separately.",
+          "measurements": {
+            "dirty_labels": 0,
+            "clean_labels": 0,
+            "dirty_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "clean_empty_scores": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    }
+  ],
+  "certificate_evidence_index": [
+    {
+      "case_id": "reference/valid",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl",
+          "sha256": "93e021cf9a1d6e4e32fbe77f12fa6359fde89c5777b159428e902ede7f4bb85f",
+          "bytes": 1263191
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "given_authority_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Saved per-record checks support exactness relative to supplied complete-authority projection, not business truth.",
+          "measurements": {
+            "resolved": 854,
+            "answered": 854,
+            "checker_valid": 854,
+            "patch_exact": 854,
+            "rebuild_exact": 854,
+            "same_edges": 854,
+            "records": 854
+          }
+        },
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 854,
+            "checker_valid": 854,
+            "answered": 854,
+            "resolved": 854,
+            "certificate_present": 854,
+            "expected_valid_true": 854,
+            "expected_checker_agreement": 854,
+            "input_preserved": 0,
+            "patch_exact": 854,
+            "rebuild_exact": 854,
+            "same_edges": 854,
+            "cohort": "valid",
+            "unique_case_ids": 854,
+            "unique_base_ids": 854,
+            "field_available": {
+              "patch_exact": 854,
+              "rebuild_exact": 854,
+              "same_edges": 854,
+              "input_preserved": 0
+            },
+            "kinds": {
+              "ordinary": 854
+            },
+            "protocol_statuses": {
+              "RESOLVED": 854
+            },
+            "checker_failures": {
+              "None": 854
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              854
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "reference/extended",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl",
+          "sha256": "9040b3d57c2e545a6dcb2f3b064d79aa1046c266d6eb883be014ca40267ffc5c",
+          "bytes": 282580
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl#lines=1-144",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "given_authority_exactness": {
+          "status": "SUPPORTED",
+          "reason": "Saved per-record checks support exactness relative to supplied complete-authority projection, not business truth.",
+          "measurements": {
+            "resolved": 144,
+            "answered": 144,
+            "checker_valid": 144,
+            "patch_exact": 144,
+            "rebuild_exact": 144,
+            "same_edges": 144,
+            "records": 144
+          }
+        },
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 144,
+            "checker_valid": 144,
+            "answered": 144,
+            "resolved": 144,
+            "certificate_present": 144,
+            "expected_valid_true": 144,
+            "expected_checker_agreement": 144,
+            "input_preserved": 0,
+            "patch_exact": 144,
+            "rebuild_exact": 144,
+            "same_edges": 144,
+            "cohort": "extended",
+            "unique_case_ids": 144,
+            "unique_base_ids": 48,
+            "field_available": {
+              "patch_exact": 144,
+              "rebuild_exact": 144,
+              "same_edges": 144,
+              "input_preserved": 0
+            },
+            "kinds": {
+              "all_deleted": 48,
+              "all_roles_corrupted": 48,
+              "all_occurrences_duplicated": 48
+            },
+            "protocol_statuses": {
+              "RESOLVED": 144
+            },
+            "checker_failures": {
+              "None": 144
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              144
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "reference/refusal",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl",
+          "sha256": "f5de4259d9846fda51c3458af70cd2c0564ab4567bab88653614f036bc277c6d",
+          "bytes": 12454009
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl#lines=1-10850",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 10850,
+            "checker_valid": 10850,
+            "answered": 0,
+            "resolved": 0,
+            "certificate_present": 0,
+            "expected_valid_true": 10850,
+            "expected_checker_agreement": 10850,
+            "input_preserved": 10850,
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 10850,
+            "cohort": "refusal",
+            "unique_case_ids": 10850,
+            "unique_base_ids": 854,
+            "field_available": {
+              "patch_exact": 0,
+              "rebuild_exact": 0,
+              "same_edges": 10850,
+              "input_preserved": 10850
+            },
+            "kinds": {
+              "completeness_false": 854,
+              "completeness_null": 854,
+              "completeness_integer_one": 854,
+              "completeness_string_true": 854,
+              "completeness_omitted": 854,
+              "missing_required_declaration_fields": 854,
+              "unsupported_type": 854,
+              "metric_identity_mismatch": 854,
+              "duplicate_metric_registry_identity": 854,
+              "malformed_observed_adjacency": 854,
+              "missing_registry_target": 854,
+              "ambiguous_measure_registry": 364,
+              "empty_measure_target": 364,
+              "wrong_type_measure_target": 364,
+              "duplicate_measure_registry_identity": 364
+            },
+            "protocol_statuses": {
+              "INCOMPLETE_AUTHORITY": 4270,
+              "MALFORMED_AUTHORITY": 854,
+              "UNSUPPORTED": 854,
+              "METRIC_IDENTITY_MISMATCH": 854,
+              "DUPLICATE_REGISTRY_IDENTITY": 1218,
+              "MALFORMED_TASK": 854,
+              "NONUNIQUE_BINDING": 1218,
+              "INVALID_TYPED_TARGET": 728
+            },
+            "checker_failures": {
+              "None": 10850
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              10850
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "reference/tamper",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl",
+          "sha256": "39bc6b6ccfe83380023f79a38a68c61653d450855457ff97fd99d53d08bbd669",
+          "bytes": 27439617
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl#lines=1-19390",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 19390,
+            "checker_valid": 0,
+            "answered": 18536,
+            "resolved": 8540,
+            "certificate_present": 19390,
+            "expected_valid_true": 0,
+            "expected_checker_agreement": 19390,
+            "input_preserved": 0,
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "cohort": "tamper",
+            "unique_case_ids": 19390,
+            "unique_base_ids": 854,
+            "field_available": {
+              "patch_exact": 0,
+              "rebuild_exact": 0,
+              "same_edges": 0,
+              "input_preserved": 0
+            },
+            "kinds": {
+              "deleted_certificate_occurrence": 854,
+              "changed_registry_metadata": 854,
+              "changed_observed_adjacency": 854,
+              "wrong_schema": 854,
+              "wrong_rule": 854,
+              "wrong_reason": 854,
+              "wrong_answered": 854,
+              "wrong_certificate_identity": 854,
+              "wrong_output": 854,
+              "coherent_false_projection": 854,
+              "forged_success_after_completeness_false": 854,
+              "forged_success_after_completeness_null": 854,
+              "forged_success_after_completeness_integer_one": 854,
+              "forged_success_after_completeness_string_true": 854,
+              "forged_success_after_completeness_omitted": 854,
+              "forged_success_after_missing_required_declaration_fields": 854,
+              "forged_success_after_unsupported_type": 854,
+              "forged_success_after_metric_identity_mismatch": 854,
+              "forged_success_after_duplicate_metric_registry_identity": 854,
+              "forged_success_after_malformed_observed_adjacency": 854,
+              "forged_success_after_missing_registry_target": 854,
+              "forged_success_after_ambiguous_measure_registry": 364,
+              "forged_success_after_empty_measure_target": 364,
+              "forged_success_after_wrong_type_measure_target": 364,
+              "forged_success_after_duplicate_measure_registry_identity": 364
+            },
+            "protocol_statuses": {
+              "RESOLVED": 8540,
+              "INCOMPLETE_AUTHORITY": 4270,
+              "MALFORMED_AUTHORITY": 854,
+              "UNSUPPORTED": 854,
+              "METRIC_IDENTITY_MISMATCH": 854,
+              "DUPLICATE_REGISTRY_IDENTITY": 1218,
+              "MALFORMED_TASK": 854,
+              "NONUNIQUE_BINDING": 1218,
+              "INVALID_TYPED_TARGET": 728
+            },
+            "checker_failures": {
+              "OCCURRENCE_DELTA_MISMATCH": 1708,
+              "AUTHORITY_SNAPSHOT_MISMATCH": 854,
+              "OBSERVATION_SNAPSHOT_MISMATCH": 854,
+              "SCHEMA_MISMATCH": 854,
+              "RULE_MISMATCH": 854,
+              "SUCCESS_STATUS_MISMATCH": 1708,
+              "CERTIFICATE_IDENTITY_MISMATCH": 854,
+              "OUTPUT_PROJECTION_MISMATCH": 854,
+              "REFUSAL_STATUS_MISMATCH": 10850
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              19390
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "reference/idempotence",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl",
+          "sha256": "528d500410f23d824e95e9e603424f5da3ee1a92f711cb797eeb18f5fc244849",
+          "bytes": 1186822
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 854,
+            "checker_valid": 854,
+            "answered": 854,
+            "resolved": 854,
+            "certificate_present": 854,
+            "expected_valid_true": 854,
+            "expected_checker_agreement": 854,
+            "input_preserved": 0,
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "cohort": "idempotence",
+            "unique_case_ids": 854,
+            "unique_base_ids": 854,
+            "field_available": {
+              "patch_exact": 0,
+              "rebuild_exact": 0,
+              "same_edges": 0,
+              "input_preserved": 0
+            },
+            "kinds": {
+              "output_as_input": 854
+            },
+            "protocol_statuses": {
+              "RESOLVED": 854
+            },
+            "checker_failures": {
+              "None": 854
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              854
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    },
+    {
+      "case_id": "reference/gold_independence",
+      "family": "reference_certificate",
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl",
+          "sha256": "6ea9ab9c75e8d1fc6361b5f6f2cbbbc42da561f30b2631ee2ad3d0cc4bf02439",
+          "bytes": 1119232
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      },
+      "decisions": {
+        "saved_protocol_checks": {
+          "status": "SUPPORTED",
+          "reason": "Saved checker outcomes; a valid refusal is not an answered repair. Constructed software cases are not external incidents.",
+          "measurements": {
+            "records": 854,
+            "checker_valid": 854,
+            "answered": 854,
+            "resolved": 854,
+            "certificate_present": 854,
+            "expected_valid_true": 854,
+            "expected_checker_agreement": 854,
+            "input_preserved": 0,
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "cohort": "gold_independence",
+            "unique_case_ids": 854,
+            "unique_base_ids": 854,
+            "field_available": {
+              "patch_exact": 0,
+              "rebuild_exact": 0,
+              "same_edges": 0,
+              "input_preserved": 0
+            },
+            "kinds": {
+              "poisoned_saved_gold": 854
+            },
+            "protocol_statuses": {
+              "RESOLVED": 854
+            },
+            "checker_failures": {
+              "None": 854
+            },
+            "exception_line_numbers": [],
+            "source_line_range": [
+              1,
+              854
+            ]
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    }
+  ],
+  "current_software_examples": [
+    {
+      "case_id": "current_wrong_qualifier_authority",
+      "family": "reference_certificate",
+      "scope": "One current fully author-constructed software example, separate from eleven external cases and all historical software cohorts.",
+      "source_refs": [
+        {
+          "path": "software_example/author_case.json",
+          "sha256": "6dfe685589cd78ee7c42343a7459d6a60afbe123cd5c318aae3b8db0751b1b51",
+          "bytes": 1363
+        },
+        {
+          "path": "software_example/input_task.json",
+          "sha256": "26099e444ce107564388bc664529f6dee6d70f8bf6f65688f6cf5af6d7b6227b",
+          "bytes": 578
+        },
+        {
+          "path": "software_example/patch_result.json",
+          "sha256": "df2ac61e619a4531f3bbb877cca04db8eb4fb713b11773ab504a181371193c5a",
+          "bytes": 946
+        },
+        {
+          "path": "software_example/check_result.json",
+          "sha256": "100a8843421b1cbb76f6d38ae5c4a032683899e870496ae13e3ca1695ea7ad39",
+          "bytes": 72
+        },
+        {
+          "path": "software_example/execution_receipt.json",
+          "sha256": "ffa7d83f411464a621f705a279c7348c857d692a904b01fa04f9d8d3260ff24c",
+          "bytes": 2246
+        },
+        {
+          "path": "software_example/code_manifest.json",
+          "sha256": "d678d21941afa7e0a83ec4ee8800542a968b32c4b114d6e88a8620af9a1c7674",
+          "bytes": 1320
+        }
+      ],
+      "evidence_index": {
+        "actual_check": "software_example/check_result.json",
+        "actual_output_vs_authored_original": "software_example/patch_result.json#/edges versus software_example/author_case.json#/constructed_original/expected_edges",
+        "original_intent_limit": "Literal author definition only; never supplied to patch/checker; no business gold."
+      },
+      "decisions": {
+        "constructed_supplied_authority_acceptance": {
+          "status": "SUPPORTED",
+          "reason": "Current constructed software example: acceptance relative to supplied authority only.",
+          "measurements": {
+            "verifier_valid": true,
+            "answered": true,
+            "protocol_status": "RESOLVED",
+            "certificate_schema": "REFERENCE_OCCURRENCE_CERTIFICATE_V3",
+            "complete_assertion": true,
+            "matches_constructed_original": false,
+            "matches_supplied_projection": true,
+            "intent_basis": "author_constructed_original",
+            "added_occurrences": 1,
+            "removed_occurrences": 1
+          }
+        },
+        "constructed_original_agreement": {
+          "status": "CONTRADICTED",
+          "reason": "Equality to the manually defined original in this one constructed example; no independent business gold.",
+          "measurements": {
+            "verifier_valid": true,
+            "answered": true,
+            "protocol_status": "RESOLVED",
+            "certificate_schema": "REFERENCE_OCCURRENCE_CERTIFICATE_V3",
+            "complete_assertion": true,
+            "matches_constructed_original": false,
+            "matches_supplied_projection": true,
+            "intent_basis": "author_constructed_original",
+            "added_occurrences": 1,
+            "removed_occurrences": 1
+          }
+        }
+      },
+      "unknown": [
+        "independent business truth",
+        "population defect rate",
+        "effect on published algorithm rankings",
+        "generalization beyond the supplied snapshots and declared interface",
+        "real-world authority completeness and authenticity",
+        "agreement with an independently intended business target"
+      ],
+      "branch_selection": "proposition first; evidence families do not substitute for one another"
+    }
+  ],
+  "legacy_wrong_authority_context": {
+    "source_path": "evidence/v4_robustness_receipt.json",
+    "sha256": "3e41fb07287fd0be8bd44d82c1ed7e99f13018249d2881e924f2ba46de645d91",
+    "json_pointer": "/incorrect_trusted_authority_counterexample",
+    "saved_result": {
+      "answered": true,
+      "changes_author_correct_input": true,
+      "scope": "constructed negative witness, not natural-defect accuracy"
+    },
+    "interpretation": "Historical frozen implementation receipt; not a current checker execution. Runtime does not reopen this path."
+  },
+  "summary": {
+    "interpretation": "Retrospective conclusion replay of existing saved results. Cases/cells/software calls are not pooled as a defect rate.",
+    "empirical_case_count": 11,
+    "bart_cases": [
+      {
+        "case_id": "employees-egtask",
+        "rows": 8,
+        "cells": 32,
+        "events": 0,
+        "position_fp": 24,
+        "position_differences": 24,
+        "zero_event_false_alarm": true,
+        "cost": 0,
+        "optima": 1,
+        "ambiguous_cells": 0
+      },
+      {
+        "case_id": "employees-random-egtask",
+        "rows": 8,
+        "cells": 32,
+        "events": 6,
+        "position_fp": 19,
+        "position_differences": 25,
+        "zero_event_false_alarm": false,
+        "cost": 6,
+        "optima": 1,
+        "ambiguous_cells": 0
+      },
+      {
+        "case_id": "employees-symmetrictest-egtask",
+        "rows": 12,
+        "cells": 48,
+        "events": 0,
+        "position_fp": 31,
+        "position_differences": 31,
+        "zero_event_false_alarm": true,
+        "cost": 0,
+        "optima": 2,
+        "ambiguous_cells": 0
+      },
+      {
+        "case_id": "synthetic_01-egtask",
+        "rows": 2,
+        "cells": 6,
+        "events": 0,
+        "position_fp": 0,
+        "position_differences": 0,
+        "zero_event_false_alarm": false,
+        "cost": 0,
+        "optima": 1,
+        "ambiguous_cells": 0
+      }
+    ],
+    "bart_endpoint_status_counts": {
+      "native_event_fidelity": {
+        "SUPPORTED": 4
+      },
+      "position_semantic_equivalence": {
+        "CONTRADICTED": 3,
+        "SUPPORTED": 1
+      },
+      "csv_all_optima_determinacy": {
+        "SUPPORTED": 4
+      },
+      "csv_all_optima_native_agreement": {
+        "SUPPORTED": 4
+      },
+      "documented_value_equivalence": {
+        "NOT_APPLICABLE": 3,
+        "CONTRADICTED": 1
+      }
+    },
+    "consumer_cases": [
+      {
+        "case_id": "beers",
+        "rows": 2410,
+        "cells": 26510,
+        "stratum": "default_benchmark",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 4362,
+        "native_labels": 4362,
+        "target_changes": 0
+      },
+      {
+        "case_id": "flights",
+        "rows": 2376,
+        "cells": 16632,
+        "stratum": "default_benchmark",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 4920,
+        "native_labels": 4920,
+        "target_changes": 0
+      },
+      {
+        "case_id": "hospital",
+        "rows": 1000,
+        "cells": 20000,
+        "stratum": "default_benchmark",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 509,
+        "native_labels": 509,
+        "target_changes": 0
+      },
+      {
+        "case_id": "movies_1",
+        "rows": 7390,
+        "cells": 125630,
+        "stratum": "default_benchmark",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 7675,
+        "native_labels": 7675,
+        "target_changes": 0
+      },
+      {
+        "case_id": "rayyan",
+        "rows": 1000,
+        "cells": 11000,
+        "stratum": "default_benchmark",
+        "raw_direct_equivalence": "CONTRADICTED",
+        "raw_hits": 942,
+        "native_labels": 948,
+        "target_changes": 6
+      },
+      {
+        "case_id": "tax",
+        "rows": 200000,
+        "cells": 3000000,
+        "stratum": "scale_extension",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 121219,
+        "native_labels": 121219,
+        "target_changes": 0
+      },
+      {
+        "case_id": "toy",
+        "rows": 6,
+        "cells": 18,
+        "stratum": "toy_control",
+        "raw_direct_equivalence": "SUPPORTED",
+        "raw_hits": 4,
+        "native_labels": 4,
+        "target_changes": 0
+      }
+    ],
+    "consumer_endpoint_status_counts": {
+      "raw_native_label_equivalence": {
+        "SUPPORTED": 7
+      },
+      "official_persistence": {
+        "SUPPORTED": 7
+      },
+      "native_probe_exactness": {
+        "SUPPORTED": 7
+      },
+      "raw_direct_value_equivalence": {
+        "SUPPORTED": 6,
+        "CONTRADICTED": 1
+      },
+      "selfpair_zero_labels": {
+        "SUPPORTED": 7
+      }
+    },
+    "certificate_cohort_count": 6,
+    "saved_constructed_software_records_indexed": 32946,
+    "current_constructed_software_examples": 1,
+    "current_software_outcomes": {
+      "current_wrong_qualifier_authority": {
+        "constructed_supplied_authority_acceptance": "SUPPORTED",
+        "constructed_original_agreement": "CONTRADICTED"
+      }
+    },
+    "business_truth": "UNKNOWN",
+    "new_external_events": 0,
+    "new_algorithm_experiments": 0
+  }
+}

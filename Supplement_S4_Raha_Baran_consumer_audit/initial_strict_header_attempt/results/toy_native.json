@@ -1,0 +1,270 @@
+{
+  "name": "toy",
+  "stratum": "toy_control",
+  "status": "completed",
+  "rows": 6,
+  "columns": 3,
+  "cells_per_pair_side": 18,
+  "headers": [
+    "ID",
+    "Lord",
+    "Kingdom"
+  ],
+  "identity": "Official evaluator uses row/column positions; independent real-entity row identity is not certified.",
+  "na_policy": "dtype=str, keep_default_na=False; empty strings retained by native loader",
+  "raw_dirty_table_sha256": "6c54638ecc79b28da82a1828e4a95ba5052cb1dd7ebbe965994c1025daeb14c0",
+  "raw_clean_table_sha256": "37633db716612405fc281c48a89f1773da65a1a965df31dc47eb36f464ea6da8",
+  "native_dirty_table_sha256": "6c54638ecc79b28da82a1828e4a95ba5052cb1dd7ebbe965994c1025daeb14c0",
+  "native_clean_table_sha256": "37633db716612405fc281c48a89f1773da65a1a965df31dc47eb36f464ea6da8",
+  "E1": {
+    "raw_labels": {
+      "count": 4,
+      "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+      "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+    },
+    "native_labels": {
+      "count": 4,
+      "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+      "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+    },
+    "label_delta": {
+      "before_count": 4,
+      "after_count": 4,
+      "common_count": 4,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "dirty_raw_to_native": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "clean_raw_to_native": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    }
+  },
+  "E2": {
+    "native_export_api": "Dataset.write_csv_dataset",
+    "native_reload_api": "Dataset.__init__ / read_csv_dataset",
+    "dirty_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "clean_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "reloaded_dirty_table_sha256": "6c54638ecc79b28da82a1828e4a95ba5052cb1dd7ebbe965994c1025daeb14c0",
+    "reloaded_clean_table_sha256": "37633db716612405fc281c48a89f1773da65a1a965df31dc47eb36f464ea6da8",
+    "reloaded_labels": {
+      "count": 4,
+      "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+      "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+    },
+    "label_delta": {
+      "before_count": 4,
+      "after_count": 4,
+      "common_count": 4,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "common_error_target_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "export_files": {
+      "dirty": {
+        "bytes": 106,
+        "sha256": "bcbd9e8ef0d5435c94dc825b03a9c3745a31f99caa651321f6648b54e7230bba"
+      },
+      "clean": {
+        "bytes": 123,
+        "sha256": "f65ac35ab19ac1286ce05acba728914f3b6c01c83b6de942dd4ee2210299fec1"
+      }
+    }
+  },
+  "E3": {
+    "native_coordinates_native_clean": {
+      "dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 4,
+        "after_count": 4,
+        "common_count": 4,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "native_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 4,
+        "after_count": 4,
+        "common_count": 4,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "raw_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "raw_coordinates_native_clean": {
+      "dictionary": {
+        "count": 4,
+        "coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+        "target_values_sha256": "0ad363909b7fc2d5ac10b75258e779264eaa2543be0b557051c93e76958068fb"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "E4": {
+    "dirty_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clean_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normalized_oracle_expected_scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalized_oracle_pass": true
+  },
+  "started_at_utc": "2026-10-09T02:49:17.934026+00:00",
+  "finished_at_utc": "2026-10-09T02:49:17.945779+00:00"
+}

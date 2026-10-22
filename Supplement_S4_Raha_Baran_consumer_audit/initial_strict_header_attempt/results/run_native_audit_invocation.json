@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<workspace>/Supplement_S4_Raha_Baran_consumer_audit/run_native_audit.py"
+  ],
+  "cwd": "<workspace>/external_validation",
+  "started_at_utc": "2026-10-09T02:48:34.350101+00:00",
+  "input_code_sha256": {
+    "run_native_audit.py": "6bb5eaa6039bcffb1b5e079e5639775504f9c8e4d7b00525c12cc3ce34274596",
+    "PROTOCOL_FROZEN.md": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+    "IMPLEMENTATION_PRE_DATA.md": "782d05aaa5285d743e6f8f949e29b168392186936bc222c18ebc52e0f1b2b6ac",
+    "restoration_manifest.json": "b6b725e8a71789fe9f81fca50b9ea242714b6864f56775ff207e2b8847f933fd",
+    "local_source/raha/dataset.py": "43805c3daeca0addeed1ca1b8fb4927ccedf6b98994856deea93dc0c4756ac1b"
+  },
+  "finished_at_utc": "2026-10-09T02:49:18.019629+00:00",
+  "returncode": 1,
+  "stdout_sha256": "4a77237cdf5bbf7d12918b39528aab7c9c088cff52a89859575200d8087ee361",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "input_code_unchanged": true
+}

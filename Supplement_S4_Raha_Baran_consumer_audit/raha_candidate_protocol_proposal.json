@@ -1,0 +1,138 @@
+{
+  "status": "PROPOSED_NOT_FROZEN_BY_ROOT",
+  "created_at_utc": "2026-10-09T02:41:11.916639+00:00",
+  "data_downloaded": false,
+  "upstream_code_executed": false,
+  "repository": "https://github.com/BigDaMa/raha",
+  "commit": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+  "source_manifest": "candidate_source_inspection/manifest.json",
+  "sampling_rule": "Census of every datasets/<name> directory containing clean.csv and dirty.csv at pinned commit, with all failures and zeroes retained; no dataset selection by difference outcomes. Default benchmark, scale extension and toy reported separately.",
+  "roster": [
+    {
+      "name": "beers",
+      "stratum": "default_benchmark",
+      "files": [
+        {
+          "path": "datasets/beers/clean.csv",
+          "sha": "48fb09826e75faf9c30e243b4285b8ce104e6f5c",
+          "size": 233019
+        },
+        {
+          "path": "datasets/beers/dirty.csv",
+          "sha": "8a52e02ae384d52906c3f81ae629ed4195aca79b",
+          "size": 255295
+        }
+      ]
+    },
+    {
+      "name": "flights",
+      "stratum": "default_benchmark",
+      "files": [
+        {
+          "path": "datasets/flights/clean.csv",
+          "sha": "d4092fc1c8dffe11259011b9640bae99f5875483",
+          "size": 173159
+        },
+        {
+          "path": "datasets/flights/dirty.csv",
+          "sha": "a3a16c689e0df59f2b37f78cd9116ccc1665bfe6",
+          "size": 154776
+        }
+      ]
+    },
+    {
+      "name": "hospital",
+      "stratum": "default_benchmark",
+      "files": [
+        {
+          "path": "datasets/hospital/clean.csv",
+          "sha": "3073e57b0e6773edb68f74ccf9e9698235cc8676",
+          "size": 303324
+        },
+        {
+          "path": "datasets/hospital/dirty.csv",
+          "sha": "ceb4601118f1d94b74cae956fda10702f82a052d",
+          "size": 303306
+        }
+      ]
+    },
+    {
+      "name": "movies_1",
+      "stratum": "default_benchmark",
+      "files": [
+        {
+          "path": "datasets/movies_1/clean.csv",
+          "sha": "9d0d16fa82cb2419930ffe69959b5850986f4dbc",
+          "size": 4399162
+        },
+        {
+          "path": "datasets/movies_1/dirty.csv",
+          "sha": "ac7f33228949be7d5a5035e63f74db87c7904120",
+          "size": 4550868
+        }
+      ]
+    },
+    {
+      "name": "rayyan",
+      "stratum": "default_benchmark",
+      "files": [
+        {
+          "path": "datasets/rayyan/clean.csv",
+          "sha": "bf5bd10eb3a7ae822a08ace0b9fa741a47d9ec64",
+          "size": 272785
+        },
+        {
+          "path": "datasets/rayyan/dirty.csv",
+          "sha": "161b58a81acd0e2dfdf52f16dc429fc4622dbaab",
+          "size": 273084
+        }
+      ]
+    },
+    {
+      "name": "tax",
+      "stratum": "scale_extension",
+      "files": [
+        {
+          "path": "datasets/tax/clean.csv",
+          "sha": "31b817b8626c5cacf23c380f36dfe10d75eb8fea",
+          "size": 14621003
+        },
+        {
+          "path": "datasets/tax/dirty.csv",
+          "sha": "81afac2e84b5d346855f8a76c353f818cb04ec73",
+          "size": 14633203
+        }
+      ]
+    },
+    {
+      "name": "toy",
+      "stratum": "toy_control",
+      "files": [
+        {
+          "path": "datasets/toy/clean.csv",
+          "sha": "655847cb87404b4e1c548ced076680568e8c71cf",
+          "size": 123
+        },
+        {
+          "path": "datasets/toy/dirty.csv",
+          "sha": "36ce63037d216a958055666ac498706b722782e8",
+          "size": 106
+        }
+      ]
+    }
+  ],
+  "proposed_primary_endpoints": [
+    "CSV schema/header/dimension concordance, duplicate headers and unsupported rows; label denominator validity before arithmetic.",
+    "Per-pair exact raw-string difference label set versus one-pass official normalizer label set; removed/added label counts and Jaccard, full counts incl zero.",
+    "Per-pair number of existing dirty and clean values failing official normalizer idempotence; label-set and target-value drift after one load-export-reload. No artificial value injection."
+  ],
+  "proposed_secondary_endpoints": [
+    "Native scorer on the same official-error cell coordinates: raw-clean values versus once-normalized clean values; scores are deterministic adapter probes, not repair algorithms or evidence of published-score errors.",
+    "Raw-diff adapter dictionary versus normalized-diff adapter dictionary under official scorer; separate changed prediction cell set from changed replacement values.",
+    "Stable key validation only where upstream explicitly declares a key. No inferred ID earns authoritative status; no row permutation counted as naturally occurring error."
+  ],
+  "failure_policy": "No outcome-driven source substitution; all zero endpoints report as negative evidence. Invalid shape/schema is reported and excluded only from arithmetic endpoints requiring alignment, while remaining in census denominator.",
+  "source_truth_limit": "Existing author-provided clean files are benchmark reference truth, not independent business truth. Hospital errors are randomly imposed and tax is synthetic per Baran paper; do not describe all seven as natural errors.",
+  "license_access": "Root repository Apache-2.0; separate per-dataset rights chain not evidenced by inspected files. Local-only read/restoration permitted under task; do not redistribute third-party CSV/source. Deliver original audit code, aggregate evidence, pinned URLs, SHA-256/Git blob hashes and restore steps.",
+  "no_upstream_execution_until": "Root freezes protocol and confirms source inspection/allowed runtime plan. dataset.py imports only re,sys,html,pandas; load that module directly without importing package __init__/benchmark/detectors."
+}

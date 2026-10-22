@@ -1,0 +1,314 @@
+{
+  "name": "hospital",
+  "stratum": "default_benchmark",
+  "status": "completed",
+  "rows": 1000,
+  "columns": 20,
+  "cells_per_pair_side": 20000,
+  "headers": [
+    "index",
+    "provider_number",
+    "name",
+    "address_1",
+    "address_2",
+    "address_3",
+    "city",
+    "state",
+    "zip",
+    "county",
+    "phone",
+    "type",
+    "owner",
+    "emergency_service",
+    "condition",
+    "measure_code",
+    "measure_name",
+    "score",
+    "sample",
+    "state_average"
+  ],
+  "clean_headers": [
+    "index",
+    "ProviderNumber",
+    "HospitalName",
+    "Address1",
+    "Address2",
+    "Address3",
+    "City",
+    "State",
+    "ZipCode",
+    "CountyName",
+    "PhoneNumber",
+    "HospitalType",
+    "HospitalOwner",
+    "EmergencyService",
+    "Condition",
+    "MeasureCode",
+    "MeasureName",
+    "Score",
+    "Sample",
+    "Stateavg"
+  ],
+  "header_names_equal": false,
+  "identity": "Official evaluator uses row/column positions; independent real-entity row identity is not certified.",
+  "na_policy": "dtype=str, keep_default_na=False; empty strings retained by native loader",
+  "raw_dirty_table_sha256": "5a682775454c0320c75a54f0c0ee0b87a7ce84b689dac17de8ebb4850bd7628d",
+  "raw_clean_table_sha256": "94f33896cb166c5eeb540dfadeca0d31ba76caf9ec8c8eb3fc1f38182200a6c2",
+  "native_dirty_table_sha256": "a49f5b416316104dfb80d5b59acade22e7be5de9c7f8720130f12f19fdc435a8",
+  "native_clean_table_sha256": "a85788ef1bc1ae6a8cf4506118ae8996a5be738e7a0cdbd8e8ca0849cc0e3bdb",
+  "E1": {
+    "raw_labels": {
+      "count": 509,
+      "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+      "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+    },
+    "native_labels": {
+      "count": 509,
+      "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+      "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+    },
+    "label_delta": {
+      "before_count": 509,
+      "after_count": 509,
+      "common_count": 509,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "dirty_raw_to_native": {
+      "count": 78,
+      "coordinates_sha256": "7b7116e5a9e9f2de954507674aa6b0bf10a427397bda9a6d11a18d0c601e2753",
+      "rows": 78,
+      "columns": [
+        16
+      ]
+    },
+    "clean_raw_to_native": {
+      "count": 78,
+      "coordinates_sha256": "7b7116e5a9e9f2de954507674aa6b0bf10a427397bda9a6d11a18d0c601e2753",
+      "rows": 78,
+      "columns": [
+        16
+      ]
+    }
+  },
+  "E2": {
+    "native_export_api": "Dataset.write_csv_dataset",
+    "native_reload_api": "Dataset.__init__ / read_csv_dataset",
+    "dirty_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "clean_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "reloaded_dirty_table_sha256": "a49f5b416316104dfb80d5b59acade22e7be5de9c7f8720130f12f19fdc435a8",
+    "reloaded_clean_table_sha256": "a85788ef1bc1ae6a8cf4506118ae8996a5be738e7a0cdbd8e8ca0849cc0e3bdb",
+    "reloaded_labels": {
+      "count": 509,
+      "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+      "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+    },
+    "label_delta": {
+      "before_count": 509,
+      "after_count": 509,
+      "common_count": 509,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "common_error_target_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "export_files": {
+      "dirty": {
+        "bytes": 303189,
+        "sha256": "dc40abfef72ce02a648534a37c87ee77d43c371ed5ba85ae9b246d9e1bcc6a7d"
+      },
+      "clean": {
+        "bytes": 303207,
+        "sha256": "e1dc1e99b7404b085acb909384a2de321c8912f16d46b936c85dbd1a1081a9d6"
+      }
+    }
+  },
+  "E3": {
+    "native_coordinates_native_clean": {
+      "dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 509,
+        "after_count": 509,
+        "common_count": 509,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "native_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 509,
+        "after_count": 509,
+        "common_count": 509,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "raw_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "raw_coordinates_native_clean": {
+      "dictionary": {
+        "count": 509,
+        "coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+        "target_values_sha256": "3d55954360247de9f10625e0d513d1f4614dc33a8f544d0bca3489245da14f12"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "E4": {
+    "dirty_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clean_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normalized_oracle_expected_scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalized_oracle_pass": true
+  },
+  "started_at_utc": "2026-10-09T02:50:56.184492+00:00",
+  "finished_at_utc": "2026-10-09T02:50:56.489428+00:00"
+}

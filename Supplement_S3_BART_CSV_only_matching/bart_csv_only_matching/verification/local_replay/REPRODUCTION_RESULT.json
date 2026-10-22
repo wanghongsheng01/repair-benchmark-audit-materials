@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-09T02:57:20.821927+00:00",
+  "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "verified_frozen_artifacts": [
+    "code/blind_matcher.py",
+    "code/reveal_and_score.py",
+    "inputs/blind_csv/employees-egtask/clean_emp.csv",
+    "inputs/blind_csv/employees-egtask/dirty_emp.csv",
+    "inputs/blind_csv/employees-random-egtask/clean_emp.csv",
+    "inputs/blind_csv/employees-random-egtask/dirty_emp.csv",
+    "inputs/blind_csv/employees-symmetrictest-egtask/clean_emp.csv",
+    "inputs/blind_csv/employees-symmetrictest-egtask/dirty_emp.csv",
+    "inputs/blind_csv/synthetic_01-egtask/clean_r.csv",
+    "inputs/blind_csv/synthetic_01-egtask/dirty_r.csv",
+    "protocol/FREEZE.json",
+    "protocol/FREEZE_A1.json",
+    "protocol/OUTPUT_SCHEMA.json",
+    "protocol/PROTOCOL.md",
+    "results/blind_results.json",
+    "results/reveal_results.json",
+    "seals/REVEAL_INPUTS.json"
+  ],
+  "blind_substantive_output_identical": true,
+  "reveal_substantive_output_identical": true,
+  "network_or_upstream_execution": false,
+  "replay_blind_sha256": "0867a5e2ca9636c56fea106337b5604bf2037e81b7fa38fc94da65cb42ff5a82",
+  "replay_reveal_sha256": "f2d71d19f938c9f11c75f2478e1d990ebad3e2aee3772ea5a17863da24c13855"
+}

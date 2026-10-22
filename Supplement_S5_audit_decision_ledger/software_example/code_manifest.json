@@ -1,0 +1,31 @@
+{
+  "schema": "audit-current-author-code-copy-v1",
+  "author_code": [
+    {
+      "local_path": "reference_repair.py",
+      "source_path": "Supplement_S1_reference_experiment/code/reference_repair.py",
+      "sha256": "8ae29823488568f3bc0c2e4a7a8416178190d4dd39b0fca33cef495ceaac2d64",
+      "bytes": 6868,
+      "copy_byte_identical": true
+    },
+    {
+      "local_path": "verify_certificate.py",
+      "source_path": "Supplement_S1_reference_experiment/code/verify_certificate.py",
+      "sha256": "32bfe52bdd5a0d844c0025bb6fe26dd566e2eb78f7c22ccaf24252048d433407",
+      "bytes": 9338,
+      "copy_byte_identical": true
+    }
+  ],
+  "legacy_context_only": {
+    "source_path": "evidence/v4_robustness_receipt.json",
+    "sha256": "3e41fb07287fd0be8bd44d82c1ed7e99f13018249d2881e924f2ba46de645d91",
+    "json_pointer": "/incorrect_trusted_authority_counterexample",
+    "saved_result": {
+      "answered": true,
+      "changes_author_correct_input": true,
+      "scope": "constructed negative witness, not natural-defect accuracy"
+    },
+    "interpretation": "Historical frozen implementation receipt; not a current checker execution. Runtime does not reopen this path."
+  },
+  "runtime_source_policy": "Read only sibling copied author code and sibling author-constructed input; do not read or any upstream raw."
+}

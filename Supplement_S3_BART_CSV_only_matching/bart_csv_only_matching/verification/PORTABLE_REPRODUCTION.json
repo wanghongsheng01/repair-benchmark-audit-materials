@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-09T02:59:10.386897+00:00",
+  "verification": "Replayed independent copy in relocated directory with spaces, without original current paths, no network/upstream execution",
+  "command": "python3 code/reproduce.py --output-dir \"cold replay\"",
+  "reproduction_result": {
+    "status": "PASS",
+    "finished_utc": "2026-10-09T02:59:10.382579+00:00",
+    "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "verified_frozen_artifacts": [
+      "code/blind_matcher.py",
+      "code/reveal_and_score.py",
+      "inputs/blind_csv/employees-egtask/clean_emp.csv",
+      "inputs/blind_csv/employees-egtask/dirty_emp.csv",
+      "inputs/blind_csv/employees-random-egtask/clean_emp.csv",
+      "inputs/blind_csv/employees-random-egtask/dirty_emp.csv",
+      "inputs/blind_csv/employees-symmetrictest-egtask/clean_emp.csv",
+      "inputs/blind_csv/employees-symmetrictest-egtask/dirty_emp.csv",
+      "inputs/blind_csv/synthetic_01-egtask/clean_r.csv",
+      "inputs/blind_csv/synthetic_01-egtask/dirty_r.csv",
+      "protocol/FREEZE.json",
+      "protocol/FREEZE_A1.json",
+      "protocol/OUTPUT_SCHEMA.json",
+      "protocol/PROTOCOL.md",
+      "results/blind_results.json",
+      "results/reveal_results.json",
+      "seals/REVEAL_INPUTS.json"
+    ],
+    "blind_substantive_output_identical": true,
+    "reveal_substantive_output_identical": true,
+    "network_or_upstream_execution": false,
+    "replay_blind_sha256": "79aa44a96739e412e62103d3149dedf5f372838597bd1fdbb9aea569237300d2",
+    "replay_reveal_sha256": "c0c5f769301e47405af4a11f54e340695f4d9fab601d9a0ae8fc1ea3839c695e"
+  }
+}

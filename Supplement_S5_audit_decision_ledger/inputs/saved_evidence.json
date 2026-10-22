@@ -1,0 +1,3168 @@
+{
+  "schema": "audit-contract-evidence",
+  "source_lock_sha256": "03804b56391dca91f3309c62f8dd44a2e513a40cbb50ca934cbd80eed72aa0ac",
+  "scope": "Bounded reinterpretation of saved results; not a new empirical study or a general repair tool.",
+  "expected_inventory": {
+    "generator": [
+      "employees-egtask",
+      "employees-random-egtask",
+      "employees-symmetrictest-egtask",
+      "synthetic_01-egtask"
+    ],
+    "consumer": [
+      "beers",
+      "flights",
+      "hospital",
+      "movies_1",
+      "rayyan",
+      "tax",
+      "toy"
+    ],
+    "reference_certificate": [
+      "reference/valid",
+      "reference/extended",
+      "reference/refusal",
+      "reference/tamper",
+      "reference/idempotence",
+      "reference/gold_independence",
+      "current_wrong_qualifier_authority"
+    ]
+  },
+  "records": [
+    {
+      "case_id": "employees-egtask",
+      "family": "generator",
+      "requested_claims": [
+        "native_event_fidelity",
+        "position_semantic_equivalence",
+        "csv_all_optima_determinacy",
+        "csv_all_optima_native_agreement",
+        "documented_value_equivalence"
+      ],
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "facts": {
+        "rows": 8,
+        "cells": 32,
+        "columns": 4,
+        "native": {
+          "events": 0,
+          "changes": 0,
+          "unexplained": 0,
+          "unrealized": 0,
+          "value_mismatches": 0,
+          "noop_events": 0,
+          "identity_crosswalk_valid": true,
+          "independent_events_present": true
+        },
+        "position": {
+          "tp": 0,
+          "fp": 24,
+          "fn": 0,
+          "tn": 8,
+          "target_correct": 8,
+          "apparent_changes": 24
+        },
+        "matching": {
+          "cost_matrix": [
+            [
+              3,
+              0,
+              1,
+              4,
+              2,
+              3,
+              3,
+              3
+            ],
+            [
+              3,
+              4,
+              4,
+              0,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              0,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              1,
+              0,
+              1,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              1,
+              1,
+              0,
+              3
+            ],
+            [
+              3,
+              1,
+              0,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              4,
+              2,
+              3,
+              4,
+              0,
+              1,
+              1,
+              3
+            ]
+          ],
+          "saved_cost": 0,
+          "saved_optima": 1,
+          "all_optima_enumerated": true,
+          "cell_support": [
+            {
+              "cell_index": 1,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 2,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 3,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 4,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 5,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 6,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 7,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 8,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 9,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 10,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 11,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 12,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 13,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 14,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 15,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 16,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 17,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 18,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 19,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 20,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 21,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 22,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 23,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 24,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 25,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 26,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 27,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 28,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 29,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 30,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 31,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 32,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            }
+          ],
+          "row_bags_equal": true
+        },
+        "reveal_bounds": {
+          "fn": {
+            "min": 0,
+            "max": 0
+          },
+          "fp": {
+            "min": 0,
+            "max": 0
+          },
+          "identity_correct_rows": {
+            "min": 8,
+            "max": 8
+          },
+          "label_correct": {
+            "min": 32,
+            "max": 32
+          },
+          "repair_correct": {
+            "min": 0,
+            "max": 0
+          },
+          "target_correct": {
+            "min": 32,
+            "max": 32
+          },
+          "tn": {
+            "min": 32,
+            "max": 32
+          },
+          "tp": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "snapshot_hashes": {
+          "clean_crosswalk_after_export.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+          "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+          "clean_snapshot.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+          "dirty_crosswalk_after_export.json": "d279e24dd1f62eede0995e6ed6cda4df2ecfb4b030096d66a12293e355214390",
+          "dirty_crosswalk_before_export.json": "d279e24dd1f62eede0995e6ed6cda4df2ecfb4b030096d66a12293e355214390",
+          "dirty_emp.csv": "0679b3668d57d2b1af2a01201b4ee37e8184e5d30b462e50738b98085e60c540",
+          "events_native.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "events_native.json": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa",
+          "native.log": "46641586122ba24cba1c70b4e1b9f2a72b9a136c82752d1cc3bb7724e784ec5b",
+          "run_receipt.json": "c53c48eb8922603e153f0242995dc66f668062d24b09070ed8ba328392934fe1",
+          "source_after.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+          "source_before.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+          "target_after_generation.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+        }
+      },
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/0",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/0/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/0"
+      }
+    },
+    {
+      "case_id": "employees-random-egtask",
+      "family": "generator",
+      "requested_claims": [
+        "native_event_fidelity",
+        "position_semantic_equivalence",
+        "csv_all_optima_determinacy",
+        "csv_all_optima_native_agreement",
+        "documented_value_equivalence"
+      ],
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        },
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_probes.json",
+          "sha256": "576802ff748a056eb03d58eda4be545cdb023ed0310f41c584fd46372cd7bc73",
+          "bytes": 552
+        },
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_execution_receipt.json",
+          "sha256": "2122cb690d76148b774d81e6209cf6972418ff133c2fdf97d15119ad5d461f9e",
+          "bytes": 1824
+        }
+      ],
+      "facts": {
+        "rows": 8,
+        "cells": 32,
+        "columns": 4,
+        "native": {
+          "events": 6,
+          "changes": 6,
+          "unexplained": 0,
+          "unrealized": 0,
+          "value_mismatches": 0,
+          "noop_events": 0,
+          "identity_crosswalk_valid": true,
+          "independent_events_present": true
+        },
+        "position": {
+          "tp": 6,
+          "fp": 19,
+          "fn": 0,
+          "tn": 7,
+          "target_correct": 8,
+          "apparent_changes": 25
+        },
+        "matching": {
+          "cost_matrix": [
+            [
+              3,
+              0,
+              1,
+              4,
+              2,
+              3,
+              3,
+              3
+            ],
+            [
+              4,
+              4,
+              4,
+              1,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              2,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              1,
+              0,
+              1,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              2,
+              2,
+              1,
+              3
+            ],
+            [
+              3,
+              2,
+              1,
+              4,
+              3,
+              3,
+              3,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              1,
+              1,
+              1,
+              3
+            ]
+          ],
+          "saved_cost": 6,
+          "saved_optima": 1,
+          "all_optima_enumerated": true,
+          "cell_support": [
+            {
+              "cell_index": 1,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 2,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 3,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 4,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 5,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 6,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 7,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 8,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 9,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 10,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 11,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 12,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 13,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 14,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 15,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 16,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 17,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 18,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 19,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 20,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 21,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 22,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 23,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 24,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 25,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 26,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 27,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 28,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 29,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 30,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 31,
+              "label_options": [
+                true
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 32,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            }
+          ],
+          "row_bags_equal": false
+        },
+        "reveal_bounds": {
+          "fn": {
+            "min": 0,
+            "max": 0
+          },
+          "fp": {
+            "min": 0,
+            "max": 0
+          },
+          "identity_correct_rows": {
+            "min": 8,
+            "max": 8
+          },
+          "label_correct": {
+            "min": 32,
+            "max": 32
+          },
+          "repair_correct": {
+            "min": 6,
+            "max": 6
+          },
+          "target_correct": {
+            "min": 32,
+            "max": 32
+          },
+          "tn": {
+            "min": 26,
+            "max": 26
+          },
+          "tp": {
+            "min": 6,
+            "max": 6
+          }
+        },
+        "snapshot_hashes": {
+          "clean_crosswalk_after_export.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+          "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+          "clean_snapshot.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+          "dirty_crosswalk_after_export.json": "6bddfcc9824b6b89b45ea848fffadc31dcadbba258ce8709e05722f1203fa551",
+          "dirty_crosswalk_before_export.json": "6bddfcc9824b6b89b45ea848fffadc31dcadbba258ce8709e05722f1203fa551",
+          "dirty_emp.csv": "d233060c45a2b30292433e188e10c5b82b635b102f10149e06056f04b61f3371",
+          "events_native.csv": "49207cfd40ba9233cbf1bbca1cce504062f45795a9417727ea4e7b358883b945",
+          "events_native.json": "35e9ae0f7e4e543130bdcce9504a20c513c76658e2fe3473befab4c56ca3d03f",
+          "native.log": "5a8f4a97d360dd9218ab95cf2a4a45b130ea9312206bf5f20c751de863fae550",
+          "run_receipt.json": "72c9485aa31c969376eb3c8f9dee40cd35be73d8b0f9fc4d10a0c515ce12436f",
+          "source_after.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+          "source_before.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+          "target_after_generation.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+        },
+        "documentation": {
+          "probe_cells": 6,
+          "wiki_mismatches": 6,
+          "implementation_mismatches": 0,
+          "snapshot_probe": {
+            "value": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "native_f1_text": "1.0"
+            },
+            "cell": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "native_f1_text": "1.0"
+            }
+          },
+          "documented_probe": {
+            "value": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": null,
+              "native_f1_text": "NaN"
+            },
+            "cell": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "native_f1_text": "1.0"
+            }
+          }
+        }
+      },
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/1",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/1/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/1"
+      }
+    },
+    {
+      "case_id": "employees-symmetrictest-egtask",
+      "family": "generator",
+      "requested_claims": [
+        "native_event_fidelity",
+        "position_semantic_equivalence",
+        "csv_all_optima_determinacy",
+        "csv_all_optima_native_agreement",
+        "documented_value_equivalence"
+      ],
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "facts": {
+        "rows": 12,
+        "cells": 48,
+        "columns": 4,
+        "native": {
+          "events": 0,
+          "changes": 0,
+          "unexplained": 0,
+          "unrealized": 0,
+          "value_mismatches": 0,
+          "noop_events": 0,
+          "identity_crosswalk_valid": true,
+          "independent_events_present": true
+        },
+        "position": {
+          "tp": 0,
+          "fp": 31,
+          "fn": 0,
+          "tn": 17,
+          "target_correct": 17,
+          "apparent_changes": 31
+        },
+        "matching": {
+          "cost_matrix": [
+            [
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1,
+              4,
+              2,
+              3,
+              3,
+              3,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              3,
+              4,
+              4,
+              0,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              1,
+              0,
+              3,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4,
+              3,
+              3,
+              4,
+              4
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              1,
+              0,
+              1,
+              3,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              0,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              4,
+              3,
+              2,
+              4,
+              1,
+              1,
+              0,
+              3,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              0,
+              1,
+              3,
+              3
+            ],
+            [
+              3,
+              1,
+              0,
+              4,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              3,
+              3
+            ],
+            [
+              4,
+              2,
+              3,
+              4,
+              0,
+              1,
+              1,
+              3,
+              4,
+              4,
+              3,
+              3
+            ]
+          ],
+          "saved_cost": 0,
+          "saved_optima": 2,
+          "all_optima_enumerated": true,
+          "cell_support": [
+            {
+              "cell_index": 1,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 2,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 3,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 4,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 5,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 6,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 7,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 8,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 9,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 10,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 11,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 12,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 13,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 14,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 15,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 16,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 17,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 18,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 19,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 20,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 21,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 22,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 23,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 24,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 25,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 26,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 27,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 28,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 29,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 30,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 31,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 32,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 33,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 34,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 35,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 36,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 37,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 38,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 39,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 40,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 41,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 42,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 43,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 44,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 45,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 46,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 47,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 48,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            }
+          ],
+          "row_bags_equal": true
+        },
+        "reveal_bounds": {
+          "fn": {
+            "min": 0,
+            "max": 0
+          },
+          "fp": {
+            "min": 0,
+            "max": 0
+          },
+          "identity_correct_rows": {
+            "min": 10,
+            "max": 12
+          },
+          "label_correct": {
+            "min": 48,
+            "max": 48
+          },
+          "repair_correct": {
+            "min": 0,
+            "max": 0
+          },
+          "target_correct": {
+            "min": 48,
+            "max": 48
+          },
+          "tn": {
+            "min": 48,
+            "max": 48
+          },
+          "tp": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "snapshot_hashes": {
+          "clean_crosswalk_after_export.json": "cd6ac410623b28a7ca34cd4e451d8c8b3308001b562b2df7d17122115a38d745",
+          "clean_emp.csv": "7fa3aa22a940449d9f6e3efb6a254e33de8c43ca1f02eae40b52508c444cb11c",
+          "clean_snapshot.json": "cd6ac410623b28a7ca34cd4e451d8c8b3308001b562b2df7d17122115a38d745",
+          "dirty_crosswalk_after_export.json": "aa7e35b9e58fd343c924daa206d89dd7a706145465a35d87eb32772e416bdd38",
+          "dirty_crosswalk_before_export.json": "aa7e35b9e58fd343c924daa206d89dd7a706145465a35d87eb32772e416bdd38",
+          "dirty_emp.csv": "1fe22ddbe10566da97c6b21eb0df2f68b7aa450eea0501ff4658bade1f5870db",
+          "events_native.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "events_native.json": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa",
+          "native.log": "46641586122ba24cba1c70b4e1b9f2a72b9a136c82752d1cc3bb7724e784ec5b",
+          "run_receipt.json": "b5d4488f3abc01086ca3816853abd3e4a1ff4faa7242195b30819f0fb1d39362",
+          "source_after.json": "e9a824e7388b8698c877c02b405c74ef4dff67c1f8809f816177f9d7b7e66f89",
+          "source_before.json": "e9a824e7388b8698c877c02b405c74ef4dff67c1f8809f816177f9d7b7e66f89",
+          "target_after_generation.json": "cd6ac410623b28a7ca34cd4e451d8c8b3308001b562b2df7d17122115a38d745"
+        }
+      },
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/2",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/2/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/2"
+      }
+    },
+    {
+      "case_id": "synthetic_01-egtask",
+      "family": "generator",
+      "requested_claims": [
+        "native_event_fidelity",
+        "position_semantic_equivalence",
+        "csv_all_optima_determinacy",
+        "csv_all_optima_native_agreement",
+        "documented_value_equivalence"
+      ],
+      "scope": "One saved exploratory native apply/export run at pinned BART; exact decoded CSV strings; no new run.",
+      "source_refs": [
+        {
+          "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+          "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+          "bytes": 7479
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+          "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+          "bytes": 93621
+        },
+        {
+          "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+          "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+          "bytes": 32447
+        }
+      ],
+      "facts": {
+        "rows": 2,
+        "cells": 6,
+        "columns": 3,
+        "native": {
+          "events": 0,
+          "changes": 0,
+          "unexplained": 0,
+          "unrealized": 0,
+          "value_mismatches": 0,
+          "noop_events": 0,
+          "identity_crosswalk_valid": true,
+          "independent_events_present": true
+        },
+        "position": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 6,
+          "target_correct": 6,
+          "apparent_changes": 0
+        },
+        "matching": {
+          "cost_matrix": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "saved_cost": 0,
+          "saved_optima": 1,
+          "all_optima_enumerated": true,
+          "cell_support": [
+            {
+              "cell_index": 1,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 2,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 3,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 4,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 5,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            },
+            {
+              "cell_index": 6,
+              "label_options": [
+                false
+              ],
+              "target_option_count": 1
+            }
+          ],
+          "row_bags_equal": true
+        },
+        "reveal_bounds": {
+          "fn": {
+            "min": 0,
+            "max": 0
+          },
+          "fp": {
+            "min": 0,
+            "max": 0
+          },
+          "identity_correct_rows": {
+            "min": 2,
+            "max": 2
+          },
+          "label_correct": {
+            "min": 6,
+            "max": 6
+          },
+          "repair_correct": {
+            "min": 0,
+            "max": 0
+          },
+          "target_correct": {
+            "min": 6,
+            "max": 6
+          },
+          "tn": {
+            "min": 6,
+            "max": 6
+          },
+          "tp": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "snapshot_hashes": {
+          "clean_crosswalk_after_export.json": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261",
+          "clean_r.csv": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd",
+          "clean_snapshot.json": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261",
+          "dirty_crosswalk_after_export.json": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261",
+          "dirty_crosswalk_before_export.json": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261",
+          "dirty_r.csv": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd",
+          "events_native.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "events_native.json": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa",
+          "native.log": "46641586122ba24cba1c70b4e1b9f2a72b9a136c82752d1cc3bb7724e784ec5b",
+          "run_receipt.json": "ea4b71d801b91b621d0fd191ed7ea963944b54ea67a62f332caebd5234dffd01",
+          "source_after.json": "257c1be96ae69f4b01c2c69bdb6d78605f59175819fb007d0bf245bf48444c4a",
+          "source_before.json": "257c1be96ae69f4b01c2c69bdb6d78605f59175819fb007d0bf245bf48444c4a",
+          "target_after_generation.json": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261"
+        }
+      },
+      "evidence_index": {
+        "native": "Supplement_S2_BART_external_audit/audit_results/all_cases.json#/3",
+        "matching": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json#/cases/3/minimum_hamming",
+        "cell_support_transform": "For each saved support, retain label options and distinct target cardinality; omit all values.",
+        "position_and_bounds": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json#/cases/3"
+      }
+    },
+    {
+      "case_id": "beers",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json",
+          "sha256": "757eb3168404429651e3d3e75fdd68118217cbda614ee879a44b313817689bb4",
+          "bytes": 9157
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 2410,
+        "cells": 26510,
+        "columns": 11,
+        "stratum": "default_benchmark",
+        "positional_interface": true,
+        "labels": {
+          "raw": 4362,
+          "native": 4362,
+          "removed": 0,
+          "added": 0,
+          "common": 4362,
+          "raw_coordinates_sha256": "6a51c6b0db1c63a73bbe066b052bb20a0865ae6dc54f234ca31c8e8c734e29b4",
+          "native_coordinates_sha256": "6a51c6b0db1c63a73bbe066b052bb20a0865ae6dc54f234ca31c8e8c734e29b4"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=beers]"
+      }
+    },
+    {
+      "case_id": "flights",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json",
+          "sha256": "72917d5b70c9bc128b4a8ef109a695bf9557c1a04504b2973c1846a67c4370af",
+          "bytes": 9121
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 2376,
+        "cells": 16632,
+        "columns": 7,
+        "stratum": "default_benchmark",
+        "positional_interface": true,
+        "labels": {
+          "raw": 4920,
+          "native": 4920,
+          "removed": 0,
+          "added": 0,
+          "common": 4920,
+          "raw_coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+          "native_coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=flights]"
+      }
+    },
+    {
+      "case_id": "hospital",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json",
+          "sha256": "1e6564dbc180a64927022ef1b787b7e25f80d98697a9e09bae8511442870e6c7",
+          "bytes": 9501
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 1000,
+        "cells": 20000,
+        "columns": 20,
+        "stratum": "default_benchmark",
+        "positional_interface": true,
+        "labels": {
+          "raw": 509,
+          "native": 509,
+          "removed": 0,
+          "added": 0,
+          "common": 509,
+          "raw_coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680",
+          "native_coordinates_sha256": "1b19b4096e502e1d2f1cf0b0000924e209444b44a5bda056f6b7e10c5f2f6680"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=hospital]"
+      }
+    },
+    {
+      "case_id": "movies_1",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json",
+          "sha256": "55779409eca9cd1b1dd2ddef283579fa6307af4e47efe733fe370df0181877db",
+          "bytes": 9413
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 7390,
+        "cells": 125630,
+        "columns": 17,
+        "stratum": "default_benchmark",
+        "positional_interface": true,
+        "labels": {
+          "raw": 7675,
+          "native": 7675,
+          "removed": 0,
+          "added": 0,
+          "common": 7675,
+          "raw_coordinates_sha256": "d2899f434379549c7b3190ec7d91a8a495550eec1ddaf60c5bdd53219eb5f261",
+          "native_coordinates_sha256": "d2899f434379549c7b3190ec7d91a8a495550eec1ddaf60c5bdd53219eb5f261"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=movies_1]"
+      }
+    },
+    {
+      "case_id": "rayyan",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json",
+          "sha256": "63a4cfbffe839ec77e0bf38e4305c65525ff279eafa9976e4a3ca77dfe283942",
+          "bytes": 9522
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 1000,
+        "cells": 11000,
+        "columns": 11,
+        "stratum": "default_benchmark",
+        "positional_interface": true,
+        "labels": {
+          "raw": 948,
+          "native": 948,
+          "removed": 0,
+          "added": 0,
+          "common": 948,
+          "raw_coordinates_sha256": "294f68567c08521fca2eee4df1228f1450e45645e19298167f74c306fde8e894",
+          "native_coordinates_sha256": "294f68567c08521fca2eee4df1228f1450e45645e19298167f74c306fde8e894"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            0.9936708860759493,
+            0.9936708860759493,
+            0.9936708860759493
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 6,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=rayyan]"
+      }
+    },
+    {
+      "case_id": "tax",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json",
+          "sha256": "0f98011387c8f68198860b0601efc93f56b97da6a0dd5fb8e16db4acc248e816",
+          "bytes": 9330
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 200000,
+        "cells": 3000000,
+        "columns": 15,
+        "stratum": "scale_extension",
+        "positional_interface": true,
+        "labels": {
+          "raw": 121219,
+          "native": 121219,
+          "removed": 0,
+          "added": 0,
+          "common": 121219,
+          "raw_coordinates_sha256": "efd1e2a2152a425a6c0d403950de514dda36290fb4d4c64d5098b4d6184619d0",
+          "native_coordinates_sha256": "efd1e2a2152a425a6c0d403950de514dda36290fb4d4c64d5098b4d6184619d0"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=tax]"
+      }
+    },
+    {
+      "case_id": "toy",
+      "family": "consumer",
+      "requested_claims": [
+        "raw_native_label_equivalence",
+        "official_persistence",
+        "native_probe_exactness",
+        "raw_direct_value_equivalence",
+        "selfpair_zero_labels"
+      ],
+      "scope": "All cells of one fixed released pair under official row/column positions and normalizer; no independently certified entity identity or business truth.",
+      "source_refs": [
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json",
+          "sha256": "c6461ad0f2916a413cfb74d76b374530e078e5afa1d6e74a5e800d5afeb87efc",
+          "bytes": 8808
+        },
+        {
+          "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+          "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+          "bytes": 8680
+        }
+      ],
+      "facts": {
+        "rows": 6,
+        "cells": 18,
+        "columns": 3,
+        "stratum": "toy_control",
+        "positional_interface": true,
+        "labels": {
+          "raw": 4,
+          "native": 4,
+          "removed": 0,
+          "added": 0,
+          "common": 4,
+          "raw_coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b",
+          "native_coordinates_sha256": "a5e7af751530c87a563f6d81f4c473e74918d83eaed2bc5f859698dd8ae5dd3b"
+        },
+        "persistence": {
+          "dirty_nonidempotent": 0,
+          "clean_nonidempotent": 0,
+          "dirty_value_changes": 0,
+          "clean_value_changes": 0,
+          "removed_labels": 0,
+          "added_labels": 0,
+          "target_changes": 0,
+          "dirty_digest_equal": true,
+          "clean_digest_equal": true,
+          "labels_digest_equal": true,
+          "targets_digest_equal": true
+        },
+        "probes": {
+          "normalized_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "normalized_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_direct_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_materialized_scores": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_to_materialized_target_changes": 0,
+          "raw_normalized_coordinates_equal": true
+        },
+        "selfpairs": {
+          "dirty_labels": 0,
+          "clean_labels": 0,
+          "dirty_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "clean_empty_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "evidence_index": {
+        "labels": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E1",
+        "persistence": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E2",
+        "probes": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E3",
+        "selfpairs": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json#/E4",
+        "idempotence": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json#/cases[name=toy]"
+      }
+    }
+  ],
+  "certificate_evidence_index": [
+    {
+      "case_id": "reference/valid",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "given_authority_exactness",
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl",
+          "sha256": "93e021cf9a1d6e4e32fbe77f12fa6359fde89c5777b159428e902ede7f4bb85f",
+          "bytes": 1263191
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 854,
+          "checker_valid": 854,
+          "answered": 854,
+          "resolved": 854,
+          "certificate_present": 854,
+          "expected_valid_true": 854,
+          "expected_checker_agreement": 854,
+          "input_preserved": 0,
+          "patch_exact": 854,
+          "rebuild_exact": 854,
+          "same_edges": 854,
+          "cohort": "valid",
+          "unique_case_ids": 854,
+          "unique_base_ids": 854,
+          "field_available": {
+            "patch_exact": 854,
+            "rebuild_exact": 854,
+            "same_edges": 854,
+            "input_preserved": 0
+          },
+          "kinds": {
+            "ordinary": 854
+          },
+          "protocol_statuses": {
+            "RESOLVED": 854
+          },
+          "checker_failures": {
+            "None": 854
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            854
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    },
+    {
+      "case_id": "reference/extended",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "given_authority_exactness",
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl",
+          "sha256": "9040b3d57c2e545a6dcb2f3b064d79aa1046c266d6eb883be014ca40267ffc5c",
+          "bytes": 282580
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 144,
+          "checker_valid": 144,
+          "answered": 144,
+          "resolved": 144,
+          "certificate_present": 144,
+          "expected_valid_true": 144,
+          "expected_checker_agreement": 144,
+          "input_preserved": 0,
+          "patch_exact": 144,
+          "rebuild_exact": 144,
+          "same_edges": 144,
+          "cohort": "extended",
+          "unique_case_ids": 144,
+          "unique_base_ids": 48,
+          "field_available": {
+            "patch_exact": 144,
+            "rebuild_exact": 144,
+            "same_edges": 144,
+            "input_preserved": 0
+          },
+          "kinds": {
+            "all_deleted": 48,
+            "all_roles_corrupted": 48,
+            "all_occurrences_duplicated": 48
+          },
+          "protocol_statuses": {
+            "RESOLVED": 144
+          },
+          "checker_failures": {
+            "None": 144
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            144
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl#lines=1-144",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    },
+    {
+      "case_id": "reference/refusal",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl",
+          "sha256": "f5de4259d9846fda51c3458af70cd2c0564ab4567bab88653614f036bc277c6d",
+          "bytes": 12454009
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 10850,
+          "checker_valid": 10850,
+          "answered": 0,
+          "resolved": 0,
+          "certificate_present": 0,
+          "expected_valid_true": 10850,
+          "expected_checker_agreement": 10850,
+          "input_preserved": 10850,
+          "patch_exact": 0,
+          "rebuild_exact": 0,
+          "same_edges": 10850,
+          "cohort": "refusal",
+          "unique_case_ids": 10850,
+          "unique_base_ids": 854,
+          "field_available": {
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 10850,
+            "input_preserved": 10850
+          },
+          "kinds": {
+            "completeness_false": 854,
+            "completeness_null": 854,
+            "completeness_integer_one": 854,
+            "completeness_string_true": 854,
+            "completeness_omitted": 854,
+            "missing_required_declaration_fields": 854,
+            "unsupported_type": 854,
+            "metric_identity_mismatch": 854,
+            "duplicate_metric_registry_identity": 854,
+            "malformed_observed_adjacency": 854,
+            "missing_registry_target": 854,
+            "ambiguous_measure_registry": 364,
+            "empty_measure_target": 364,
+            "wrong_type_measure_target": 364,
+            "duplicate_measure_registry_identity": 364
+          },
+          "protocol_statuses": {
+            "INCOMPLETE_AUTHORITY": 4270,
+            "MALFORMED_AUTHORITY": 854,
+            "UNSUPPORTED": 854,
+            "METRIC_IDENTITY_MISMATCH": 854,
+            "DUPLICATE_REGISTRY_IDENTITY": 1218,
+            "MALFORMED_TASK": 854,
+            "NONUNIQUE_BINDING": 1218,
+            "INVALID_TYPED_TARGET": 728
+          },
+          "checker_failures": {
+            "None": 10850
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            10850
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl#lines=1-10850",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    },
+    {
+      "case_id": "reference/tamper",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl",
+          "sha256": "39bc6b6ccfe83380023f79a38a68c61653d450855457ff97fd99d53d08bbd669",
+          "bytes": 27439617
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 19390,
+          "checker_valid": 0,
+          "answered": 18536,
+          "resolved": 8540,
+          "certificate_present": 19390,
+          "expected_valid_true": 0,
+          "expected_checker_agreement": 19390,
+          "input_preserved": 0,
+          "patch_exact": 0,
+          "rebuild_exact": 0,
+          "same_edges": 0,
+          "cohort": "tamper",
+          "unique_case_ids": 19390,
+          "unique_base_ids": 854,
+          "field_available": {
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "input_preserved": 0
+          },
+          "kinds": {
+            "deleted_certificate_occurrence": 854,
+            "changed_registry_metadata": 854,
+            "changed_observed_adjacency": 854,
+            "wrong_schema": 854,
+            "wrong_rule": 854,
+            "wrong_reason": 854,
+            "wrong_answered": 854,
+            "wrong_certificate_identity": 854,
+            "wrong_output": 854,
+            "coherent_false_projection": 854,
+            "forged_success_after_completeness_false": 854,
+            "forged_success_after_completeness_null": 854,
+            "forged_success_after_completeness_integer_one": 854,
+            "forged_success_after_completeness_string_true": 854,
+            "forged_success_after_completeness_omitted": 854,
+            "forged_success_after_missing_required_declaration_fields": 854,
+            "forged_success_after_unsupported_type": 854,
+            "forged_success_after_metric_identity_mismatch": 854,
+            "forged_success_after_duplicate_metric_registry_identity": 854,
+            "forged_success_after_malformed_observed_adjacency": 854,
+            "forged_success_after_missing_registry_target": 854,
+            "forged_success_after_ambiguous_measure_registry": 364,
+            "forged_success_after_empty_measure_target": 364,
+            "forged_success_after_wrong_type_measure_target": 364,
+            "forged_success_after_duplicate_measure_registry_identity": 364
+          },
+          "protocol_statuses": {
+            "RESOLVED": 8540,
+            "INCOMPLETE_AUTHORITY": 4270,
+            "MALFORMED_AUTHORITY": 854,
+            "UNSUPPORTED": 854,
+            "METRIC_IDENTITY_MISMATCH": 854,
+            "DUPLICATE_REGISTRY_IDENTITY": 1218,
+            "MALFORMED_TASK": 854,
+            "NONUNIQUE_BINDING": 1218,
+            "INVALID_TYPED_TARGET": 728
+          },
+          "checker_failures": {
+            "OCCURRENCE_DELTA_MISMATCH": 1708,
+            "AUTHORITY_SNAPSHOT_MISMATCH": 854,
+            "OBSERVATION_SNAPSHOT_MISMATCH": 854,
+            "SCHEMA_MISMATCH": 854,
+            "RULE_MISMATCH": 854,
+            "SUCCESS_STATUS_MISMATCH": 1708,
+            "CERTIFICATE_IDENTITY_MISMATCH": 854,
+            "OUTPUT_PROJECTION_MISMATCH": 854,
+            "REFUSAL_STATUS_MISMATCH": 10850
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            19390
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl#lines=1-19390",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    },
+    {
+      "case_id": "reference/idempotence",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl",
+          "sha256": "528d500410f23d824e95e9e603424f5da3ee1a92f711cb797eeb18f5fc244849",
+          "bytes": 1186822
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 854,
+          "checker_valid": 854,
+          "answered": 854,
+          "resolved": 854,
+          "certificate_present": 854,
+          "expected_valid_true": 854,
+          "expected_checker_agreement": 854,
+          "input_preserved": 0,
+          "patch_exact": 0,
+          "rebuild_exact": 0,
+          "same_edges": 0,
+          "cohort": "idempotence",
+          "unique_case_ids": 854,
+          "unique_base_ids": 854,
+          "field_available": {
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "input_preserved": 0
+          },
+          "kinds": {
+            "output_as_input": 854
+          },
+          "protocol_statuses": {
+            "RESOLVED": 854
+          },
+          "checker_failures": {
+            "None": 854
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            854
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    },
+    {
+      "case_id": "reference/gold_independence",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "saved_protocol_checks"
+      ],
+      "scope": "Previously executed constructed software checks of supplied complete-authority projection; reused declarations, not external incidents.",
+      "source_refs": [
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl",
+          "sha256": "6ea9ab9c75e8d1fc6361b5f6f2cbbbc42da561f30b2631ee2ad3d0cc4bf02439",
+          "bytes": 1119232
+        },
+        {
+          "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+          "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+          "bytes": 4319
+        }
+      ],
+      "facts": {
+        "certificate_index": {
+          "records": 854,
+          "checker_valid": 854,
+          "answered": 854,
+          "resolved": 854,
+          "certificate_present": 854,
+          "expected_valid_true": 854,
+          "expected_checker_agreement": 854,
+          "input_preserved": 0,
+          "patch_exact": 0,
+          "rebuild_exact": 0,
+          "same_edges": 0,
+          "cohort": "gold_independence",
+          "unique_case_ids": 854,
+          "unique_base_ids": 854,
+          "field_available": {
+            "patch_exact": 0,
+            "rebuild_exact": 0,
+            "same_edges": 0,
+            "input_preserved": 0
+          },
+          "kinds": {
+            "poisoned_saved_gold": 854
+          },
+          "protocol_statuses": {
+            "RESOLVED": 854
+          },
+          "checker_failures": {
+            "None": 854
+          },
+          "exception_line_numbers": [],
+          "source_line_range": [
+            1,
+            854
+          ]
+        }
+      },
+      "evidence_index": {
+        "all_rows": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl#lines=1-854",
+        "transform": "Stream all rows; aggregate typed outcome fields and full binding equality, retaining multiplicity. No source names, bindings or values copied."
+      }
+    }
+  ],
+  "current_software_examples": [
+    {
+      "case_id": "current_wrong_qualifier_authority",
+      "family": "reference_certificate",
+      "requested_claims": [
+        "constructed_supplied_authority_acceptance",
+        "constructed_original_agreement"
+      ],
+      "scope": "One current fully author-constructed software example, separate from eleven external cases and all historical software cohorts.",
+      "source_refs": [
+        {
+          "path": "software_example/author_case.json",
+          "sha256": "6dfe685589cd78ee7c42343a7459d6a60afbe123cd5c318aae3b8db0751b1b51",
+          "bytes": 1363
+        },
+        {
+          "path": "software_example/input_task.json",
+          "sha256": "26099e444ce107564388bc664529f6dee6d70f8bf6f65688f6cf5af6d7b6227b",
+          "bytes": 578
+        },
+        {
+          "path": "software_example/patch_result.json",
+          "sha256": "df2ac61e619a4531f3bbb877cca04db8eb4fb713b11773ab504a181371193c5a",
+          "bytes": 946
+        },
+        {
+          "path": "software_example/check_result.json",
+          "sha256": "100a8843421b1cbb76f6d38ae5c4a032683899e870496ae13e3ca1695ea7ad39",
+          "bytes": 72
+        },
+        {
+          "path": "software_example/execution_receipt.json",
+          "sha256": "ffa7d83f411464a621f705a279c7348c857d692a904b01fa04f9d8d3260ff24c",
+          "bytes": 2246
+        },
+        {
+          "path": "software_example/code_manifest.json",
+          "sha256": "d678d21941afa7e0a83ec4ee8800542a968b32c4b114d6e88a8620af9a1c7674",
+          "bytes": 1320
+        }
+      ],
+      "facts": {
+        "constructed_authority": {
+          "verifier_valid": true,
+          "answered": true,
+          "protocol_status": "RESOLVED",
+          "certificate_schema": "REFERENCE_OCCURRENCE_CERTIFICATE_V3",
+          "complete_assertion": true,
+          "matches_constructed_original": false,
+          "matches_supplied_projection": true,
+          "intent_basis": "author_constructed_original",
+          "added_occurrences": 1,
+          "removed_occurrences": 1
+        }
+      },
+      "evidence_index": {
+        "actual_check": "software_example/check_result.json",
+        "actual_output_vs_authored_original": "software_example/patch_result.json#/edges versus software_example/author_case.json#/constructed_original/expected_edges",
+        "original_intent_limit": "Literal author definition only; never supplied to patch/checker; no business gold."
+      }
+    }
+  ],
+  "legacy_wrong_authority_context": {
+    "source_path": "evidence/v4_robustness_receipt.json",
+    "sha256": "3e41fb07287fd0be8bd44d82c1ed7e99f13018249d2881e924f2ba46de645d91",
+    "json_pointer": "/incorrect_trusted_authority_counterexample",
+    "saved_result": {
+      "answered": true,
+      "changes_author_correct_input": true,
+      "scope": "constructed negative witness, not natural-defect accuracy"
+    },
+    "interpretation": "Historical frozen implementation receipt; not a current checker execution. Runtime does not reopen this path."
+  },
+  "provenance": {
+    "sources": [
+      {
+        "path": "Supplement_S2_BART_external_audit/audit_results/all_cases.json",
+        "sha256": "c7465a77f0c981256ad40109b30cb7e1cdb1959e917d96023e8c11172f6c7ca5",
+        "bytes": 7479
+      },
+      {
+        "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_probes.json",
+        "sha256": "576802ff748a056eb03d58eda4be545cdb023ed0310f41c584fd46372cd7bc73",
+        "bytes": 552
+      },
+      {
+        "path": "Supplement_S2_BART_external_audit/audit_results/native_scorer_execution_receipt.json",
+        "sha256": "2122cb690d76148b774d81e6209cf6972418ff133c2fdf97d15119ad5d461f9e",
+        "bytes": 1824
+      },
+      {
+        "path": "Supplement_S2_BART_external_audit/native_applied_01/run_manifest.json",
+        "sha256": "585ded9931bf8b8d04d2005f70545957c3a2def416995183f758834818b27f3e",
+        "bytes": 5413
+      },
+      {
+        "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/blind_results.json",
+        "sha256": "92f40a813cc1f33f5bf0090d783d64d8663d220a9f1167833295fd46e878e882",
+        "bytes": 93621
+      },
+      {
+        "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/results/reveal_results.json",
+        "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b",
+        "bytes": 32447
+      },
+      {
+        "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/seals/BLIND_SEAL.json",
+        "sha256": "6f32368ec76faa354125777728b1e44733735b2e50edc55f1edaa277eed21c39",
+        "bytes": 528
+      },
+      {
+        "path": "Supplement_S3_BART_CSV_only_matching/bart_csv_only_matching/seals/REVEAL_SEAL.json",
+        "sha256": "4a6c01d175f754e6697389be2dd759a70a27fd4fa52c1e1c49e57b487dffe72b",
+        "bytes": 488
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/raha_candidate_protocol_proposal.json",
+        "sha256": "f514d004c42a3713bf257037ad96a3e0dfdd12889b5850be81e74e149ec98d36",
+        "bytes": 5642
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/PROTOCOL_FROZEN.md",
+        "sha256": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+        "bytes": 5269
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/independent_verification.json",
+        "sha256": "42283dc2c115afdc5236b8b32b913627f77e6ef15bac823f4f4d8941a35f1440",
+        "bytes": 8680
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/robustness_receipt.json",
+        "sha256": "f36756b2bc4eae786e9deb95909b88e95a2c34061fe0a10fb16e535b4cd54e03",
+        "bytes": 4319
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/saved_records_recheck.json",
+        "sha256": "32b19ec743606566772af63e8c5b07f3fd75cded98a852b72b16b350a5b8e201",
+        "bytes": 355
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/beers_native.json",
+        "sha256": "757eb3168404429651e3d3e75fdd68118217cbda614ee879a44b313817689bb4",
+        "bytes": 9157
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/flights_native.json",
+        "sha256": "72917d5b70c9bc128b4a8ef109a695bf9557c1a04504b2973c1846a67c4370af",
+        "bytes": 9121
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/hospital_native.json",
+        "sha256": "1e6564dbc180a64927022ef1b787b7e25f80d98697a9e09bae8511442870e6c7",
+        "bytes": 9501
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/movies_1_native.json",
+        "sha256": "55779409eca9cd1b1dd2ddef283579fa6307af4e47efe733fe370df0181877db",
+        "bytes": 9413
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/rayyan_native.json",
+        "sha256": "63a4cfbffe839ec77e0bf38e4305c65525ff279eafa9976e4a3ca77dfe283942",
+        "bytes": 9522
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/tax_native.json",
+        "sha256": "0f98011387c8f68198860b0601efc93f56b97da6a0dd5fb8e16db4acc248e816",
+        "bytes": 9330
+      },
+      {
+        "path": "Supplement_S4_Raha_Baran_consumer_audit/results/toy_native.json",
+        "sha256": "c6461ad0f2916a413cfb74d76b374530e078e5afa1d6e74a5e800d5afeb87efc",
+        "bytes": 8808
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/valid_cases.jsonl",
+        "sha256": "93e021cf9a1d6e4e32fbe77f12fa6359fde89c5777b159428e902ede7f4bb85f",
+        "bytes": 1263191
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/extended_cases.jsonl",
+        "sha256": "9040b3d57c2e545a6dcb2f3b064d79aa1046c266d6eb883be014ca40267ffc5c",
+        "bytes": 282580
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/refusal_cases.jsonl",
+        "sha256": "f5de4259d9846fda51c3458af70cd2c0564ab4567bab88653614f036bc277c6d",
+        "bytes": 12454009
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/tamper_cases.jsonl",
+        "sha256": "39bc6b6ccfe83380023f79a38a68c61653d450855457ff97fd99d53d08bbd669",
+        "bytes": 27439617
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/idempotence_cases.jsonl",
+        "sha256": "528d500410f23d824e95e9e603424f5da3ee1a92f711cb797eeb18f5fc244849",
+        "bytes": 1186822
+      },
+      {
+        "path": "Supplement_S1_reference_experiment/results/robustness/gold_independence_cases.jsonl",
+        "sha256": "6ea9ab9c75e8d1fc6361b5f6f2cbbbc42da561f30b2631ee2ad3d0cc4bf02439",
+        "bytes": 1119232
+      }
+    ],
+    "source_hashes_verified_at_extraction": true,
+    "third_party_raw_copied": false,
+    "extractor_sha256": "a2a5c53063eb77f67b7899b11d18210680746bcfcc7739b8a8ece1c8377ce29b",
+    "portable_boundary": "Author result counts, hashes, distance matrices and support cardinalities; no CSV rows, cell strings, metric declarations or bindings."
+  }
+}

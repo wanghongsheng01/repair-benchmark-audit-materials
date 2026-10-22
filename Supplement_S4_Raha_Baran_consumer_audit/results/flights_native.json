@@ -1,0 +1,289 @@
+{
+  "name": "flights",
+  "stratum": "default_benchmark",
+  "status": "completed",
+  "rows": 2376,
+  "columns": 7,
+  "cells_per_pair_side": 16632,
+  "headers": [
+    "tuple_id",
+    "src",
+    "flight",
+    "sched_dep_time",
+    "act_dep_time",
+    "sched_arr_time",
+    "act_arr_time"
+  ],
+  "clean_headers": [
+    "tuple_id",
+    "src",
+    "flight",
+    "sched_dep_time",
+    "act_dep_time",
+    "sched_arr_time",
+    "act_arr_time"
+  ],
+  "header_names_equal": true,
+  "identity": "Official evaluator uses row/column positions; independent real-entity row identity is not certified.",
+  "na_policy": "dtype=str, keep_default_na=False; empty strings retained by native loader",
+  "raw_dirty_table_sha256": "8d1e468ed4f4840954da36fc849700eb1fa8c442af986e0f1029525bcb269163",
+  "raw_clean_table_sha256": "1ee668695f4f80dd6bc70c0be934808273d2d23dba1588ce19f212cc06648f32",
+  "native_dirty_table_sha256": "42f13043e3f0d3c28e23356d5e1db0ed582023f1acde989a0a7428e4815508dd",
+  "native_clean_table_sha256": "1ee668695f4f80dd6bc70c0be934808273d2d23dba1588ce19f212cc06648f32",
+  "E1": {
+    "raw_labels": {
+      "count": 4920,
+      "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+      "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+    },
+    "native_labels": {
+      "count": 4920,
+      "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+      "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+    },
+    "label_delta": {
+      "before_count": 4920,
+      "after_count": 4920,
+      "common_count": 4920,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "dirty_raw_to_native": {
+      "count": 36,
+      "coordinates_sha256": "67de7efc1577fe60b3e8f8d55c9252288e1cf86df3d7b42484f22510b51647ca",
+      "rows": 30,
+      "columns": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "clean_raw_to_native": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    }
+  },
+  "E2": {
+    "native_export_api": "Dataset.write_csv_dataset",
+    "native_reload_api": "Dataset.__init__ / read_csv_dataset",
+    "dirty_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "clean_value_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rows": 0,
+      "columns": []
+    },
+    "reloaded_dirty_table_sha256": "42f13043e3f0d3c28e23356d5e1db0ed582023f1acde989a0a7428e4815508dd",
+    "reloaded_clean_table_sha256": "1ee668695f4f80dd6bc70c0be934808273d2d23dba1588ce19f212cc06648f32",
+    "reloaded_labels": {
+      "count": 4920,
+      "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+      "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+    },
+    "label_delta": {
+      "before_count": 4920,
+      "after_count": 4920,
+      "common_count": 4920,
+      "removed_count": 0,
+      "added_count": 0,
+      "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "removed_rows": 0,
+      "added_rows": 0,
+      "removed_columns": [],
+      "added_columns": [],
+      "jaccard": 1.0
+    },
+    "common_error_target_changes": {
+      "count": 0,
+      "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "export_files": {
+      "dirty": {
+        "bytes": 152301,
+        "sha256": "2f853b994bf3b74165de4934dd9ebe4edd6575f3b0715f415ea9bedb707312a3"
+      },
+      "clean": {
+        "bytes": 170782,
+        "sha256": "c1dda70376ac0efa36b9e9d6c2251f4504ed668241fa1de92387257685cd7b92"
+      }
+    }
+  },
+  "E3": {
+    "native_coordinates_native_clean": {
+      "dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 4920,
+        "after_count": 4920,
+        "common_count": 4920,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "native_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "materialized_dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "materialized_native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_to_materialized_label_delta": {
+        "before_count": 4920,
+        "after_count": 4920,
+        "common_count": 4920,
+        "removed_count": 0,
+        "added_count": 0,
+        "removed_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "added_coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "removed_rows": 0,
+        "added_rows": 0,
+        "removed_columns": [],
+        "added_columns": [],
+        "jaccard": 1.0
+      },
+      "common_target_changes": 0
+    },
+    "raw_coordinates_raw_clean": {
+      "dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "raw_coordinates_native_clean": {
+      "dictionary": {
+        "count": 4920,
+        "coordinates_sha256": "08105c68777bd20ef3c2e50f670c289de8ed23bdf1fe6e139d92ef2f6344d313",
+        "target_values_sha256": "308a00da9780ae0259d8c5dcfaf745a572dda7a9ab699b30b33cd374723a60e9"
+      },
+      "native_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "E4": {
+    "dirty_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clean_self_pair": {
+      "labels": {
+        "count": 0,
+        "coordinates_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "empty_probe_scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normalized_oracle_expected_scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalized_oracle_pass": true
+  },
+  "started_at_utc": "2026-10-09T02:50:55.345695+00:00",
+  "finished_at_utc": "2026-10-09T02:50:56.183967+00:00"
+}

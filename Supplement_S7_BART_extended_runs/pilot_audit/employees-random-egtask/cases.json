@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "employees-random-egtask_run01",
+    "rows": 8,
+    "cells": 32,
+    "events": 1,
+    "realized_changes": 1,
+    "unexplained_changes": 0,
+    "unrealized_nonnoop_events": 0,
+    "event_value_mismatches": 0,
+    "noop_events": 0,
+    "exported_events": 1,
+    "wiki_contract_mismatches": 1,
+    "implementation_contract_mismatches": 0,
+    "reordered_rows": 8,
+    "positional_cell_differences": 25,
+    "source_preserved": true,
+    "eligible_applied_pair": true,
+    "execution_basis": "extension run",
+    "input_hashes": {
+      "clean_crosswalk_after_export.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+      "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+      "clean_snapshot.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+      "dirty_crosswalk_after_export.json": "f0c8265538ea98c6c07c6472db7eafd5d5f48964382950cd524d69b60eae56eb",
+      "dirty_crosswalk_before_export.json": "f0c8265538ea98c6c07c6472db7eafd5d5f48964382950cd524d69b60eae56eb",
+      "dirty_emp.csv": "d9382601280c7243d49441681960e06613e2496f848519f16d3d629620f3d6e0",
+      "events_native.csv": "fb03dae66af6400f20045bdfaf9ec094c114ceb83cacf1160ebd0de4e4462825",
+      "events_native.json": "03c35717978d2279d5b027400cfcff115164b2baaa8552e1b1ab8a4136a36d56",
+      "native.log": "39ccc42cc2e8f7d91a45289f4a6a3fc84d333b5f14d91810e10629448968d15a",
+      "run_receipt.json": "2118ae99a4893cfdba1a0eea1541d9a0217b497f555d4b2a49fbd45fca1d805c",
+      "source_after.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+      "source_before.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+      "target_after_generation.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+    },
+    "controls_passed": 2
+  }
+]

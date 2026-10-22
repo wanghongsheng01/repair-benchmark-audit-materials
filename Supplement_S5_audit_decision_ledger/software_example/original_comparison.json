@@ -1,0 +1,19 @@
+{
+  "original_intent_basis": "author_literal_definition_only",
+  "current_matches_constructed_original": true,
+  "output_matches_constructed_original": false,
+  "output_matches_constructed_asserted_authority_projection": true,
+  "output_differs_from_current": true,
+  "input_unchanged_by_patch_and_checker": true,
+  "original_qualifier": {
+    "offset_window": "1 month"
+  },
+  "asserted_qualifier": "2 months",
+  "output_qualifier": {
+    "offset_window": "2 months"
+  },
+  "removed_occurrences": 1,
+  "added_occurrences": 1,
+  "preserved_occurrences": 0,
+  "business_truth": "UNKNOWN"
+}

@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-09T02:50:37.524800+00:00",
+  "document": "A1_POSITIONAL_SCHEMA_CLARIFICATION.md",
+  "sha256": "2ccebef7c865fad2e2240070305612adc226944c4fccd15340d1285b0b5c6474",
+  "authorization": "Root instruction after initial attempt, within existing user-authorized scope",
+  "endpoints_unchanged": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "sampling_unchanged": true
+}

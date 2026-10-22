@@ -1,0 +1,41 @@
+{
+  "r" : [ {
+    "oid" : "8",
+    "cells" : {
+      "a" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "a1"
+      },
+      "b" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "b1"
+      },
+      "c" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "c1"
+      }
+    }
+  }, {
+    "oid" : "12",
+    "cells" : {
+      "a" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "a2"
+      },
+      "b" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "b2"
+      },
+      "c" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "c2"
+      }
+    }
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "beers",
+  "stratum": "default_benchmark",
+  "status": "failed",
+  "error": "ValueError('Raw pair shape/header mismatch')",
+  "traceback": "Traceback (most recent call last):\n  File \"<workspace>/Supplement_S4_Raha_Baran_consumer_audit/run_native_audit.py\", line 159, in main\n    record = run_case(module.Dataset, entry)\n  File \"<workspace>/Supplement_S4_Raha_Baran_consumer_audit/run_native_audit.py\", line 82, in run_case\n    raise ValueError(\"Raw pair shape/header mismatch\")\nValueError: Raw pair shape/header mismatch\n",
+  "started_at_utc": "2026-10-09T02:48:34.939290+00:00",
+  "finished_at_utc": "2026-10-09T02:48:34.957094+00:00"
+}

@@ -1,0 +1,9 @@
+21.manager,John-*
+26.manager,Bob
+31.dept,Marketing-*
+31.manager,Bob
+36.name,Bob
+36.salary,1000.0-*
+41.name,Bob
+51.dept,Sales-*
+56.dept,Staff

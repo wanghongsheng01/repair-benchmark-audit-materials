@@ -1,0 +1,3507 @@
+{
+  "cases": [
+    {
+      "case_id": "employees-egtask",
+      "cells": 32,
+      "input_sha256": {
+        "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+        "dirty_emp.csv": "0679b3668d57d2b1af2a01201b4ee37e8184e5d30b462e50738b98085e60c540"
+      },
+      "minimum_hamming": {
+        "all_cell_labels_unique": true,
+        "all_cell_target_values_unique": true,
+        "all_optimal_assignments_enumerated": true,
+        "assignment_direction": "dirty row -> clean row; rows are 1-based data rows, header excluded",
+        "cell_target_and_label_support": [
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "2000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Mark",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Mark"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Staff",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Staff"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "1000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Bob",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Bob"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "1000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "2500.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2500.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Managment",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Managment"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "5000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "5000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "3500.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3500.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "3000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "2000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          }
+        ],
+        "cost_definition": "sum over all dirty rows and columns of unequal exact decoded CSV strings",
+        "cost_matrix_dirty_by_clean": [
+          [
+            3,
+            0,
+            1,
+            4,
+            2,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            4,
+            4,
+            0,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            0,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            1,
+            0,
+            1,
+            3
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            1,
+            1,
+            0,
+            3
+          ],
+          [
+            3,
+            1,
+            0,
+            4,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            4,
+            2,
+            3,
+            4,
+            0,
+            1,
+            1,
+            3
+          ]
+        ],
+        "dag_state_definition": "mask marks used clean rows; dirty index is popcount(mask)",
+        "enumeration_limit": 10000,
+        "material_ambiguity_cell_count": 0,
+        "material_ambiguity_cells": [],
+        "optimal_assignment_count": 1,
+        "optimal_assignment_dag": [
+          {
+            "edges": [
+              {
+                "clean_row_1based": 2,
+                "edge_hamming_cost": 0,
+                "next_mask": 2
+              }
+            ],
+            "next_dirty_row_1based": 1,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 0
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 4,
+                "edge_hamming_cost": 0,
+                "next_mask": 10
+              }
+            ],
+            "next_dirty_row_1based": 2,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 2
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 1,
+                "edge_hamming_cost": 0,
+                "next_mask": 11
+              }
+            ],
+            "next_dirty_row_1based": 3,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 10
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 6,
+                "edge_hamming_cost": 0,
+                "next_mask": 43
+              }
+            ],
+            "next_dirty_row_1based": 4,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 11
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 8,
+                "edge_hamming_cost": 0,
+                "next_mask": 171
+              }
+            ],
+            "next_dirty_row_1based": 5,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 43
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 7,
+                "edge_hamming_cost": 0,
+                "next_mask": 235
+              }
+            ],
+            "next_dirty_row_1based": 6,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 171
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 3,
+                "edge_hamming_cost": 0,
+                "next_mask": 239
+              }
+            ],
+            "next_dirty_row_1based": 7,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 235
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 5,
+                "edge_hamming_cost": 0,
+                "next_mask": 255
+              }
+            ],
+            "next_dirty_row_1based": 8,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 239
+          },
+          {
+            "edges": [],
+            "next_dirty_row_1based": 9,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 255
+          }
+        ],
+        "optimal_assignments_dirty_to_clean_1based": [
+          [
+            2,
+            4,
+            1,
+            6,
+            8,
+            7,
+            3,
+            5
+          ]
+        ],
+        "optimal_total_hamming_cost": 0,
+        "possible_row_bindings": [
+          {
+            "clean_rows_1based": [
+              2
+            ],
+            "dirty_row_1based": 1,
+            "optimal_assignment_counts_per_clean_row": {
+              "2": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              4
+            ],
+            "dirty_row_1based": 2,
+            "optimal_assignment_counts_per_clean_row": {
+              "4": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              1
+            ],
+            "dirty_row_1based": 3,
+            "optimal_assignment_counts_per_clean_row": {
+              "1": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              6
+            ],
+            "dirty_row_1based": 4,
+            "optimal_assignment_counts_per_clean_row": {
+              "6": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              8
+            ],
+            "dirty_row_1based": 5,
+            "optimal_assignment_counts_per_clean_row": {
+              "8": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              7
+            ],
+            "dirty_row_1based": 6,
+            "optimal_assignment_counts_per_clean_row": {
+              "7": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              3
+            ],
+            "dirty_row_1based": 7,
+            "optimal_assignment_counts_per_clean_row": {
+              "3": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              5
+            ],
+            "dirty_row_1based": 8,
+            "optimal_assignment_counts_per_clean_row": {
+              "5": 1
+            }
+          }
+        ]
+      },
+      "multiset": {
+        "cell_localization": "not provided; unequal row bags do not identify cell edits",
+        "clean_minus_dirty": [],
+        "clean_unmatched_row_count": 0,
+        "dirty_minus_clean": [],
+        "dirty_unmatched_row_count": 0,
+        "equal": true
+      },
+      "position": {
+        "changed_cell_count": 24,
+        "changes": [
+          {
+            "attribute": "name",
+            "dirty_row_1based": 1,
+            "dirty_value": "John",
+            "target_value": "Bob"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 1,
+            "dirty_value": "2000.0",
+            "target_value": "1000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "target_value": "John"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 2,
+            "dirty_value": "Mark",
+            "target_value": "John"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 2,
+            "dirty_value": "Staff",
+            "target_value": "Marketing"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 2,
+            "dirty_value": "1000.0",
+            "target_value": "2000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 2,
+            "dirty_value": "Frank",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 3,
+            "dirty_value": "Bob",
+            "target_value": "John"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 3,
+            "dirty_value": "1000.0",
+            "target_value": "3000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 3,
+            "dirty_value": "John",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 4,
+            "dirty_value": "Frank",
+            "target_value": "Mark"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 4,
+            "dirty_value": "Sales",
+            "target_value": "Staff"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 4,
+            "dirty_value": "2500.0",
+            "target_value": "1000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 4,
+            "dirty_value": "Carl",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 5,
+            "dirty_value": "Managment",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 5,
+            "dirty_value": "5000.0",
+            "target_value": "2000.0"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 6,
+            "dirty_value": "3500.0",
+            "target_value": "2500.0"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 7,
+            "dirty_value": "John",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 7,
+            "dirty_value": "Marketing",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 7,
+            "dirty_value": "3000.0",
+            "target_value": "3500.0"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 8,
+            "dirty_value": "Frank",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 8,
+            "dirty_value": "Sales",
+            "target_value": "Managment"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 8,
+            "dirty_value": "2000.0",
+            "target_value": "5000.0"
+          }
+        ]
+      },
+      "rows": 8,
+      "schema": [
+        "name",
+        "dept",
+        "salary",
+        "manager"
+      ],
+      "table": "emp"
+    },
+    {
+      "case_id": "employees-random-egtask",
+      "cells": 32,
+      "input_sha256": {
+        "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+        "dirty_emp.csv": "d233060c45a2b30292433e188e10c5b82b635b102f10149e06056f04b61f3371"
+      },
+      "minimum_hamming": {
+        "all_cell_labels_unique": true,
+        "all_cell_target_values_unique": true,
+        "all_optimal_assignments_enumerated": true,
+        "assignment_direction": "dirty row -> clean row; rows are 1-based data rows, header excluded",
+        "cell_target_and_label_support": [
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "2000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Mark",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Mark"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Staff",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Staff"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "1000.0-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "1000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Bob-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "Bob"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "1000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "John-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "2500.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2500.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Managment",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Managment"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "5000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "5000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Frank-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "3500.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3500.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "John-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "3000.0",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "2000.0-*",
+            "possible_changed_labels": [
+              true
+            ],
+            "possible_clean_target_values": [
+              "2000.0"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          }
+        ],
+        "cost_definition": "sum over all dirty rows and columns of unequal exact decoded CSV strings",
+        "cost_matrix_dirty_by_clean": [
+          [
+            3,
+            0,
+            1,
+            4,
+            2,
+            3,
+            3,
+            3
+          ],
+          [
+            4,
+            4,
+            4,
+            1,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            1,
+            0,
+            1,
+            3
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            2,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            1,
+            4,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            1,
+            1,
+            1,
+            3
+          ]
+        ],
+        "dag_state_definition": "mask marks used clean rows; dirty index is popcount(mask)",
+        "enumeration_limit": 10000,
+        "material_ambiguity_cell_count": 0,
+        "material_ambiguity_cells": [],
+        "optimal_assignment_count": 1,
+        "optimal_assignment_dag": [
+          {
+            "edges": [
+              {
+                "clean_row_1based": 2,
+                "edge_hamming_cost": 0,
+                "next_mask": 2
+              }
+            ],
+            "next_dirty_row_1based": 1,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 6,
+            "used_clean_mask": 0
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 4,
+                "edge_hamming_cost": 1,
+                "next_mask": 10
+              }
+            ],
+            "next_dirty_row_1based": 2,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 6,
+            "used_clean_mask": 2
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 1,
+                "edge_hamming_cost": 2,
+                "next_mask": 11
+              }
+            ],
+            "next_dirty_row_1based": 3,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 5,
+            "used_clean_mask": 10
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 6,
+                "edge_hamming_cost": 0,
+                "next_mask": 43
+              }
+            ],
+            "next_dirty_row_1based": 4,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 3,
+            "used_clean_mask": 11
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 8,
+                "edge_hamming_cost": 0,
+                "next_mask": 171
+              }
+            ],
+            "next_dirty_row_1based": 5,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 3,
+            "used_clean_mask": 43
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 7,
+                "edge_hamming_cost": 1,
+                "next_mask": 235
+              }
+            ],
+            "next_dirty_row_1based": 6,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 3,
+            "used_clean_mask": 171
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 3,
+                "edge_hamming_cost": 1,
+                "next_mask": 239
+              }
+            ],
+            "next_dirty_row_1based": 7,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 2,
+            "used_clean_mask": 235
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 5,
+                "edge_hamming_cost": 1,
+                "next_mask": 255
+              }
+            ],
+            "next_dirty_row_1based": 8,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 1,
+            "used_clean_mask": 239
+          },
+          {
+            "edges": [],
+            "next_dirty_row_1based": 9,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 255
+          }
+        ],
+        "optimal_assignments_dirty_to_clean_1based": [
+          [
+            2,
+            4,
+            1,
+            6,
+            8,
+            7,
+            3,
+            5
+          ]
+        ],
+        "optimal_total_hamming_cost": 6,
+        "possible_row_bindings": [
+          {
+            "clean_rows_1based": [
+              2
+            ],
+            "dirty_row_1based": 1,
+            "optimal_assignment_counts_per_clean_row": {
+              "2": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              4
+            ],
+            "dirty_row_1based": 2,
+            "optimal_assignment_counts_per_clean_row": {
+              "4": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              1
+            ],
+            "dirty_row_1based": 3,
+            "optimal_assignment_counts_per_clean_row": {
+              "1": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              6
+            ],
+            "dirty_row_1based": 4,
+            "optimal_assignment_counts_per_clean_row": {
+              "6": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              8
+            ],
+            "dirty_row_1based": 5,
+            "optimal_assignment_counts_per_clean_row": {
+              "8": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              7
+            ],
+            "dirty_row_1based": 6,
+            "optimal_assignment_counts_per_clean_row": {
+              "7": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              3
+            ],
+            "dirty_row_1based": 7,
+            "optimal_assignment_counts_per_clean_row": {
+              "3": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              5
+            ],
+            "dirty_row_1based": 8,
+            "optimal_assignment_counts_per_clean_row": {
+              "5": 1
+            }
+          }
+        ]
+      },
+      "multiset": {
+        "cell_localization": "not provided; unequal row bags do not identify cell edits",
+        "clean_minus_dirty": [
+          {
+            "multiplicity": 1,
+            "row": [
+              "Bob",
+              "Marketing",
+              "1000.0",
+              "John"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Frank",
+              "Sales",
+              "2000.0",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Frank",
+              "Sales",
+              "3500.0",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "John",
+              "Marketing",
+              "3000.0",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Mark",
+              "Staff",
+              "1000.0",
+              "Frank"
+            ]
+          }
+        ],
+        "clean_unmatched_row_count": 5,
+        "dirty_minus_clean": [
+          {
+            "multiplicity": 1,
+            "row": [
+              "Bob-*",
+              "Marketing",
+              "1000.0",
+              "John-*"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Frank",
+              "Sales",
+              "2000.0-*",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Frank-*",
+              "Sales",
+              "3500.0",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "John-*",
+              "Marketing",
+              "3000.0",
+              "Carl"
+            ]
+          },
+          {
+            "multiplicity": 1,
+            "row": [
+              "Mark",
+              "Staff",
+              "1000.0-*",
+              "Frank"
+            ]
+          }
+        ],
+        "dirty_unmatched_row_count": 5,
+        "equal": false
+      },
+      "position": {
+        "changed_cell_count": 25,
+        "changes": [
+          {
+            "attribute": "name",
+            "dirty_row_1based": 1,
+            "dirty_value": "John",
+            "target_value": "Bob"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 1,
+            "dirty_value": "2000.0",
+            "target_value": "1000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "target_value": "John"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 2,
+            "dirty_value": "Mark",
+            "target_value": "John"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 2,
+            "dirty_value": "Staff",
+            "target_value": "Marketing"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 2,
+            "dirty_value": "1000.0-*",
+            "target_value": "2000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 2,
+            "dirty_value": "Frank",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 3,
+            "dirty_value": "Bob-*",
+            "target_value": "John"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 3,
+            "dirty_value": "1000.0",
+            "target_value": "3000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 3,
+            "dirty_value": "John-*",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 4,
+            "dirty_value": "Frank",
+            "target_value": "Mark"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 4,
+            "dirty_value": "Sales",
+            "target_value": "Staff"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 4,
+            "dirty_value": "2500.0",
+            "target_value": "1000.0"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 4,
+            "dirty_value": "Carl",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 5,
+            "dirty_value": "Managment",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 5,
+            "dirty_value": "5000.0",
+            "target_value": "2000.0"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 6,
+            "dirty_value": "Frank-*",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 6,
+            "dirty_value": "3500.0",
+            "target_value": "2500.0"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 7,
+            "dirty_value": "John-*",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 7,
+            "dirty_value": "Marketing",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 7,
+            "dirty_value": "3000.0",
+            "target_value": "3500.0"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 8,
+            "dirty_value": "Frank",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 8,
+            "dirty_value": "Sales",
+            "target_value": "Managment"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 8,
+            "dirty_value": "2000.0-*",
+            "target_value": "5000.0"
+          }
+        ]
+      },
+      "rows": 8,
+      "schema": [
+        "name",
+        "dept",
+        "salary",
+        "manager"
+      ],
+      "table": "emp"
+    },
+    {
+      "case_id": "employees-symmetrictest-egtask",
+      "cells": 48,
+      "input_sha256": {
+        "clean_emp.csv": "7fa3aa22a940449d9f6e3efb6a254e33de8c43ca1f02eae40b52508c444cb11c",
+        "dirty_emp.csv": "1fe22ddbe10566da97c6b21eb0df2f68b7aa450eea0501ff4658bade1f5870db"
+      },
+      "minimum_hamming": {
+        "all_cell_labels_unique": true,
+        "all_cell_target_values_unique": true,
+        "all_optimal_assignments_enumerated": true,
+        "assignment_direction": "dirty row -> clean row; rows are 1-based data rows, header excluded",
+        "cell_target_and_label_support": [
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Jess",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Jess"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Shipping",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Shipping"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "1500",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1500"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "2000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Mark",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Mark"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Staff",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Staff"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "1000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 3,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Jeff",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Jeff"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "Shipping",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Shipping"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "1300",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1300"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 4,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Jess",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Jess"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Shipping",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Shipping"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "1500",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1500"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 5,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Bob",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Bob"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "1000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 6,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "2500",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2500"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 7,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Managment",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Managment"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "5000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "5000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 8,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 9,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 9,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 9,
+            "dirty_value": "3000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 9,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 10,
+            "dirty_value": "Ross",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Ross"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 10,
+            "dirty_value": "Shipping",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Shipping"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 10,
+            "dirty_value": "1300",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "1300"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 10,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 11,
+            "dirty_value": "John",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "John"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 11,
+            "dirty_value": "Marketing",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Marketing"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 11,
+            "dirty_value": "3000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "3000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 11,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "name",
+            "changed_label_unique": true,
+            "dirty_row_1based": 12,
+            "dirty_value": "Frank",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Frank"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "dept",
+            "changed_label_unique": true,
+            "dirty_row_1based": 12,
+            "dirty_value": "Sales",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Sales"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "salary",
+            "changed_label_unique": true,
+            "dirty_row_1based": 12,
+            "dirty_value": "2000",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "2000"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "manager",
+            "changed_label_unique": true,
+            "dirty_row_1based": 12,
+            "dirty_value": "Carl",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "Carl"
+            ],
+            "target_value_unique": true
+          }
+        ],
+        "cost_definition": "sum over all dirty rows and columns of unequal exact decoded CSV strings",
+        "cost_matrix_dirty_by_clean": [
+          [
+            4,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            4,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            3,
+            3
+          ],
+          [
+            3,
+            4,
+            4,
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            1,
+            0,
+            3,
+            3
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            4,
+            4
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            1,
+            0,
+            1,
+            3,
+            4,
+            4,
+            3,
+            3
+          ],
+          [
+            4,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            0,
+            4,
+            4,
+            3,
+            3
+          ],
+          [
+            4,
+            3,
+            2,
+            4,
+            1,
+            1,
+            0,
+            3,
+            4,
+            4,
+            3,
+            3
+          ],
+          [
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            0,
+            1,
+            3,
+            3
+          ],
+          [
+            3,
+            1,
+            0,
+            4,
+            3,
+            3,
+            2,
+            3,
+            4,
+            4,
+            3,
+            3
+          ],
+          [
+            4,
+            2,
+            3,
+            4,
+            0,
+            1,
+            1,
+            3,
+            4,
+            4,
+            3,
+            3
+          ]
+        ],
+        "dag_state_definition": "mask marks used clean rows; dirty index is popcount(mask)",
+        "enumeration_limit": 10000,
+        "material_ambiguity_cell_count": 0,
+        "material_ambiguity_cells": [],
+        "optimal_assignment_count": 2,
+        "optimal_assignment_dag": [
+          {
+            "edges": [
+              {
+                "clean_row_1based": 11,
+                "edge_hamming_cost": 0,
+                "next_mask": 1024
+              },
+              {
+                "clean_row_1based": 12,
+                "edge_hamming_cost": 0,
+                "next_mask": 2048
+              }
+            ],
+            "next_dirty_row_1based": 1,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 2,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 0
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 2,
+                "edge_hamming_cost": 0,
+                "next_mask": 1026
+              }
+            ],
+            "next_dirty_row_1based": 2,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 1024
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 4,
+                "edge_hamming_cost": 0,
+                "next_mask": 1034
+              }
+            ],
+            "next_dirty_row_1based": 3,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 1026
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 10,
+                "edge_hamming_cost": 0,
+                "next_mask": 1546
+              }
+            ],
+            "next_dirty_row_1based": 4,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 1034
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 12,
+                "edge_hamming_cost": 0,
+                "next_mask": 3594
+              }
+            ],
+            "next_dirty_row_1based": 5,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 1546
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 2,
+                "edge_hamming_cost": 0,
+                "next_mask": 2050
+              }
+            ],
+            "next_dirty_row_1based": 2,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 2048
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 4,
+                "edge_hamming_cost": 0,
+                "next_mask": 2058
+              }
+            ],
+            "next_dirty_row_1based": 3,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 2050
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 10,
+                "edge_hamming_cost": 0,
+                "next_mask": 2570
+              }
+            ],
+            "next_dirty_row_1based": 4,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 2058
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 11,
+                "edge_hamming_cost": 0,
+                "next_mask": 3594
+              }
+            ],
+            "next_dirty_row_1based": 5,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 2570
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 1,
+                "edge_hamming_cost": 0,
+                "next_mask": 3595
+              }
+            ],
+            "next_dirty_row_1based": 6,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3594
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 6,
+                "edge_hamming_cost": 0,
+                "next_mask": 3627
+              }
+            ],
+            "next_dirty_row_1based": 7,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3595
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 8,
+                "edge_hamming_cost": 0,
+                "next_mask": 3755
+              }
+            ],
+            "next_dirty_row_1based": 8,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3627
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 7,
+                "edge_hamming_cost": 0,
+                "next_mask": 3819
+              }
+            ],
+            "next_dirty_row_1based": 9,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3755
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 9,
+                "edge_hamming_cost": 0,
+                "next_mask": 4075
+              }
+            ],
+            "next_dirty_row_1based": 10,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3819
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 3,
+                "edge_hamming_cost": 0,
+                "next_mask": 4079
+              }
+            ],
+            "next_dirty_row_1based": 11,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 4075
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 5,
+                "edge_hamming_cost": 0,
+                "next_mask": 4095
+              }
+            ],
+            "next_dirty_row_1based": 12,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 4079
+          },
+          {
+            "edges": [],
+            "next_dirty_row_1based": 13,
+            "optimal_prefix_count": 2,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 4095
+          }
+        ],
+        "optimal_assignments_dirty_to_clean_1based": [
+          [
+            11,
+            2,
+            4,
+            10,
+            12,
+            1,
+            6,
+            8,
+            7,
+            9,
+            3,
+            5
+          ],
+          [
+            12,
+            2,
+            4,
+            10,
+            11,
+            1,
+            6,
+            8,
+            7,
+            9,
+            3,
+            5
+          ]
+        ],
+        "optimal_total_hamming_cost": 0,
+        "possible_row_bindings": [
+          {
+            "clean_rows_1based": [
+              11,
+              12
+            ],
+            "dirty_row_1based": 1,
+            "optimal_assignment_counts_per_clean_row": {
+              "11": 1,
+              "12": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              2
+            ],
+            "dirty_row_1based": 2,
+            "optimal_assignment_counts_per_clean_row": {
+              "2": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              4
+            ],
+            "dirty_row_1based": 3,
+            "optimal_assignment_counts_per_clean_row": {
+              "4": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              10
+            ],
+            "dirty_row_1based": 4,
+            "optimal_assignment_counts_per_clean_row": {
+              "10": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              11,
+              12
+            ],
+            "dirty_row_1based": 5,
+            "optimal_assignment_counts_per_clean_row": {
+              "11": 1,
+              "12": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              1
+            ],
+            "dirty_row_1based": 6,
+            "optimal_assignment_counts_per_clean_row": {
+              "1": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              6
+            ],
+            "dirty_row_1based": 7,
+            "optimal_assignment_counts_per_clean_row": {
+              "6": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              8
+            ],
+            "dirty_row_1based": 8,
+            "optimal_assignment_counts_per_clean_row": {
+              "8": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              7
+            ],
+            "dirty_row_1based": 9,
+            "optimal_assignment_counts_per_clean_row": {
+              "7": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              9
+            ],
+            "dirty_row_1based": 10,
+            "optimal_assignment_counts_per_clean_row": {
+              "9": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              3
+            ],
+            "dirty_row_1based": 11,
+            "optimal_assignment_counts_per_clean_row": {
+              "3": 2
+            }
+          },
+          {
+            "clean_rows_1based": [
+              5
+            ],
+            "dirty_row_1based": 12,
+            "optimal_assignment_counts_per_clean_row": {
+              "5": 2
+            }
+          }
+        ]
+      },
+      "multiset": {
+        "cell_localization": "not provided; unequal row bags do not identify cell edits",
+        "clean_minus_dirty": [],
+        "clean_unmatched_row_count": 0,
+        "dirty_minus_clean": [],
+        "dirty_unmatched_row_count": 0,
+        "equal": true
+      },
+      "position": {
+        "changed_cell_count": 31,
+        "changes": [
+          {
+            "attribute": "name",
+            "dirty_row_1based": 1,
+            "dirty_value": "Jess",
+            "target_value": "Bob"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 1,
+            "dirty_value": "Shipping",
+            "target_value": "Marketing"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 1,
+            "dirty_value": "1500",
+            "target_value": "1000"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 1,
+            "dirty_value": "Carl",
+            "target_value": "John"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 3,
+            "dirty_value": "Mark",
+            "target_value": "John"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 3,
+            "dirty_value": "Staff",
+            "target_value": "Marketing"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 3,
+            "dirty_value": "1000",
+            "target_value": "3000"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 3,
+            "dirty_value": "Frank",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 4,
+            "dirty_value": "Jeff",
+            "target_value": "Mark"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 4,
+            "dirty_value": "Shipping",
+            "target_value": "Staff"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 4,
+            "dirty_value": "1300",
+            "target_value": "1000"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 4,
+            "dirty_value": "John",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 5,
+            "dirty_value": "Jess",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 5,
+            "dirty_value": "Shipping",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 5,
+            "dirty_value": "1500",
+            "target_value": "2000"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 6,
+            "dirty_value": "Bob",
+            "target_value": "Frank"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 6,
+            "dirty_value": "Marketing",
+            "target_value": "Sales"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 6,
+            "dirty_value": "1000",
+            "target_value": "2500"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 6,
+            "dirty_value": "John",
+            "target_value": "Carl"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 7,
+            "dirty_value": "2500",
+            "target_value": "3000"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 9,
+            "dirty_value": "Frank",
+            "target_value": "Ross"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 9,
+            "dirty_value": "Sales",
+            "target_value": "Shipping"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 9,
+            "dirty_value": "3000",
+            "target_value": "1300"
+          },
+          {
+            "attribute": "manager",
+            "dirty_row_1based": 9,
+            "dirty_value": "Carl",
+            "target_value": "John"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 10,
+            "dirty_value": "Ross",
+            "target_value": "Jeff"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 11,
+            "dirty_value": "John",
+            "target_value": "Jess"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 11,
+            "dirty_value": "Marketing",
+            "target_value": "Shipping"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 11,
+            "dirty_value": "3000",
+            "target_value": "1500"
+          },
+          {
+            "attribute": "name",
+            "dirty_row_1based": 12,
+            "dirty_value": "Frank",
+            "target_value": "Jess"
+          },
+          {
+            "attribute": "dept",
+            "dirty_row_1based": 12,
+            "dirty_value": "Sales",
+            "target_value": "Shipping"
+          },
+          {
+            "attribute": "salary",
+            "dirty_row_1based": 12,
+            "dirty_value": "2000",
+            "target_value": "1500"
+          }
+        ]
+      },
+      "rows": 12,
+      "schema": [
+        "name",
+        "dept",
+        "salary",
+        "manager"
+      ],
+      "table": "emp"
+    },
+    {
+      "case_id": "synthetic_01-egtask",
+      "cells": 6,
+      "input_sha256": {
+        "clean_r.csv": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd",
+        "dirty_r.csv": "a86f382274465077aa34ec1b9a5de4e490c3fcf0d5a39b8a363ce4bdbd3a99bd"
+      },
+      "minimum_hamming": {
+        "all_cell_labels_unique": true,
+        "all_cell_target_values_unique": true,
+        "all_optimal_assignments_enumerated": true,
+        "assignment_direction": "dirty row -> clean row; rows are 1-based data rows, header excluded",
+        "cell_target_and_label_support": [
+          {
+            "attribute": "a",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "a1",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "a1"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "b",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "b1",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "b1"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "c",
+            "changed_label_unique": true,
+            "dirty_row_1based": 1,
+            "dirty_value": "c1",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "c1"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "a",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "a2",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "a2"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "b",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "b2",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "b2"
+            ],
+            "target_value_unique": true
+          },
+          {
+            "attribute": "c",
+            "changed_label_unique": true,
+            "dirty_row_1based": 2,
+            "dirty_value": "c2",
+            "possible_changed_labels": [
+              false
+            ],
+            "possible_clean_target_values": [
+              "c2"
+            ],
+            "target_value_unique": true
+          }
+        ],
+        "cost_definition": "sum over all dirty rows and columns of unequal exact decoded CSV strings",
+        "cost_matrix_dirty_by_clean": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "dag_state_definition": "mask marks used clean rows; dirty index is popcount(mask)",
+        "enumeration_limit": 10000,
+        "material_ambiguity_cell_count": 0,
+        "material_ambiguity_cells": [],
+        "optimal_assignment_count": 1,
+        "optimal_assignment_dag": [
+          {
+            "edges": [
+              {
+                "clean_row_1based": 1,
+                "edge_hamming_cost": 0,
+                "next_mask": 1
+              }
+            ],
+            "next_dirty_row_1based": 1,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 0
+          },
+          {
+            "edges": [
+              {
+                "clean_row_1based": 2,
+                "edge_hamming_cost": 0,
+                "next_mask": 3
+              }
+            ],
+            "next_dirty_row_1based": 2,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 1
+          },
+          {
+            "edges": [],
+            "next_dirty_row_1based": 3,
+            "optimal_prefix_count": 1,
+            "optimal_suffix_count": 1,
+            "remaining_optimal_cost": 0,
+            "used_clean_mask": 3
+          }
+        ],
+        "optimal_assignments_dirty_to_clean_1based": [
+          [
+            1,
+            2
+          ]
+        ],
+        "optimal_total_hamming_cost": 0,
+        "possible_row_bindings": [
+          {
+            "clean_rows_1based": [
+              1
+            ],
+            "dirty_row_1based": 1,
+            "optimal_assignment_counts_per_clean_row": {
+              "1": 1
+            }
+          },
+          {
+            "clean_rows_1based": [
+              2
+            ],
+            "dirty_row_1based": 2,
+            "optimal_assignment_counts_per_clean_row": {
+              "2": 1
+            }
+          }
+        ]
+      },
+      "multiset": {
+        "cell_localization": "not provided; unequal row bags do not identify cell edits",
+        "clean_minus_dirty": [],
+        "clean_unmatched_row_count": 0,
+        "dirty_minus_clean": [],
+        "dirty_unmatched_row_count": 0,
+        "equal": true
+      },
+      "position": {
+        "changed_cell_count": 0,
+        "changes": []
+      },
+      "rows": 2,
+      "schema": [
+        "a",
+        "b",
+        "c"
+      ],
+      "table": "r"
+    }
+  ],
+  "data_reads_in_order": [
+    "employees-egtask/clean_emp.csv",
+    "employees-egtask/dirty_emp.csv",
+    "employees-random-egtask/clean_emp.csv",
+    "employees-random-egtask/dirty_emp.csv",
+    "employees-symmetrictest-egtask/clean_emp.csv",
+    "employees-symmetrictest-egtask/dirty_emp.csv",
+    "synthetic_01-egtask/clean_r.csv",
+    "synthetic_01-egtask/dirty_r.csv"
+  ],
+  "finished_utc": "2026-10-09T02:57:20.773966Z",
+  "identity_event_reads": 0,
+  "phase": "CSV-only blind matching",
+  "read_access_guard": "fail-closed Python audit hook; installed after stdlib imports and before data access",
+  "schema_version": "audit-blind-matching/1",
+  "started_utc": "2026-10-09T02:57:20.767223Z"
+}

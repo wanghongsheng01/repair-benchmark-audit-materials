@@ -1,0 +1,37 @@
+[
+  {
+    "case_id": "employees-viogen-egtask_run01",
+    "rows": 8,
+    "cells": 32,
+    "events": 9,
+    "realized_changes": 9,
+    "unexplained_changes": 0,
+    "unrealized_nonnoop_events": 0,
+    "event_value_mismatches": 0,
+    "noop_events": 0,
+    "exported_events": 9,
+    "wiki_contract_mismatches": 9,
+    "implementation_contract_mismatches": 0,
+    "reordered_rows": 8,
+    "positional_cell_differences": 26,
+    "source_preserved": true,
+    "eligible_applied_pair": true,
+    "execution_basis": "extension run",
+    "input_hashes": {
+      "clean_crosswalk_after_export.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+      "clean_emp.csv": "94cc911dfd09fbe0c52676a10d0f03974235e35ce1e67725ec75a4f6eeb715ca",
+      "clean_snapshot.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2",
+      "dirty_crosswalk_after_export.json": "ea940dfa88cda207fbe4ddb8f83fe9597e320ee29d0811fba8e9e56294e46ce6",
+      "dirty_crosswalk_before_export.json": "ea940dfa88cda207fbe4ddb8f83fe9597e320ee29d0811fba8e9e56294e46ce6",
+      "dirty_emp.csv": "4fa41b5adc1140808bfd3676c5b749768461fe8437404c40a10b3d69a75fe6ce",
+      "events_native.csv": "729d8fa639d0e95ff5db2dd6bdf4cf47b50c2fef15f3418efe0f9ad7abad0025",
+      "events_native.json": "623a02f75370faba06cc2694abb7bbe882b472281aabc086f7a53d9643880d20",
+      "native.log": "3b43bdadbee9aae2a167c0aafd5b6fdc06aaf85e7b81d0a36338c6ff162b8664",
+      "run_receipt.json": "7df99d2c68168fa40cfdd2c5d9b9060b3242c8b32cb293b80302819fdf10ee87",
+      "source_after.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+      "source_before.json": "aad724184e71d83b2113d0d90267ab63c32bc75b98851102e5cac3e710fe8116",
+      "target_after_generation.json": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+    },
+    "controls_passed": 2
+  }
+]

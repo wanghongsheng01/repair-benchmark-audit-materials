@@ -1,0 +1,5 @@
+# Third-party inputs and native exports are local only; restore from pins.
+local_source/
+local_roundtrip/
+candidate_source_inspection/
+__pycache__/

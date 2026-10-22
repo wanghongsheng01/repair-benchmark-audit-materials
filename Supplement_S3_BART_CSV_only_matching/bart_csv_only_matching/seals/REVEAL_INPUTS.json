@@ -1,0 +1,87 @@
+{
+  "reveal_started_utc": "2026-10-09T02:54:02.726707Z",
+  "verified_blind_seal_sha256": "6f32368ec76faa354125777728b1e44733735b2e50edc55f1edaa277eed21c39",
+  "sources": [
+    {
+      "path": "reveal/employees-egtask/clean_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/clean_crosswalk_after_export.json",
+      "sha256": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+    },
+    {
+      "path": "reveal/employees-egtask/dirty_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/dirty_crosswalk_after_export.json",
+      "sha256": "d279e24dd1f62eede0995e6ed6cda4df2ecfb4b030096d66a12293e355214390"
+    },
+    {
+      "path": "reveal/employees-egtask/events_native.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/events_native.json",
+      "sha256": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa"
+    },
+    {
+      "path": "reveal/employees-egtask/events_native.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-egtask/events_native.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reveal/employees-random-egtask/clean_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/clean_crosswalk_after_export.json",
+      "sha256": "8fbf47bb4b77649bc3ed08627f7082cadaaa216cf6d4f07df77b403d2ccaaaa2"
+    },
+    {
+      "path": "reveal/employees-random-egtask/dirty_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/dirty_crosswalk_after_export.json",
+      "sha256": "6bddfcc9824b6b89b45ea848fffadc31dcadbba258ce8709e05722f1203fa551"
+    },
+    {
+      "path": "reveal/employees-random-egtask/events_native.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/events_native.json",
+      "sha256": "35e9ae0f7e4e543130bdcce9504a20c513c76658e2fe3473befab4c56ca3d03f"
+    },
+    {
+      "path": "reveal/employees-random-egtask/events_native.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/events_native.csv",
+      "sha256": "49207cfd40ba9233cbf1bbca1cce504062f45795a9417727ea4e7b358883b945"
+    },
+    {
+      "path": "reveal/employees-symmetrictest-egtask/clean_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/clean_crosswalk_after_export.json",
+      "sha256": "cd6ac410623b28a7ca34cd4e451d8c8b3308001b562b2df7d17122115a38d745"
+    },
+    {
+      "path": "reveal/employees-symmetrictest-egtask/dirty_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/dirty_crosswalk_after_export.json",
+      "sha256": "aa7e35b9e58fd343c924daa206d89dd7a706145465a35d87eb32772e416bdd38"
+    },
+    {
+      "path": "reveal/employees-symmetrictest-egtask/events_native.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/events_native.json",
+      "sha256": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa"
+    },
+    {
+      "path": "reveal/employees-symmetrictest-egtask/events_native.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask/events_native.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reveal/synthetic_01-egtask/clean_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/clean_crosswalk_after_export.json",
+      "sha256": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261"
+    },
+    {
+      "path": "reveal/synthetic_01-egtask/dirty_crosswalk_after_export.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/dirty_crosswalk_after_export.json",
+      "sha256": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261"
+    },
+    {
+      "path": "reveal/synthetic_01-egtask/events_native.json",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/events_native.json",
+      "sha256": "5984eac0c5c6d947241e29dd5671b81a1546cedf77e08d38438ac47029969afa"
+    },
+    {
+      "path": "reveal/synthetic_01-egtask/events_native.csv",
+      "source_path": "Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask/events_native.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "reveal_copies_completed_utc": "2026-10-09T02:54:02.734069Z"
+}

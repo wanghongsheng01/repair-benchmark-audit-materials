@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-08T09:35:48.989148+00:00",
+  "first_attempt": "native_run_01",
+  "status": "harness assumption failure after generator, before endpoint calculation",
+  "reason": "Original sample configuration leaves applyCellChanges=false and native dirtyTarget null. Harness erroneously required a materialized dirty target.",
+  "change": "Use original target as native ExportDatabaseCSV overlay input when dirtyTarget is null; no corruption decision/configuration changed.",
+  "retry_rule": "Permitted A1 harness-error retry before outcome calculation. Preserve all first-run events and logs, do not treat them as successful paired cases.",
+  "harness_sha256_after": "b29751d4bb0d2a5971345a38d090aa2ba422e3abef86bfe2a9d5c20ef1901afe"
+}

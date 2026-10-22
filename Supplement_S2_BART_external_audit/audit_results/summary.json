@@ -1,0 +1,20 @@
+{
+  "schema": "audit-bart-external-audit",
+  "scope": "A2 exploratory; all four shipped main-memory tasks adapted only to enable native apply/export",
+  "planned_cases": 4,
+  "eligible_cases": 4,
+  "excluded": [],
+  "total_rows": 30,
+  "total_cells": 118,
+  "native_events": 6,
+  "unexplained_changes": 0,
+  "unrealized_nonnoop_events": 0,
+  "event_value_mismatches": 0,
+  "zero_event_native_cases": 3,
+  "positional_false_alarm_native_zero_event_cases": 2,
+  "wiki_contract_mismatches": 6,
+  "implementation_contract_mismatches": 0,
+  "wrapper_controls_passed": 8,
+  "checker_sha256": "5718332b268c518d52dd08ec0af8bfc91448a77e5941bf61147feed1500a6e03",
+  "native_run_manifest_sha256": "585ded9931bf8b8d04d2005f70545957c3a2def416995183f758834818b27f3e"
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-09T02:41:29.659426+00:00",
+  "file": "PROTOCOL_FROZEN.md",
+  "sha256": "5dc92ca96a8c825245a5479fbdf2b9f5764685b3b1c52774717a7c39019a4ca0",
+  "before_csv_contents_or_outcomes_inspected_by_execution_owner": true,
+  "prior_source_inspection": "README/tree metadata and loader/evaluator source for suitability; excluded from outcome evidence",
+  "scope": "new external consumer-contract study, not BART protocol replacement"
+}

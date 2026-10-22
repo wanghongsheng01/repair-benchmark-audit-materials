@@ -1,0 +1,98 @@
+[
+  {
+    "control_id": "employees-egtask/clean_identity",
+    "kind": "correct negative wrapper",
+    "expected_unexplained": 0,
+    "actual_unexplained": 0,
+    "input_sha256": "1ef949545d792b6ab110330262814b982eb2b226902487b3970de1daae67c647",
+    "event_basis": "empty event list; clean snapshot paired with identical copy"
+  },
+  {
+    "control_id": "employees-egtask/one_unrecorded_cell",
+    "kind": "positive sensitivity wrapper",
+    "base_snapshot": "dirty_crosswalk_before_export.json",
+    "base_sha256": "d279e24dd1f62eede0995e6ed6cda4df2ecfb4b030096d66a12293e355214390",
+    "intervention": {
+      "table": "emp",
+      "oid": "21",
+      "attribute": "dept",
+      "old": "Marketing",
+      "new": "Marketing::AUDIT_SENSITIVITY::"
+    },
+    "expected_unexplained": 1,
+    "actual_unexplained": 1,
+    "event_basis": "unchanged native event identities"
+  },
+  {
+    "control_id": "employees-random-egtask/clean_identity",
+    "kind": "correct negative wrapper",
+    "expected_unexplained": 0,
+    "actual_unexplained": 0,
+    "input_sha256": "1ef949545d792b6ab110330262814b982eb2b226902487b3970de1daae67c647",
+    "event_basis": "empty event list; clean snapshot paired with identical copy"
+  },
+  {
+    "control_id": "employees-random-egtask/one_unrecorded_cell",
+    "kind": "positive sensitivity wrapper",
+    "base_snapshot": "dirty_crosswalk_before_export.json",
+    "base_sha256": "6bddfcc9824b6b89b45ea848fffadc31dcadbba258ce8709e05722f1203fa551",
+    "intervention": {
+      "table": "emp",
+      "oid": "21",
+      "attribute": "dept",
+      "old": "Marketing",
+      "new": "Marketing::AUDIT_SENSITIVITY::"
+    },
+    "expected_unexplained": 1,
+    "actual_unexplained": 1,
+    "event_basis": "unchanged native event identities"
+  },
+  {
+    "control_id": "employees-symmetrictest-egtask/clean_identity",
+    "kind": "correct negative wrapper",
+    "expected_unexplained": 0,
+    "actual_unexplained": 0,
+    "input_sha256": "6aebd00b04289de3acc2e9599745e78c1e4789df4379db68f25d67e3ea2b8de4",
+    "event_basis": "empty event list; clean snapshot paired with identical copy"
+  },
+  {
+    "control_id": "employees-symmetrictest-egtask/one_unrecorded_cell",
+    "kind": "positive sensitivity wrapper",
+    "base_snapshot": "dirty_crosswalk_before_export.json",
+    "base_sha256": "aa7e35b9e58fd343c924daa206d89dd7a706145465a35d87eb32772e416bdd38",
+    "intervention": {
+      "table": "emp",
+      "oid": "21",
+      "attribute": "dept",
+      "old": "Marketing",
+      "new": "Marketing::AUDIT_SENSITIVITY::"
+    },
+    "expected_unexplained": 1,
+    "actual_unexplained": 1,
+    "event_basis": "unchanged native event identities"
+  },
+  {
+    "control_id": "synthetic_01-egtask/clean_identity",
+    "kind": "correct negative wrapper",
+    "expected_unexplained": 0,
+    "actual_unexplained": 0,
+    "input_sha256": "543f30998308b8dd054debc70675134025ef7360086abfd56c8c3757553c2f95",
+    "event_basis": "empty event list; clean snapshot paired with identical copy"
+  },
+  {
+    "control_id": "synthetic_01-egtask/one_unrecorded_cell",
+    "kind": "positive sensitivity wrapper",
+    "base_snapshot": "dirty_crosswalk_before_export.json",
+    "base_sha256": "ad538eb29db8e048aaa6ed1c9bd63f0a024c015985aa3883c887f205f5300261",
+    "intervention": {
+      "table": "r",
+      "oid": "12",
+      "attribute": "a",
+      "old": "a2",
+      "new": "a2::AUDIT_SENSITIVITY::"
+    },
+    "expected_unexplained": 1,
+    "actual_unexplained": 1,
+    "event_basis": "unchanged native event identities"
+  }
+]

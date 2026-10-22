@@ -1,0 +1,10 @@
+{
+  "schema_version": "audit-blind-matching/1",
+  "blind_required": ["case_id", "schema", "rows", "cells", "input_sha256", "position", "multiset", "minimum_hamming"],
+  "assignment_required": ["cost_matrix_dirty_by_clean", "optimal_total_hamming_cost", "optimal_assignment_count", "optimal_assignment_dag", "possible_row_bindings", "cell_target_and_label_support", "material_ambiguity_cells", "optimal_assignments_dirty_to_clean_1based"],
+  "reveal_required": ["native_identity_assignment", "native_identity_cost", "native_identity_is_optimal", "native_changes", "native_events", "native_concordance", "position_scores", "minimum_hamming_score_bounds", "ambiguity_witnesses"],
+  "score_numerators": ["tp", "fp", "fn", "tn", "label_correct", "repair_correct", "target_correct"],
+  "coordinates": "dirty CSV data row (1-based, excluding header), attribute",
+  "undefined_ratio": null,
+  "ordinary_duplicate_identity_multiplicity_is_material_ambiguity": false
+}

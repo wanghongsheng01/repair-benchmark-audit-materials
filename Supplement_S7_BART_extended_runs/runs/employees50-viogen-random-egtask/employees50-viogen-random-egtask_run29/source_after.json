@@ -1,0 +1,98 @@
+{
+  "md" : [ {
+    "oid" : "8",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "GYYVJCBSQOE"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "4459"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "RYIUSLZCGYM"
+      }
+    }
+  }, {
+    "oid" : "12",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "WXSYOABIWJE"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "3286"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "HJVTIAFWGHM"
+      }
+    }
+  }, {
+    "oid" : "16",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "URXEKIXIEGE"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "3627"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "VWUNMQIGINM"
+      }
+    }
+  }, {
+    "oid" : "20",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "NBHUTLZRUDE"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "3819"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "EFJCSADIGRM"
+      }
+    }
+  }, {
+    "oid" : "24",
+    "cells" : {
+      "name" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "USRSURUXBHE"
+      },
+      "salary" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "2925"
+      },
+      "manager" : {
+        "null_reference" : false,
+        "runtime_class" : "speedy.model.database.ConstantValue",
+        "text" : "SZYKZZWOUEM"
+      }
+    }
+  } ]
+}

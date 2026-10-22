@@ -1,0 +1,41 @@
+test_complete_empirical_roster (__main__.ConstructedSoftwareTests) ... ok
+test_constructed_semantic_ambiguity_is_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_consumer_missing_score_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_consumer_mixed_outcomes_remain_separate (__main__.ConstructedSoftwareTests) ... ok
+test_current_wrong_authority_is_separate_from_historical_cohorts (__main__.ConstructedSoftwareTests) ... ok
+test_documented_probe_nan_preserved (__main__.ConstructedSoftwareTests) ... ok
+test_dp_against_exhaustive_small_constructed_matrices (__main__.ConstructedSoftwareTests) ... ok
+test_dropped_case_and_self_reported_roster_still_rejected (__main__.ConstructedSoftwareTests) ... ok
+test_duplicate_case_rejected (__main__.ConstructedSoftwareTests) ... ok
+test_empty_label_hashes_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_false_raw_score_not_reinterpreted_as_effect (__main__.ConstructedSoftwareTests) ... ok
+test_foreign_family_proposition_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_impossible_confusion_bounds_are_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_incomplete_optimum_enumeration_is_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_input_hash_change_rejected_without_partial_output (__main__.ConstructedSoftwareTests) ... ok
+test_json_duplicate_keys_and_nan_rejected (__main__.ConstructedSoftwareTests) ... ok
+test_label_denominator_invalid_gates_both_probes (__main__.ConstructedSoftwareTests) ... ok
+test_label_hash_count_conflict_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_missing_certificate_witness_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_missing_current_original_does_not_certify_intent (__main__.ConstructedSoftwareTests) ... ok
+test_missing_event_witness_not_redirected_to_certificate (__main__.ConstructedSoftwareTests) ... ok
+test_missing_exactness_field_not_false (__main__.ConstructedSoftwareTests) ... ok
+test_missing_or_duplicate_support_is_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_native_inconsistent_summary_not_producer_defect (__main__.ConstructedSoftwareTests) ... ok
+test_null_or_missing_source_ref_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_optional_boolean_type_strict (__main__.ConstructedSoftwareTests) ... ok
+test_refusal_conflicting_checker_counts_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_roundtrip_digest_count_conflict_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_saved_optimum_tamper_is_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_source_hash_change_rejected (__main__.ConstructedSoftwareTests) ... ok
+test_two_identical_row_optima_do_not_imply_semantic_ambiguity (__main__.ConstructedSoftwareTests) ... ok
+test_unknown_certificate_cohort_unknown (__main__.ConstructedSoftwareTests) ... ok
+test_unknown_matching_still_renders_complete_outputs (__main__.ConstructedSoftwareTests) ... ok
+test_valid_refusal_not_answered_repair (__main__.ConstructedSoftwareTests) ... ok
+test_zero_label_probe_not_perfect (__main__.ConstructedSoftwareTests) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.052s
+
+OK
+{"ledger_sha256": "8bb27b0299a91ebc5ede0876f316f7e249e38f71f50e2bfc7221168a3cd8e22d", "empirical_cases": 11, "certificate_cohorts": 6, "source_files_reopened": false}

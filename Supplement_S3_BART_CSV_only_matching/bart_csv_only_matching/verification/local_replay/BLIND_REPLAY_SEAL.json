@@ -1,0 +1,5 @@
+{
+  "sealed_utc": "2026-10-09T02:57:20.781201+00:00",
+  "blind_results_sha256": "0867a5e2ca9636c56fea106337b5604bf2037e81b7fa38fc94da65cb42ff5a82",
+  "phase": "fresh replay blind result sealed before replay reveal"
+}

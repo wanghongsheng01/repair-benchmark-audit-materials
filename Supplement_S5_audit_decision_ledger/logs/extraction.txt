@@ -1,0 +1,1 @@
+{"output": "<workspace>/Supplement_S5_audit_decision_ledger/logs/reextracted_evidence.json", "sha256": "4a0bc7183d610273112617a6e71f4ef8cc4d1545e44c24ef71bbbf7c4ef62f4d", "empirical_cases": 11, "certificate_cohorts": 6, "saved_software_records_indexed": 32946, "current_software_examples": 1}

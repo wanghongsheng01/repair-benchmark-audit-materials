@@ -1,0 +1,21 @@
+{
+  "case_id": "employees-random-egtask",
+  "upstream_task": "employees/employees-random-egtask.xml",
+  "task_sha256": "d0341b7c7667e7e83a05069462eb6d2ba611919ee151e906d3cc26afa243b143",
+  "harness_sha256": "b29751d4bb0d2a5971345a38d090aa2ba422e3abef86bfe2a9d5c20ef1901afe",
+  "started_at_utc": "2026-10-08T09:35:50.021321+00:00",
+  "command": [
+    "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+    "-Xmx512m",
+    "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+    "-cp",
+    "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+    "BartAuditHarness",
+    "<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/Bart_Engine/misc/resources/employees/employees-random-egtask.xml",
+    "<workspace>/Supplement_S2_BART_external_audit/native_run_02/employees-random-egtask"
+  ],
+  "original_task_unchanged": true,
+  "returncode": 0,
+  "completed": true,
+  "ended_at_utc": "2026-10-08T09:35:50.338433+00:00"
+}

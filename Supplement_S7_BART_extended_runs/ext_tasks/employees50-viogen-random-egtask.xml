@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+    <source>    
+        <type>GENERATE</type>
+        <generate>
+<![CDATA[
+SCHEMA:
+md(name, salary, manager)
+INSTANCE:
+md(name: "GYYVJCBSQOE", salary: "4459", manager: "RYIUSLZCGYM")
+md(name: "WXSYOABIWJE", salary: "3286", manager: "HJVTIAFWGHM")
+md(name: "URXEKIXIEGE", salary: "3627", manager: "VWUNMQIGINM")
+md(name: "NBHUTLZRUDE", salary: "3819", manager: "EFJCSADIGRM")
+md(name: "USRSURUXBHE", salary: "2925", manager: "SZYKZZWOUEM")
+]]>
+        </generate>
+    </source>
+    <target>    
+        <type>GENERATE</type>
+        <generate>
+<![CDATA[
+SCHEMA:
+emp(name, dept, salary, manager)
+INSTANCE:
+emp(name: "XUXOIWLXSVE", dept: "DD94868", salary: "1918", manager: "Paolo")
+emp(name: "Paolo", dept: "DD51487", salary: "93860", manager: "EETBNZSUKAM")
+emp(name: "TMDXWSCUHSE", dept: "DD31050", salary: "2617", manager: "NWNSALIYVAM")
+emp(name: "HYHKEQTMHDE", dept: "DD93665", salary: "4153", manager: "CAFIDTXJRRM")
+emp(name: "VZXIEFGJBBE", dept: "DD04207", salary: "2905", manager: "NBKLQFAQSIM")
+emp(name: "GLROQUAXEJE", dept: "DD44833", salary: "4170", manager: "EZXDGPVYDYM")
+emp(name: "DLTKSZQQIWE", dept: "DD59374", salary: "1088", manager: "WLJKAYLDYSM")
+emp(name: "HBLTWVBCGME", dept: "DD48733", salary: "4399", manager: "LRFSLITBANM")
+emp(name: "LSIKJLLUSQE", dept: "DD09539", salary: "1055", manager: "OQAUQVQHOIM")
+emp(name: "NBHUTLZRUDE", dept: "DD96710", salary: "3126", manager: "EFJCSADIGRM")
+emp(name: "NAGAJFYOUQE", dept: "DD84401", salary: "2321", manager: "KNMVCYLFZQM")
+emp(name: "HPUYBEJHOUE", dept: "DD16790", salary: "2549", manager: "KNMVCYLFZQM")
+emp(name: "DQRBZULTAYE", dept: "DD07244", salary: "1259", manager: "HWMMFBGBDUM")
+emp(name: "EFPHYHSNKUE", dept: "DD50328", salary: "1186", manager: "PJBYLUFOVOM")
+emp(name: "TQKJTMMVBEE", dept: "DD43051", salary: "3334", manager: "EQTDUOXQFCM")
+emp(name: "ZEAJXTUDXSE", dept: "DD56908", salary: "1828", manager: "NGRZZJGSPXM")
+emp(name: "OWVKZCXZQLE", dept: "DD70473", salary: "1960", manager: "BITZUPQCHSM")
+emp(name: "OPWSPGSHCRE", dept: "DD98300", salary: "1229", manager: "UVRYTEHQLGM")
+emp(name: "RIISYISFUOE", dept: "DD23688", salary: "1623", manager: "TJUSAKEVAOM")
+emp(name: "DPQLTUETVWE", dept: "DD97854", salary: "2577", manager: "QQWPYQNAOWM")
+emp(name: "KMNPJKKHYAE", dept: "DD45197", salary: "3065", manager: "IXTDMCXNNYM")
+emp(name: "YIABJHAJZAE", dept: "DD99475", salary: "3521", manager: "QHSKNTFYACM")
+emp(name: "IATGMAONVHE", dept: "DD14575", salary: "3704", manager: "BOKNGLJBJVM")
+emp(name: "DLTKSZQQIWE", dept: "DD59374", salary: "1203", manager: "WLJKAYLDYSM")
+emp(name: "CTQJMPJBXTE", dept: "DD95005", salary: "3446", manager: "YWDUWYCDGJM")
+emp(name: "FFAUJXOKYFE", dept: "DD34712", salary: "4037", manager: "ZKUTZKTSDEM")
+emp(name: "LSIKJLLUSQE", dept: "DD09539", salary: "1632", manager: "OQAUQVQHOIM")
+emp(name: "AFVBMKVPVDE", dept: "DD69952", salary: "3729", manager: "QLOCETVTZAM")
+emp(name: "NMXVMJUHOYE", dept: "DD97211", salary: "3200", manager: "JZIOKRMBYEM")
+emp(name: "CXGJNAHMBBE", dept: "DD04634", salary: "3225", manager: "FGJVUKOOHNM")
+emp(name: "FTQMVLBGVFE", dept: "DD30813", salary: "1767", manager: "OESKPZFXEEM")
+emp(name: "NKCPAJRQTAE", dept: "DD36585", salary: "4424", manager: "DJJAKFWJAAM")
+emp(name: "GYYVJCBSQOE", dept: "DD23839", salary: "1031", manager: "RYIUSLZCGYM")
+emp(name: "NDUIGUUCFOE", dept: "DD08955", salary: "1440", manager: "ZJTALSBYPAM")
+emp(name: "IBFIIWGQYLE", dept: "DD69909", salary: "4218", manager: "QQWPYQNAOWM")
+emp(name: "QNHROKOEUFE", dept: "DD54143", salary: "2196", manager: "GKGPEMMGAIM")
+emp(name: "YVUQQQXBLDE", dept: "DD23670", salary: "4614", manager: "ZJTALSBYPAM")
+emp(name: "EPBCNTZFJYE", dept: "DD88442", salary: "4433", manager: "HRHGHMPUGAM")
+emp(name: "KTXIUXFWMJE", dept: "DD67285", salary: "3578", manager: "EZXDGPVYDYM")
+emp(name: "ZYMOIGWIIOE", dept: "DD04084", salary: "1265", manager: "BFVORJBMSXM")
+emp(name: "XUXOIWLXSVE", dept: "DD94868", salary: "3131", manager: "Paolo")
+emp(name: "IKPECCDECKE", dept: "DD19895", salary: "3595", manager: "MRRILYZHVIM")
+emp(name: "FCTRRUCIRVE", dept: "DD29944", salary: "1388", manager: "KNMVCYLFZQM")
+emp(name: "QVRDMXAFVGE", dept: "DD61445", salary: "3985", manager: "QHEOCNZBLGM")
+emp(name: "VGWPXJJILKE", dept: "DD78932", salary: "4334", manager: "IYHLXLNAHIM")
+emp(name: "PNBSRBVSXVE", dept: "DD88163", salary: "3338", manager: "FGJVUKOOHNM")
+emp(name: "YTZGJXRETWE", dept: "DD62717", salary: "2215", manager: "EIPHSLZBHZM")
+emp(name: "KQDISKXQHGE", dept: "DD45355", salary: "1900", manager: "BCOUHNPMOZM")
+emp(name: "PUOFRVSYEQE", dept: "DD54002", salary: "1010", manager: "IXTDMCXNNYM")
+emp(name: "EABCDVDCPXE", dept: "DD08704", salary: "1545", manager: "OGRZASKWKZM")
+]]>
+        </generate>
+    </target>
+    <dependencies>
+<![CDATA[
+DCs:
+e1: emp(name: $n1, dept: $d1, salary: $s1, manager: $m1), 
+    emp(name: $n2, dept: $d2, salary: $s2, manager: $m2), 
+        $n1 == $n2, $d1 != $d2 -> #fail.
+
+e2: emp(name: $n1, dept: $d1, salary: $s1, manager: $m1), 
+    emp(name: $n2, dept: $d2, salary: $s2, manager: $m2), 
+        $n1 == $n2, $d1 == $d2, $d1 == "Sales", $m1 != $m2 -> #fail.
+
+e3: emp(name: $n1, dept: $d1, salary: $s1, manager: $m1), 
+        $d1 == "Staff", $s1 != 1000 -> #fail.
+
+e4: emp(name: $n1, dept: $d1, salary: $s1, manager: $m1), 
+    md(name: $n2, salary: $s2, manager: $m2), 
+        $n1 == $n2, $m1 != $m2 -> #fail.
+
+e5: emp(name: $n1, dept: $d1, salary: $s1, manager: $m1), 
+    emp(name: $n2, dept: $d2, salary: $s2, manager: $m2), 
+        $m1 == $n2, $s2 < $s1 -> #fail.
+]]>
+    </dependencies>
+    <authoritativeSources>
+        <source>md</source>
+    </authoritativeSources>
+    <configuration>
+        <errorPercentages>
+            <defaultPercentage>5</defaultPercentage>
+        </errorPercentages>
+        <randomErrors>
+            <tables>
+                <table name="emp">
+                    <percentage>5</percentage>
+                    <attributes>
+                        <attribute>name</attribute>
+                        <attribute>salary</attribute>
+                        <attribute>manager</attribute>
+                    </attributes>
+                </table>
+            </tables>
+        </randomErrors>
+    </configuration>
+</task>

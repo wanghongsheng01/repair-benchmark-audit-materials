@@ -1,0 +1,206 @@
+{
+  "candidate": "BART official 2016 sample archive",
+  "url": "https://db.unibas.it/projects/bart/files/BART-Datasets.zip",
+  "sha256": "090d751c72a42132debbe7f126f863587ba8de3fba2a82b655c2cb39aeedf492",
+  "eligibility": "clean inputs and configurations; no dirty/event result corpus; not used for applied experiment",
+  "redistribution": "excluded; no standalone data license located",
+  "members": [
+    {
+      "path": "BART-Datasets/customers-10k/customers-dbms-10k-egtask.xml",
+      "bytes": 5477
+    },
+    {
+      "path": "BART-Datasets/customers-10k/xml/10k_customers.xml",
+      "bytes": 670653
+    },
+    {
+      "path": "BART-Datasets/customers-10k/xml/10k_treatments.xml",
+      "bytes": 934784
+    },
+    {
+      "path": "BART-Datasets/customers-10k/xml/consttablecf1.xml",
+      "bytes": 368
+    },
+    {
+      "path": "BART-Datasets/customers-10k/xml/consttablecf2.xml",
+      "bytes": 156
+    },
+    {
+      "path": "BART-Datasets/customers-200k/customers-dbms-200k-egtask.xml",
+      "bytes": 7177
+    },
+    {
+      "path": "BART-Datasets/customers-200k/xml/200k_customers.xml",
+      "bytes": 13394434
+    },
+    {
+      "path": "BART-Datasets/customers-200k/xml/200k_master.xml",
+      "bytes": 2027170
+    },
+    {
+      "path": "BART-Datasets/customers-200k/xml/200k_treatments.xml",
+      "bytes": 18620247
+    },
+    {
+      "path": "BART-Datasets/customers-200k/xml/consttablecf1.xml",
+      "bytes": 368
+    },
+    {
+      "path": "BART-Datasets/customers-200k/xml/consttablecf2.xml",
+      "bytes": 156
+    },
+    {
+      "path": "BART-Datasets/customers-50k/customers-dbms-50k-egtask.xml",
+      "bytes": 6206
+    },
+    {
+      "path": "BART-Datasets/customers-50k/xml/50k_customers.xml",
+      "bytes": 3352700
+    },
+    {
+      "path": "BART-Datasets/customers-50k/xml/50k_master.xml",
+      "bytes": 1013681
+    },
+    {
+      "path": "BART-Datasets/customers-50k/xml/50k_treatments.xml",
+      "bytes": 4673551
+    },
+    {
+      "path": "BART-Datasets/customers-50k/xml/consttablecf1.xml",
+      "bytes": 368
+    },
+    {
+      "path": "BART-Datasets/customers-50k/xml/consttablecf2.xml",
+      "bytes": 156
+    },
+    {
+      "path": "BART-Datasets/customers/customers-HighRep-dbms-egtask.xml",
+      "bytes": 6891
+    },
+    {
+      "path": "BART-Datasets/customers/customers-LowRep-dbms-egtask.xml",
+      "bytes": 6236
+    },
+    {
+      "path": "BART-Datasets/customers/customers-MedRep-dbms-egtask.xml",
+      "bytes": 5870
+    },
+    {
+      "path": "BART-Datasets/customers/xml/10k_customers.xml",
+      "bytes": 670653
+    },
+    {
+      "path": "BART-Datasets/customers/xml/10k_treatments.xml",
+      "bytes": 934784
+    },
+    {
+      "path": "BART-Datasets/customers/xml/consttablecf1.xml",
+      "bytes": 368
+    },
+    {
+      "path": "BART-Datasets/customers/xml/consttablecf2.xml",
+      "bytes": 156
+    },
+    {
+      "path": "BART-Datasets/employees-200k/employees-dbms-200k-egtask.xml",
+      "bytes": 5601
+    },
+    {
+      "path": "BART-Datasets/employees-200k/xml/200ktuples_emp.xml",
+      "bytes": 24950952
+    },
+    {
+      "path": "BART-Datasets/employees-200k/xml/200ktuples_md.xml",
+      "bytes": 2468993
+    },
+    {
+      "path": "BART-Datasets/soccer/soccer-real-dbms-2k-egtask.xml",
+      "bytes": 3193
+    },
+    {
+      "path": "BART-Datasets/soccer/soccer-synt-10k-egtask.xml",
+      "bytes": 4107
+    },
+    {
+      "path": "BART-Datasets/soccer/soccer_real.csv",
+      "bytes": 132880
+    },
+    {
+      "path": "BART-Datasets/soccer/soccer_synth_10k.csv",
+      "bytes": 10873118
+    },
+    {
+      "path": "BART-Datasets/soccer/toxgene/in/cities.xml",
+      "bytes": 2162
+    },
+    {
+      "path": "BART-Datasets/soccer/toxgene/in/positions.xml",
+      "bytes": 238
+    },
+    {
+      "path": "BART-Datasets/soccer/toxgene/in/stadiums.xml",
+      "bytes": 2932
+    },
+    {
+      "path": "BART-Datasets/soccer/toxgene/in/teams.xml",
+      "bytes": 10225
+    },
+    {
+      "path": "BART-Datasets/soccer/toxgene/soccer_10k.tsl",
+      "bytes": 8948
+    },
+    {
+      "path": "BART-Datasets/tax-200k/dependencies.xml",
+      "bytes": 2969
+    },
+    {
+      "path": "BART-Datasets/tax-200k/tax-dbms-200k-egtask.xml",
+      "bytes": 10775
+    },
+    {
+      "path": "BART-Datasets/tax-200k/xml/200k_tax.xml",
+      "bytes": 78430544
+    },
+    {
+      "path": "BART-Datasets/tax-200k/xml/consttablecf1.xml",
+      "bytes": 320
+    },
+    {
+      "path": "BART-Datasets/tax-200k/xml/consttablecf2.xml",
+      "bytes": 154
+    },
+    {
+      "path": "BART-Datasets/tax/tax-HighRep-dbms-20k-egtask.xml",
+      "bytes": 6410
+    },
+    {
+      "path": "BART-Datasets/tax/tax-LowRep-dbms-20k-egtask.xml",
+      "bytes": 6756
+    },
+    {
+      "path": "BART-Datasets/tax/tax-MedRep-dbms-20k-egtask.xml",
+      "bytes": 7485
+    },
+    {
+      "path": "BART-Datasets/tax/tax-random-dbms-20k-egtask.xml",
+      "bytes": 2364
+    },
+    {
+      "path": "BART-Datasets/tax/tax_dataset.pdf",
+      "bytes": 198676
+    },
+    {
+      "path": "BART-Datasets/tax/xml/5k_tax.xml",
+      "bytes": 1953514
+    },
+    {
+      "path": "BART-Datasets/tax/xml/consttablecf1.xml",
+      "bytes": 320
+    },
+    {
+      "path": "BART-Datasets/tax/xml/consttablecf2.xml",
+      "bytes": 154
+    }
+  ],
+  "fallback": "HoloClean official file tree inspected only; no outcome analysis or experiment"
+}

@@ -1,0 +1,120 @@
+{
+  "schema": "AUDIT_V5_PROTOCOL_REGRESSION_RECEIPT",
+  "executed_at_utc": "2026-10-08T09:33:48.191990+00:00",
+  "inputs": [
+    {
+      "file": "tasks.jsonl",
+      "sha256": "6f8dd07a18af1572c124c404b455d493c167790d7676a0925a11f7c04761c5c7",
+      "bytes": 3747863
+    },
+    {
+      "file": "clean_controls.jsonl",
+      "sha256": "3027c9d01c7ed9427ddbf3d12dc895842fee4286c94f4c1e017455aac47c33c9",
+      "bytes": 809200
+    }
+  ],
+  "code_sha256": {
+    "reference_repair.py": "8ae29823488568f3bc0c2e4a7a8416178190d4dd39b0fca33cef495ceaac2d64",
+    "verify_certificate.py": "32bfe52bdd5a0d844c0025bb6fe26dd566e2eb78f7c22ccaf24252048d433407",
+    "run_robustness.py": "797a7ea9bdd2103f9c89e0d249142be627ad49d7cf5330007f48ed7bf145e233"
+  },
+  "code_set_sha256": "4878b84f2fbc199625632370e8fd1ad852de9eff580b2a6aef4990a73ce54828",
+  "unique_cases": 32946,
+  "case_counts": {
+    "valid": {
+      "ordinary": 854
+    },
+    "idempotence": {
+      "output_as_input": 854
+    },
+    "gold_independence": {
+      "poisoned_saved_gold": 854
+    },
+    "tamper": {
+      "deleted_certificate_occurrence": 854,
+      "changed_registry_metadata": 854,
+      "changed_observed_adjacency": 854,
+      "wrong_schema": 854,
+      "wrong_rule": 854,
+      "wrong_reason": 854,
+      "wrong_answered": 854,
+      "wrong_certificate_identity": 854,
+      "wrong_output": 854,
+      "coherent_false_projection": 854,
+      "forged_success_after_completeness_false": 854,
+      "forged_success_after_completeness_null": 854,
+      "forged_success_after_completeness_integer_one": 854,
+      "forged_success_after_completeness_string_true": 854,
+      "forged_success_after_completeness_omitted": 854,
+      "forged_success_after_missing_required_declaration_fields": 854,
+      "forged_success_after_unsupported_type": 854,
+      "forged_success_after_metric_identity_mismatch": 854,
+      "forged_success_after_duplicate_metric_registry_identity": 854,
+      "forged_success_after_malformed_observed_adjacency": 854,
+      "forged_success_after_missing_registry_target": 854,
+      "forged_success_after_ambiguous_measure_registry": 364,
+      "forged_success_after_empty_measure_target": 364,
+      "forged_success_after_wrong_type_measure_target": 364,
+      "forged_success_after_duplicate_measure_registry_identity": 364
+    },
+    "refusal": {
+      "completeness_false": 854,
+      "completeness_null": 854,
+      "completeness_integer_one": 854,
+      "completeness_string_true": 854,
+      "completeness_omitted": 854,
+      "missing_required_declaration_fields": 854,
+      "unsupported_type": 854,
+      "metric_identity_mismatch": 854,
+      "duplicate_metric_registry_identity": 854,
+      "malformed_observed_adjacency": 854,
+      "missing_registry_target": 854,
+      "ambiguous_measure_registry": 364,
+      "empty_measure_target": 364,
+      "wrong_type_measure_target": 364,
+      "duplicate_measure_registry_identity": 364
+    },
+    "extended": {
+      "all_deleted": 48,
+      "all_roles_corrupted": 48,
+      "all_occurrences_duplicated": 48
+    }
+  },
+  "mutation_edit_volume": {
+    "added": 696,
+    "removed": 486,
+    "preserved": 389,
+    "rebuilt_output_occurrences": 1085
+  },
+  "files": {
+    "valid_cases.jsonl": {
+      "sha256": "93e021cf9a1d6e4e32fbe77f12fa6359fde89c5777b159428e902ede7f4bb85f",
+      "records": 854
+    },
+    "extended_cases.jsonl": {
+      "sha256": "9040b3d57c2e545a6dcb2f3b064d79aa1046c266d6eb883be014ca40267ffc5c",
+      "records": 144
+    },
+    "refusal_cases.jsonl": {
+      "sha256": "f5de4259d9846fda51c3458af70cd2c0564ab4567bab88653614f036bc277c6d",
+      "records": 10850
+    },
+    "tamper_cases.jsonl": {
+      "sha256": "39bc6b6ccfe83380023f79a38a68c61653d450855457ff97fd99d53d08bbd669",
+      "records": 19390
+    },
+    "idempotence_cases.jsonl": {
+      "sha256": "528d500410f23d824e95e9e603424f5da3ee1a92f711cb797eeb18f5fc244849",
+      "records": 854
+    },
+    "gold_independence_cases.jsonl": {
+      "sha256": "6ea9ab9c75e8d1fc6361b5f6f2cbbbc42da561f30b2631ee2ad3d0cc4bf02439",
+      "records": 854
+    }
+  },
+  "python": "3.9.6",
+  "machine": "arm64",
+  "system": "Darwin",
+  "input_files_unchanged": true,
+  "scope": "deterministic implementation regression; reused declarations; no independent business gold, natural defects, or performance conclusion"
+}

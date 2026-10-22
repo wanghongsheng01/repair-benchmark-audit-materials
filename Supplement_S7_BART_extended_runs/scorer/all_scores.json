@@ -1,0 +1,2840 @@
+[
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run01",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run02",
+  "events": 3,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run03",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run04",
+  "events": 5,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run05",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run07",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run08",
+  "events": 4,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run09",
+  "events": 3,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run10",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run11",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run12",
+  "events": 3,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run14",
+  "events": 6,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run15",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run16",
+  "events": 4,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run17",
+  "events": 4,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run18",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run19",
+  "events": 6,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run20",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run22",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run23",
+  "events": 4,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run24",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run25",
+  "events": 3,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run26",
+  "events": 3,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run28",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run29",
+  "events": 1,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-random-egtask",
+  "case_id": "employees-random-egtask_run30",
+  "events": 2,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run01",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run02",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run03",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run04",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run05",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run06",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run07",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run08",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run09",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run10",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run11",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run12",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run13",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run14",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run15",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run16",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run17",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run18",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run19",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run20",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run21",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run22",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run23",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run24",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run25",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run26",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run27",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run28",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run29",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees-viogen-egtask",
+  "case_id": "employees-viogen-egtask_run30",
+  "events": 9,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run01",
+  "events": 21,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run02",
+  "events": 16,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run03",
+  "events": 15,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run04",
+  "events": 18,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run05",
+  "events": 17,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run06",
+  "events": 24,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run07",
+  "events": 18,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run08",
+  "events": 21,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run09",
+  "events": 16,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run10",
+  "events": 21,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run11",
+  "events": 23,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run12",
+  "events": 20,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run13",
+  "events": 16,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run14",
+  "events": 17,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run15",
+  "events": 20,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run16",
+  "events": 18,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run17",
+  "events": 24,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run18",
+  "events": 19,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run19",
+  "events": 20,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run20",
+  "events": 15,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run21",
+  "events": 19,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run22",
+  "events": 20,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run23",
+  "events": 19,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run24",
+  "events": 17,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run25",
+  "events": 19,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run26",
+  "events": 17,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run27",
+  "events": 18,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run28",
+  "events": 21,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run29",
+  "events": 15,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ },
+ {
+  "task": "employees50-viogen-random-egtask",
+  "case_id": "employees50-viogen-random-egtask_run30",
+  "events": 20,
+  "snapshot_clean_probe": {
+   "value": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  },
+  "documented_clean_column_probe": {
+   "value": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": null,
+    "native_f1_text": "NaN"
+   },
+   "cell": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "native_f1_text": "1.0"
+   }
+  }
+ }
+]

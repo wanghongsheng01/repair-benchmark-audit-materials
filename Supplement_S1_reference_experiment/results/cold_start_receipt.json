@@ -1,0 +1,225 @@
+{
+  "schema": "audit-public-cold-start",
+  "network_calls": false,
+  "upstream_programs_executed": false,
+  "dependency_installations": false,
+  "steps": [
+    {
+      "step": "restore_29_sources",
+      "exit_code": 0,
+      "stdout_sha256": "712e30e4ebbc546021e0dab282b7dbbed06b02a3f14a8651d36c6dacaf161c49"
+    },
+    {
+      "step": "regenerate_854_tasks_byte_exact",
+      "exit_code": 0,
+      "stdout_sha256": "fbe4783f8ddbeeac557f161a95bb3ded31f14ce828e8235f1bb97714b3f43d19"
+    },
+    {
+      "step": "rescore_frozen_5124",
+      "exit_code": 0,
+      "stdout_sha256": "be56ba8c7d879c56e05de72ebc8f2b82ca7d65a0748b3ea2a54b4a86f0c92f24"
+    },
+    {
+      "step": "run_new_5124",
+      "exit_code": 0,
+      "stdout_sha256": "304b83592f83cfa9d63eaf0f0d3ced706b0975d8a37571ea79ea6d3effcc17e0"
+    },
+    {
+      "step": "independent_score",
+      "exit_code": 0,
+      "stdout_sha256": "50911e5c91aeceb681dbf6ea1e6e76fbcc4d2b99eaa3c16573fe02008c25b100"
+    },
+    {
+      "step": "scorer_negative_controls",
+      "exit_code": 0,
+      "stdout_sha256": "0e1fd0504dca0eaf335e51a8b4ca45b25f4b8d2b474fac39179cc8e263f498b1"
+    },
+    {
+      "step": "rerun_per_case_robustness",
+      "exit_code": 0,
+      "stdout_sha256": "09ad85bae8914e8a9096540fcb623dc82f2e73e836c28581e21a1d7f6227583a"
+    }
+  ],
+  "task_hashes": [
+    {
+      "path": "data/clean_controls.jsonl",
+      "sha256": "3027c9d01c7ed9427ddbf3d12dc895842fee4286c94f4c1e017455aac47c33c9"
+    },
+    {
+      "path": "data/tasks.jsonl",
+      "sha256": "6f8dd07a18af1572c124c404b455d493c167790d7676a0925a11f7c04761c5c7"
+    }
+  ],
+  "isolated_score": {
+    "schema": "audit-independent-public-score",
+    "mode": "current",
+    "tasks": 696,
+    "clean_controls": 158,
+    "unique_complete_predictions": 5124,
+    "method_count": 6,
+    "certificates_checked": 854,
+    "certificate_scope": "independent authority parsing and typed registry resolution",
+    "input_digest": "02b2c86a51d187b76ce7896c0d432157e2e2762a6a04763bbcf9336e68a6a6ef",
+    "prediction_sha256": "1aa7147e06498668649a7382dd9f39b8d2e27f83eceb69693f8e0002e8c7137a",
+    "mutation_edit_volume": {
+      "added": 696,
+      "removed": 486,
+      "preserved": 389,
+      "gold_occurrences": 1085,
+      "observed_occurrences": 875
+    },
+    "public_table_rows": 72,
+    "category_rows": 30,
+    "aggregate_rows": [
+      {
+        "method": "certified_minimal_patch",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 158,
+        "answered": 158,
+        "changed": 0,
+        "wrong_changed": 0,
+        "median_cpu_us": 332.562,
+        "p95_cpu_us": 366.75
+      },
+      {
+        "method": "certified_minimal_patch",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 696,
+        "answered": 696,
+        "changed": 696,
+        "wrong_changed": 0,
+        "median_cpu_us": 346.167,
+        "p95_cpu_us": 389.833
+      },
+      {
+        "method": "direct_declaration_rebuild",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 158,
+        "answered": 158,
+        "changed": 0,
+        "wrong_changed": 0,
+        "median_cpu_us": 288.958,
+        "p95_cpu_us": 309.042
+      },
+      {
+        "method": "direct_declaration_rebuild",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 696,
+        "answered": 696,
+        "changed": 696,
+        "wrong_changed": 0,
+        "median_cpu_us": 285.208,
+        "p95_cpu_us": 310.375
+      },
+      {
+        "method": "expression_scan",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 116,
+        "answered": 158,
+        "changed": 42,
+        "wrong_changed": 42,
+        "median_cpu_us": 0.292,
+        "p95_cpu_us": 7.542
+      },
+      {
+        "method": "expression_scan",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 99,
+        "answered": 696,
+        "changed": 306,
+        "wrong_changed": 207,
+        "median_cpu_us": 0.292,
+        "p95_cpu_us": 9.709
+      },
+      {
+        "method": "leave_catalog_out_constant",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 0,
+        "answered": 158,
+        "changed": 158,
+        "wrong_changed": 158,
+        "median_cpu_us": 0.167,
+        "p95_cpu_us": 0.167
+      },
+      {
+        "method": "leave_catalog_out_constant",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 0,
+        "answered": 696,
+        "changed": 696,
+        "wrong_changed": 696,
+        "median_cpu_us": 0.166,
+        "p95_cpu_us": 0.167
+      },
+      {
+        "method": "no_change",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 158,
+        "answered": 158,
+        "changed": 0,
+        "wrong_changed": 0,
+        "median_cpu_us": 0.125,
+        "p95_cpu_us": 0.167
+      },
+      {
+        "method": "no_change",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 0,
+        "answered": 696,
+        "changed": 0,
+        "wrong_changed": 0,
+        "median_cpu_us": 0.125,
+        "p95_cpu_us": 0.167
+      },
+      {
+        "method": "unqualified_rebuild",
+        "subset": "clean",
+        "catalog_id": "ALL",
+        "n": 158,
+        "exact": 100,
+        "answered": 158,
+        "changed": 58,
+        "wrong_changed": 58,
+        "median_cpu_us": 281.021,
+        "p95_cpu_us": 296.916
+      },
+      {
+        "method": "unqualified_rebuild",
+        "subset": "mutations",
+        "catalog_id": "ALL",
+        "n": 696,
+        "exact": 365,
+        "answered": 696,
+        "changed": 645,
+        "wrong_changed": 280,
+        "median_cpu_us": 283.729,
+        "p95_cpu_us": 300.75
+      }
+    ],
+    "timing_scope": "Fresh current per-task five-call medians independently recomputed from all saved nanosecond samples"
+  },
+  "source_recovery_mode": "Explicit 29-file authorized local cache, copied into clean workspace and hash-verified; online downloader not exercised in this run.",
+  "ancestor_paths_used_during_execution": false,
+  "fresh_directory_removed_after_test": true,
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "case_id": "employees-random-egtask",
+    "started_at_utc": "2026-10-08T09:53:42.815348+00:00",
+    "ended_at_utc": "2026-10-08T09:53:43.181387+00:00",
+    "command": [
+      "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xmx256m",
+      "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+      "-cp",
+      "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+      "BartScorerProbe",
+      "<workspace>/Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask/events_native.csv",
+      "<workspace>/Supplement_S2_BART_external_audit/audit_results/employees-random-egtask_snapshot_probe.csv",
+      "<workspace>/Supplement_S2_BART_external_audit/audit_results/employees-random-egtask_wiki_probe.csv",
+      "<workspace>/Supplement_S2_BART_external_audit/audit_results/native_scorer_probes.json"
+    ],
+    "returncode": 0,
+    "operation": "deterministic re-score saved six-event probes; no native generation",
+    "inputs": {
+      "events_native.csv": "49207cfd40ba9233cbf1bbca1cce504062f45795a9417727ea4e7b358883b945",
+      "employees-random-egtask_snapshot_probe.csv": "2037a3428a8fa2d8e56ec55e8823e0437927fe7582bca7677a8238bfc7a65c92",
+      "employees-random-egtask_wiki_probe.csv": "2cedab1999784322397afc878349a8a9647ff64ab07ce26fd347367d37c84069",
+      "BartScorerProbe.java": "16dd987cae780907c0e7ea17573c716be2ff3acd65df2380d39b7b85b8bed401"
+    },
+    "output_sha256": "576802ff748a056eb03d58eda4be545cdb023ed0310f41c584fd46372cd7bc73",
+    "stdout_sha256": "bae2e5aef682df2471ea007b927d7f257ecf831a5d8a46284222319d08477294",
+    "upstream_commit": "354f503f401d5360e9a6957f4edd096d3dc413f6"
+  }
+]

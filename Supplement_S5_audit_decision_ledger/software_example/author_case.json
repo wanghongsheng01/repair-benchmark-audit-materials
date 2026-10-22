@@ -1,0 +1,43 @@
+{
+  "schema": "audit-author-constructed-wrong-authority-case",
+  "case_id": "current_wrong_qualifier_authority",
+  "construction_note": "Every name and value in this file was authored for this tiny software example. Original intent means only the literal expected edge defined here, not business truth, upstream semantics, or an independently observed domain fact.",
+  "constructed_original": {
+    "definition_basis": "author_literal_definition_only",
+    "expected_edges": [
+      {
+        "role": "depends_on",
+        "target": "metric:toy_base",
+        "qualifiers": {"offset_window": "1 month"}
+      }
+    ]
+  },
+  "task_with_incorrect_asserted_authority": {
+    "metric_id": "toy_derived",
+    "contract": {
+      "complete": true,
+      "metric": {
+        "name": "toy_derived",
+        "type": "derived",
+        "type_params": {
+          "metrics": [{"name": "toy_base", "offset_window": "2 months"}]
+        }
+      }
+    },
+    "registry": {"metrics": ["toy_base", "toy_derived"], "measures": {}},
+    "current_edges": [
+      {
+        "role": "depends_on",
+        "target": "metric:toy_base",
+        "qualifiers": {"offset_window": "1 month"}
+      }
+    ]
+  },
+  "constructed_asserted_authority_projection": [
+    {
+      "role": "depends_on",
+      "target": "metric:toy_base",
+      "qualifiers": {"offset_window": "2 months"}
+    }
+  ]
+}

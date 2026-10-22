@@ -1,0 +1,5 @@
+case_id,rows,cells,native_events,position_changed_cells,position_false_positive_cells,multiset_equal,multiset_unmatched_rows_each_side,optimal_hamming_cost,optimal_assignments,material_ambiguity_cells,min_label_correct,max_label_correct,min_target_correct,max_target_correct,min_repair_correct,max_repair_correct,min_false_positive_cells,max_false_positive_cells
+employees-egtask,8,32,0,24,24,True,0,0,1,0,32,32,32,32,0,0,0,0
+employees-random-egtask,8,32,6,25,19,False,5,6,1,0,32,32,32,32,6,6,0,0
+employees-symmetrictest-egtask,12,48,0,31,31,True,0,0,2,0,48,48,48,48,0,0,0,0
+synthetic_01-egtask,2,6,0,0,0,True,0,0,1,0,6,6,6,6,0,0,0,0

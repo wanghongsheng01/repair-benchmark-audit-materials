@@ -1,0 +1,9 @@
+{
+  "schema": "audit-external-audit-freeze",
+  "frozen_at_utc": "2026-10-08T09:25:33.349047+00:00",
+  "clock_source": "Python datetime.now(timezone.utc) on execution host",
+  "protocol_file": "PROTOCOL_FROZEN.md",
+  "sha256": "615b79be9b43385a355d429df80d48d3233779820b7133a6f2ba762f18da6abc",
+  "external_candidate_inspection_before_freeze": false,
+  "externally_timestamped": false
+}

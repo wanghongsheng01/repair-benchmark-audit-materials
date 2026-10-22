@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Reproducibility materials for \"Auditing Data-Repair Benchmarks with Explicit Comparison Contracts\""
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Hongsheng
+    affiliation: Zhejiang University
+  - family-names: Liang
+    given-names: Xiubo
+    affiliation: "School of Software Technology, Zhejiang University"
+version: v1.0.0
+license: MIT
+keywords: [data cleaning, benchmark validation, error generation, reproducibility, BART, Raha, Baran]

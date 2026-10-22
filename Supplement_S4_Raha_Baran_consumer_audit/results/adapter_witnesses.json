@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-10-09T02:53:01.005807+00:00",
+  "purpose": "Post-run explanation of frozen E3; source values omitted",
+  "cases": [
+    {
+      "name": "beers",
+      "native_error_coordinates": 4362,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    },
+    {
+      "name": "flights",
+      "native_error_coordinates": 4920,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    },
+    {
+      "name": "hospital",
+      "native_error_coordinates": 509,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    },
+    {
+      "name": "movies_1",
+      "native_error_coordinates": 7675,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    },
+    {
+      "name": "rayyan",
+      "native_error_coordinates": 948,
+      "mismatching_raw_clean_values": 6,
+      "witnesses": [
+        {
+          "row_index_0based": 319,
+          "column_index_0based": 10,
+          "dirty_header": "author_list",
+          "clean_header": "author_list",
+          "raw_clean_sha256": "51c24872dcfa51a32a71058752a28e3c72f430edafa2bf31f48006db2f353e03",
+          "native_clean_sha256": "71064806e19d630b578db74780a54bc2ec591d81a791a94b79c3d588a2d0d8d9",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        },
+        {
+          "row_index_0based": 532,
+          "column_index_0based": 1,
+          "dirty_header": "article_title",
+          "clean_header": "article_title",
+          "raw_clean_sha256": "728cd8b8e58f7c2a743bcc2451909aef50794361a04d5a05870795a7e7e37ea7",
+          "native_clean_sha256": "9234f61089e0ce7133f0e332bc0621242f36758f2873396b12f0e85be81f0ad6",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        },
+        {
+          "row_index_0based": 622,
+          "column_index_0based": 10,
+          "dirty_header": "author_list",
+          "clean_header": "author_list",
+          "raw_clean_sha256": "b68a00e63426f48c4e156644512d13107df73cb00908c5788fd69c25aece29a6",
+          "native_clean_sha256": "eab28b3c20a0f6bef1b37c47505cc93eef95fdf1b9b76f10478b4ac01268a111",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        },
+        {
+          "row_index_0based": 676,
+          "column_index_0based": 10,
+          "dirty_header": "author_list",
+          "clean_header": "author_list",
+          "raw_clean_sha256": "aa4b99118ed84b75ba90230df59e79349803a3c1336d4cc5d65d71c1fe4957f7",
+          "native_clean_sha256": "79ea497764812c450b517abe7309fa7bbb94e437ed2da845863c5f051d520942",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        },
+        {
+          "row_index_0based": 875,
+          "column_index_0based": 10,
+          "dirty_header": "author_list",
+          "clean_header": "author_list",
+          "raw_clean_sha256": "abb9b6d0ed5f0c86d22a51852b53c73ddc11920075834a1bd7435eefe10c7bca",
+          "native_clean_sha256": "6b5a19a0885a989135ce28b7a06248ee0b176849e118170df0b4e97cccdd98c0",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        },
+        {
+          "row_index_0based": 949,
+          "column_index_0based": 10,
+          "dirty_header": "author_list",
+          "clean_header": "author_list",
+          "raw_clean_sha256": "09df3cf2153329e5d5b4f5095b243806fa416604f14f0b6307d0b93499432274",
+          "native_clean_sha256": "59836567e7c8d04aec3c1804782c6ceaa7538244b546a631eb5acca31cbe5cce",
+          "html_unescape_changes_value": false,
+          "whitespace_step_changes_value": true
+        }
+      ]
+    },
+    {
+      "name": "tax",
+      "native_error_coordinates": 121219,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    },
+    {
+      "name": "toy",
+      "native_error_coordinates": 4,
+      "mismatching_raw_clean_values": 0,
+      "witnesses": []
+    }
+  ],
+  "code_sha256": "e530ce4342af417d8defc85f5738efba930eba79b602677d1e44930965759ff3"
+}

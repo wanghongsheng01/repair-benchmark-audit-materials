@@ -1,0 +1,39 @@
+{
+  "edges": [
+    {
+      "qualifiers": {
+        "offset_window": "2 months"
+      },
+      "role": "depends_on",
+      "target": "metric:toy_base"
+    }
+  ],
+  "answered": true,
+  "reason": "RESOLVED",
+  "certificate": {
+    "schema": "REFERENCE_OCCURRENCE_CERTIFICATE_V3",
+    "metric": "toy_derived",
+    "authority_digest": "751b969bddd65068fe30f978388b2c93041e8eac8c8d80133a2626f7fd2719b5",
+    "observed_adjacency_digest": "aa0a9eb1804b372ad9cfbf0c39e426483e24d760e9db7192f50fbc66bf92a775",
+    "rule": "UNIQUE_COMPLETE_DECLARATION_BINDING_MULTISET_DELTA",
+    "removed": [
+      {
+        "qualifiers": {
+          "offset_window": "1 month"
+        },
+        "role": "depends_on",
+        "target": "metric:toy_base"
+      }
+    ],
+    "added": [
+      {
+        "qualifiers": {
+          "offset_window": "2 months"
+        },
+        "role": "depends_on",
+        "target": "metric:toy_base"
+      }
+    ],
+    "preserved": []
+  }
+}

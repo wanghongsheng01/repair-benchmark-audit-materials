@@ -1,0 +1,114 @@
+[
+  {
+    "case_id": "employees-egtask",
+    "upstream_task": "employees/employees-egtask.xml",
+    "task_sha256": "d0d0657a6028fc47f924fd95c0dc691f498887df12a929b4622bf8875e294a58",
+    "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+    "started_at_utc": "2026-10-08T09:46:51.526866+00:00",
+    "command": [
+      "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xmx512m",
+      "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+      "-cp",
+      "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+      "BartAppliedAuditHarness",
+      "<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/Bart_Engine/misc/resources/employees/employees-egtask.xml",
+      "<workspace>/Supplement_S2_BART_external_audit/native_applied_01/employees-egtask"
+    ],
+    "original_task_unchanged": true,
+    "runtime_adaptation": {
+      "applyCellChanges": true,
+      "exportCleanDB": true,
+      "exportDirtyDB": true,
+      "exportCellChanges": true,
+      "export_paths": "isolated case directory"
+    },
+    "returncode": 0,
+    "completed": true,
+    "ended_at_utc": "2026-10-08T09:46:51.917015+00:00"
+  },
+  {
+    "case_id": "employees-random-egtask",
+    "upstream_task": "employees/employees-random-egtask.xml",
+    "task_sha256": "d0341b7c7667e7e83a05069462eb6d2ba611919ee151e906d3cc26afa243b143",
+    "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+    "started_at_utc": "2026-10-08T09:46:51.917638+00:00",
+    "command": [
+      "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xmx512m",
+      "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+      "-cp",
+      "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+      "BartAppliedAuditHarness",
+      "<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/Bart_Engine/misc/resources/employees/employees-random-egtask.xml",
+      "<workspace>/Supplement_S2_BART_external_audit/native_applied_01/employees-random-egtask"
+    ],
+    "original_task_unchanged": true,
+    "runtime_adaptation": {
+      "applyCellChanges": true,
+      "exportCleanDB": true,
+      "exportDirtyDB": true,
+      "exportCellChanges": true,
+      "export_paths": "isolated case directory"
+    },
+    "returncode": 0,
+    "completed": true,
+    "ended_at_utc": "2026-10-08T09:46:52.233673+00:00"
+  },
+  {
+    "case_id": "employees-symmetrictest-egtask",
+    "upstream_task": "employees/employees-symmetrictest-egtask.xml",
+    "task_sha256": "c3971c3d798409ef63d0d64f5a8017dd4348c8f333fc18551d307d38536401bb",
+    "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+    "started_at_utc": "2026-10-08T09:46:52.234233+00:00",
+    "command": [
+      "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xmx512m",
+      "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+      "-cp",
+      "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+      "BartAppliedAuditHarness",
+      "<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/Bart_Engine/misc/resources/employees/employees-symmetrictest-egtask.xml",
+      "<workspace>/Supplement_S2_BART_external_audit/native_applied_01/employees-symmetrictest-egtask"
+    ],
+    "original_task_unchanged": true,
+    "runtime_adaptation": {
+      "applyCellChanges": true,
+      "exportCleanDB": true,
+      "exportDirtyDB": true,
+      "exportCellChanges": true,
+      "export_paths": "isolated case directory"
+    },
+    "returncode": 0,
+    "completed": true,
+    "ended_at_utc": "2026-10-08T09:46:52.585205+00:00"
+  },
+  {
+    "case_id": "synthetic_01-egtask",
+    "upstream_task": "misc/synthetic_01-egtask.xml",
+    "task_sha256": "371b9ef99fcf76967a698ac41ff0259311903f7f951c61e29510a7f56e644541",
+    "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+    "started_at_utc": "2026-10-08T09:46:52.585893+00:00",
+    "command": [
+      "/opt/homebrew/Cellar/openjdk@21/21.0.12/libexec/openjdk.jdk/Contents/Home/bin/java",
+      "-Xmx512m",
+      "-Dlogback.configurationFile=<workspace>/Supplement_S2_BART_external_audit/logback-audit.xml",
+      "-cp",
+      "<workspace>/Supplement_S2_BART_external_audit/native_build/classes:<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/lib/*",
+      "BartAppliedAuditHarness",
+      "<workspace>/Supplement_S2_BART_external_audit/upstream_local/source/Bart_Engine/misc/resources/misc/synthetic_01-egtask.xml",
+      "<workspace>/Supplement_S2_BART_external_audit/native_applied_01/synthetic_01-egtask"
+    ],
+    "original_task_unchanged": true,
+    "runtime_adaptation": {
+      "applyCellChanges": true,
+      "exportCleanDB": true,
+      "exportDirtyDB": true,
+      "exportCellChanges": true,
+      "export_paths": "isolated case directory"
+    },
+    "returncode": 0,
+    "completed": true,
+    "ended_at_utc": "2026-10-08T09:46:52.908157+00:00"
+  }
+]

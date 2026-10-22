@@ -1,0 +1,17 @@
+{
+  "sealed_utc": "2026-10-09T02:55:43.885037Z",
+  "artifacts": [
+    {
+      "path": "code/reveal_and_score.py",
+      "sha256": "c7a2108ae7afab9ba65c64f6579da4bff561acf86c0aa3b1e92ede0f2a61f39d"
+    },
+    {
+      "path": "results/reveal_results.json",
+      "sha256": "223161956f166151ef39726bc2e30f9f2aab97ed60b7be72eba92ca31018872b"
+    },
+    {
+      "path": "seals/REVEAL_INPUTS.json",
+      "sha256": "a6a6dfee516230f1764a5a601272233fcd8b47b15f68c8d87b601aecfe236f5e"
+    }
+  ]
+}

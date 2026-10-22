@@ -1,0 +1,30 @@
+{
+  "snapshot_clean_probe" : {
+    "value" : {
+      "precision" : 1.0,
+      "recall" : 1.0,
+      "f1" : 1.0,
+      "native_f1_text" : "1.0"
+    },
+    "cell" : {
+      "precision" : 1.0,
+      "recall" : 1.0,
+      "f1" : 1.0,
+      "native_f1_text" : "1.0"
+    }
+  },
+  "documented_clean_column_probe" : {
+    "value" : {
+      "precision" : 0.0,
+      "recall" : 0.0,
+      "f1" : null,
+      "native_f1_text" : "NaN"
+    },
+    "cell" : {
+      "precision" : 1.0,
+      "recall" : 1.0,
+      "f1" : 1.0,
+      "native_f1_text" : "1.0"
+    }
+  }
+}

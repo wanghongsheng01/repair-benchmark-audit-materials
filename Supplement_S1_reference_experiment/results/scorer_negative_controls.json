@@ -1,0 +1,58 @@
+{
+  "schema": "audit-public-scorer-negative-controls",
+  "passed": 9,
+  "cases": [
+    {
+      "case": "missing",
+      "expected_rejection": "MISSING_PREDICTIONS",
+      "actual_rejection": "MISSING_PREDICTIONS",
+      "passed": true
+    },
+    {
+      "case": "duplicate",
+      "expected_rejection": "DUPLICATE_PREDICTION",
+      "actual_rejection": "DUPLICATE_PREDICTION",
+      "passed": true
+    },
+    {
+      "case": "unknown_task",
+      "expected_rejection": "UNKNOWN_TASK_ID",
+      "actual_rejection": "UNKNOWN_TASK_ID",
+      "passed": true
+    },
+    {
+      "case": "mixed_input_hash",
+      "expected_rejection": "MIXED_INPUT_HASH",
+      "actual_rejection": "MIXED_INPUT_HASH",
+      "passed": true
+    },
+    {
+      "case": "false_exact_flag",
+      "expected_rejection": "FALSE_EXACT_FLAG",
+      "actual_rejection": "FALSE_EXACT_FLAG",
+      "passed": true
+    },
+    {
+      "case": "timing_mismatch",
+      "expected_rejection": "TIMING_MEDIAN_MISMATCH",
+      "actual_rejection": "TIMING_MEDIAN_MISMATCH",
+      "passed": true
+    },
+    {
+      "case": "certificate_identity_tamper",
+      "expected_rejection": "INDEPENDENT_DECLARATION_CERTIFICATE_REJECTED",
+      "actual_rejection": "INDEPENDENT_DECLARATION_CERTIFICATE_REJECTED",
+      "passed": true
+    },
+    {
+      "case": "duplicate_json_key",
+      "actual_rejection": "DUPLICATE_JSON_KEY: model",
+      "passed": true
+    },
+    {
+      "case": "changed_input_bytes",
+      "actual_rejection": "INPUT_HASH_MISMATCH: data/tasks.jsonl",
+      "passed": true
+    }
+  ]
+}

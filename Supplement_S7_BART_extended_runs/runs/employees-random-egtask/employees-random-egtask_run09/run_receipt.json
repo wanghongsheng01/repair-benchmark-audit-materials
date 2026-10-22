@@ -1,0 +1,11 @@
+{
+  "case_id": "employees-random-egtask_run09",
+  "task_file": "employees-random-egtask.xml",
+  "task_sha256": "d0341b7c7667e7e83a05069462eb6d2ba611919ee151e906d3cc26afa243b143",
+  "harness_sha256": "ff023292830ace2596eba3801626bf0b7144b149fd80a76815991cafb596cc99",
+  "run_index": 9,
+  "started_at_utc": "2026-10-22T02:14:35.785996+00:00",
+  "returncode": 0,
+  "completed": true,
+  "ended_at_utc": "2026-10-22T02:14:36.421390+00:00"
+}
