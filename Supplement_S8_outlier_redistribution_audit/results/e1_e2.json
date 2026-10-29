@@ -1,0 +1,8208 @@
+{
+ "inputs": {
+  "1_ALOI.npz": "792d0b5bd1147bfc9574a1974f157b39fbd4cbed8ecd04cf983fd554498ed477",
+  "14_glass.npz": "aa7a8db1d475ba01a10488af454bc15220a3d5951b010b03b7020567d8152cdc",
+  "18_Ionosphere.npz": "bca46cb0cfd1bf9ddef6cde5ad2215d54fb0189508d0d4c4eb98e788cad69001",
+  "21_Lymphography.npz": "dad977b04f4ea65b78ccd0e9f76b45175bad605165b37e63f3cc177845e67037",
+  "28_pendigits.npz": "c4936b89dcdad59d303020e492f763a0f54170080d787c77497609acbb9c2d79",
+  "32_shuttle.npz": "26900b0f6be45d9ddb7a402c9b2f956ceda42d23a8ca4cf4406b8bc1352823d1",
+  "41_Waveform.npz": "6c9d867337ad1a2f8372c1d27f4c032f0401237e2041b7c45f00de8d319ff30f",
+  "42_WBC.npz": "650f9dcb129248f67a291be0974f533ef259fcbde50fce5c8ad2a1cb2652d03b",
+  "43_WDBC.npz": "78d4606a1ab516f5b60b00c196497f3bbd6bd5e4548fd04cf5f2475209b34b85",
+  "46_WPBC.npz": "68a6d67242643855713bcdad07d89ecc472bd00000dccc17ba87916eb2693d19",
+  "2_annthyroid.npz": "e738f7c58a8740d2c4aac4c71ff49ce5e1d1aa16f44178135fc9c09df05fad1b",
+  "7_Cardiotocography.npz": "5ae84910430f05923e11b6f537243263977c9136949dabd891e3570aeec51e29",
+  "15_Hepatitis.npz": "4a87a2f7d8013e5bfde63294fae61ec7a612322de72f338a7f9491749025ad98",
+  "17_InternetAds.npz": "bdd8ad5cf5bf2cb96cba53dde30d522d0f6a279083a8e2bc7efbac5981b04385",
+  "27_PageBlocks.npz": "10a9b4d5bb5d3b9083caab4c4062f665610eada703c3d927bf7c34b1f2d0d223",
+  "29_Pima.npz": "215454bb263a2f040945c9ea7bd7f06f1e89a61a3143bdb6f196e3887e801a7d",
+  "35_SpamBase.npz": "d0c46c7928e43f6496bcd06e09de0b70f6bc8143792dfa0a43f450263d254e9b",
+  "37_Stamps.npz": "99fe739447284f613fa54bf2dccdb51c5120175ce6260adec6dad77576c42509",
+  "44_Wilt.npz": "c70b72aa611ec87b20efb400943ef3ce4f8bf7aa58fcef825fbd28cc5cee3cc9",
+  "literature.tar.gz": "42a69b719f846bc03e4a6a0e5776969d4cd6b61a17675035c27753e7a6e0e256",
+  "semantic.tar.gz": "e77ad3d37baeb1e4025497496e2183d3d00c6ea2d1e603b2d388894b490fa71a"
+ },
+ "datasets": {
+  "ALOI": {
+   "adbench": {
+    "file": "1_ALOI.npz",
+    "dtype": "float64",
+    "n": 49534,
+    "d": 27,
+    "outliers": 1508,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     49534,
+     27,
+     1508
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    50000,
+    1508
+   ],
+   "variants": [
+    {
+     "variant": "ALOI",
+     "parsed": true,
+     "n": 50000,
+     "d": 27,
+     "outliers": 1508,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "ALOI_norm",
+     "parsed": true,
+     "n": 50000,
+     "d": 27,
+     "outliers": 1508,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "ALOI_withoutdupl",
+     "parsed": true,
+     "n": 49534,
+     "d": 27,
+     "outliers": 1508,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "ALOI_withoutdupl_norm",
+     "parsed": true,
+     "n": 49534,
+     "d": 27,
+     "outliers": 1508,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [],
+   "diagnostic": [
+    {
+     "variant": "ALOI_withoutdupl",
+     "fraction_adbench_rows_in_variant_V1": 0.999455
+    },
+    {
+     "variant": "ALOI_withoutdupl_norm",
+     "fraction_adbench_rows_in_variant_V1": 2e-05
+    }
+   ],
+   "outcome": "undetermined"
+  },
+  "Glass": {
+   "adbench": {
+    "file": "14_glass.npz",
+    "dtype": "float64",
+    "n": 214,
+    "d": 7,
+    "outliers": 9,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     214,
+     7,
+     9
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    214,
+    9
+   ],
+   "variants": [
+    {
+     "variant": "Glass_withoutdupl_norm",
+     "parsed": true,
+     "n": 214,
+     "d": 7,
+     "outliers": 9,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Glass_withoutdupl_norm",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [],
+   "outcome": "matched"
+  },
+  "Ionosphere": {
+   "adbench": {
+    "file": "18_Ionosphere.npz",
+    "dtype": "float64",
+    "n": 351,
+    "d": 32,
+    "outliers": 126,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     351,
+     32,
+     126
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    351,
+    126
+   ],
+   "variants": [
+    {
+     "variant": "Ionosphere_withoutdupl_norm",
+     "parsed": true,
+     "n": 351,
+     "d": 32,
+     "outliers": 126,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Ionosphere_withoutdupl_norm",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [],
+   "outcome": "matched"
+  },
+  "Lymphography": {
+   "adbench": {
+    "file": "21_Lymphography.npz",
+    "dtype": "float64",
+    "n": 148,
+    "d": 18,
+    "outliers": 6,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     148,
+     18,
+     6
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    148,
+    6
+   ],
+   "variants": [
+    {
+     "variant": "Lymphography_original",
+     "parsed": false,
+     "reason": "non-numeric attributes: [('Lymphatics', \"{'deformed','displaced','arched','normal'}\"), ('Block_of_affere', \"{'yes','no'}\"), ('Bl_of_lymph_c', \"{'no','yes'}\")]"
+    },
+    {
+     "variant": "Lymphography_withoutdupl_1ofn",
+     "parsed": false,
+     "reason": "no outlier attribute"
+    },
+    {
+     "variant": "Lymphography_withoutdupl_catremoved",
+     "parsed": true,
+     "n": 148,
+     "d": 3,
+     "outliers": 6,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Lymphography_withoutdupl_idf",
+     "parsed": true,
+     "n": 148,
+     "d": 18,
+     "outliers": 6,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Lymphography_withoutdupl_norm_1ofn",
+     "parsed": false,
+     "reason": "no outlier attribute"
+    },
+    {
+     "variant": "Lymphography_withoutdupl_norm_catremoved",
+     "parsed": true,
+     "n": 148,
+     "d": 3,
+     "outliers": 6,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Lymphography_withoutdupl_norm_idf",
+     "parsed": true,
+     "n": 148,
+     "d": 18,
+     "outliers": 6,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Lymphography_withoutdupl_idf",
+     "interpretation": "V1",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Lymphography_withoutdupl_norm_idf",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "PenDigits": {
+   "adbench": {
+    "file": "28_pendigits.npz",
+    "dtype": "float64",
+    "n": 6870,
+    "d": 16,
+    "outliers": 156,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     6870,
+     16,
+     156
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    9868,
+    20
+   ],
+   "variants": [
+    {
+     "variant": "PenDigits_withoutdupl_norm_v01",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v02",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v03",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v04",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v05",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v06",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v07",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v08",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v09",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v10",
+     "parsed": true,
+     "n": 9868,
+     "d": 16,
+     "outliers": 20,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [],
+   "diagnostic": [
+    {
+     "variant": "PenDigits_withoutdupl_norm_v01",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v02",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v03",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v04",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v05",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v06",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v07",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v08",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v09",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "PenDigits_withoutdupl_norm_v10",
+     "n": 9868,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "undetermined"
+  },
+  "Shuttle": {
+   "adbench": {
+    "file": "32_shuttle.npz",
+    "dtype": "int16",
+    "n": 49097,
+    "d": 9,
+    "outliers": 3511,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     49097,
+     9,
+     3511
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    1013,
+    13
+   ],
+   "variants": [
+    {
+     "variant": "Shuttle_withoutdupl_norm_v01",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v02",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v03",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v04",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v05",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v06",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v07",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v08",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v09",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v10",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v01",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v02",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v03",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v04",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v05",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v06",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v07",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v08",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v09",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v10",
+     "parsed": true,
+     "n": 1013,
+     "d": 9,
+     "outliers": 13,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [],
+   "diagnostic": [
+    {
+     "variant": "Shuttle_withoutdupl_norm_v01",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v02",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v03",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v04",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v05",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v06",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v07",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v08",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v09",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_norm_v10",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v01",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017903
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v02",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017822
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v03",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017659
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v04",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.018107
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v05",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017618
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v06",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017537
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v07",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017822
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v08",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017639
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v09",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017761
+    },
+    {
+     "variant": "Shuttle_withoutdupl_v10",
+     "n": 1013,
+     "fraction_adbench_rows_in_variant_V1": 0.017313
+    }
+   ],
+   "outcome": "undetermined"
+  },
+  "Waveform": {
+   "adbench": {
+    "file": "41_Waveform.npz",
+    "dtype": "float64",
+    "n": 3443,
+    "d": 21,
+    "outliers": 100,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     3443,
+     21,
+     100
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    3443,
+    100
+   ],
+   "variants": [
+    {
+     "variant": "Waveform_withoutdupl_norm_v01",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v02",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v03",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v04",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v05",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v06",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v07",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v08",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v09",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v10",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v01",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v02",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v03",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v04",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v05",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v06",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v07",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v08",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v09",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Waveform_withoutdupl_v10",
+     "parsed": true,
+     "n": 3443,
+     "d": 21,
+     "outliers": 100,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Waveform_withoutdupl_v10",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Waveform_withoutdupl_norm_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_norm_v10",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "Waveform_withoutdupl_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.971827
+    },
+    {
+     "variant": "Waveform_withoutdupl_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.972117
+    },
+    {
+     "variant": "Waveform_withoutdupl_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.972989
+    },
+    {
+     "variant": "Waveform_withoutdupl_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.972117
+    },
+    {
+     "variant": "Waveform_withoutdupl_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.972117
+    },
+    {
+     "variant": "Waveform_withoutdupl_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.971536
+    },
+    {
+     "variant": "Waveform_withoutdupl_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.972117
+    },
+    {
+     "variant": "Waveform_withoutdupl_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.971827
+    },
+    {
+     "variant": "Waveform_withoutdupl_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.97357
+    }
+   ],
+   "outcome": "matched"
+  },
+  "WBC": {
+   "adbench": {
+    "file": "42_WBC.npz",
+    "dtype": "float64",
+    "n": 223,
+    "d": 9,
+    "outliers": 10,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     223,
+     9,
+     10
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    454,
+    10
+   ],
+   "variants": [
+    {
+     "variant": "WBC_norm_v01",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v02",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v03",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v04",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v05",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v06",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v07",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v08",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v09",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_norm_v10",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v01",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v02",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v03",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v04",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v05",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v06",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v07",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v08",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v09",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_v10",
+     "parsed": true,
+     "n": 454,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v01",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v02",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v03",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v04",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v05",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v06",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v07",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v08",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v09",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v10",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v01",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v02",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v03",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v04",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v05",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v06",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v07",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v08",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v09",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "WBC_withoutdupl_v10",
+     "parsed": true,
+     "n": 223,
+     "d": 9,
+     "outliers": 10,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "WBC_withoutdupl_v10",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "WBC_withoutdupl_norm_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_norm_v10",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WBC_withoutdupl_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    },
+    {
+     "variant": "WBC_withoutdupl_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.955157
+    },
+    {
+     "variant": "WBC_withoutdupl_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    },
+    {
+     "variant": "WBC_withoutdupl_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    },
+    {
+     "variant": "WBC_withoutdupl_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.955157
+    },
+    {
+     "variant": "WBC_withoutdupl_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    },
+    {
+     "variant": "WBC_withoutdupl_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.955157
+    },
+    {
+     "variant": "WBC_withoutdupl_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    },
+    {
+     "variant": "WBC_withoutdupl_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.959641
+    }
+   ],
+   "outcome": "matched"
+  },
+  "WDBC": {
+   "adbench": {
+    "file": "43_WDBC.npz",
+    "dtype": "float64",
+    "n": 367,
+    "d": 30,
+    "outliers": 10,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     367,
+     30,
+     10
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    367,
+    10
+   ],
+   "variants": [
+    {
+     "variant": "WDBC_withoutdupl_norm_v01",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v02",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v03",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v04",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v05",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v06",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v07",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v08",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v09",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v10",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v01",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v02",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v03",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v04",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v05",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v06",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v07",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v08",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v09",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "WDBC_withoutdupl_v10",
+     "parsed": true,
+     "n": 367,
+     "d": 30,
+     "outliers": 10,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "WDBC_withoutdupl_v10",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "WDBC_withoutdupl_norm_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_norm_v10",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    },
+    {
+     "variant": "WDBC_withoutdupl_v01",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v02",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v03",
+     "fraction_adbench_rows_in_variant_V1": 0.978202
+    },
+    {
+     "variant": "WDBC_withoutdupl_v04",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v05",
+     "fraction_adbench_rows_in_variant_V1": 0.975477
+    },
+    {
+     "variant": "WDBC_withoutdupl_v06",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v07",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v08",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    },
+    {
+     "variant": "WDBC_withoutdupl_v09",
+     "fraction_adbench_rows_in_variant_V1": 0.972752
+    }
+   ],
+   "outcome": "matched"
+  },
+  "WPBC": {
+   "adbench": {
+    "file": "46_WPBC.npz",
+    "dtype": "float64",
+    "n": 198,
+    "d": 33,
+    "outliers": 47,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     198,
+     33,
+     47
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    198,
+    47
+   ],
+   "variants": [
+    {
+     "variant": "WPBC_withoutdupl_norm",
+     "parsed": true,
+     "n": 198,
+     "d": 33,
+     "outliers": 47,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "WPBC_withoutdupl_norm",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [],
+   "outcome": "matched"
+  },
+  "Annthyroid": {
+   "adbench": {
+    "file": "2_annthyroid.npz",
+    "dtype": "float64",
+    "n": 7200,
+    "d": 6,
+    "outliers": 534,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     7200,
+     6,
+     534
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    7200,
+    534
+   ],
+   "variants": [
+    {
+     "variant": "Annthyroid_02_v01",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v02",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v03",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v04",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v05",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v06",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v07",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v08",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v09",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_02_v10",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v01",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v02",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v03",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v04",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v05",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v06",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v07",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v08",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v09",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_05_v10",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_07",
+     "parsed": true,
+     "n": 7200,
+     "d": 21,
+     "outliers": 534,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Annthyroid_norm_02_v01",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v02",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v03",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v04",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v05",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v06",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v07",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v08",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v09",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_02_v10",
+     "parsed": true,
+     "n": 6802,
+     "d": 21,
+     "outliers": 136,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v01",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v02",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v03",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v04",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v05",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v06",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v07",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v08",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v09",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_05_v10",
+     "parsed": true,
+     "n": 7016,
+     "d": 21,
+     "outliers": 350,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_norm_07",
+     "parsed": true,
+     "n": 7200,
+     "d": 21,
+     "outliers": 534,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_07",
+     "parsed": true,
+     "n": 7129,
+     "d": 21,
+     "outliers": 534,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 6729,
+     "d": 21,
+     "outliers": 134,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 6942,
+     "d": 21,
+     "outliers": 347,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Annthyroid_withoutdupl_norm_07",
+     "parsed": true,
+     "n": 7129,
+     "d": 21,
+     "outliers": 534,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [],
+   "diagnostic": [],
+   "outcome": "undetermined"
+  },
+  "Cardiotocography": {
+   "adbench": {
+    "file": "7_Cardiotocography.npz",
+    "dtype": "float64",
+    "n": 2114,
+    "d": 21,
+    "outliers": 466,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     2114,
+     21,
+     466
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    2126,
+    471
+   ],
+   "variants": [
+    {
+     "variant": "Cardiotocography_02_v01",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v02",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v03",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v04",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v05",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v06",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v07",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v08",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v09",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_02_v10",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v01",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v02",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v03",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v04",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v05",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v06",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v07",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v08",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v09",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_05_v10",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v01",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v02",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v03",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v04",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v05",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v06",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v07",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v08",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v09",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_10_v10",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v01",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v02",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v03",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v04",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v05",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v06",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v07",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v08",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v09",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_20_v10",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_22",
+     "parsed": true,
+     "n": 2126,
+     "d": 21,
+     "outliers": 471,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v01",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v02",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v03",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v04",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v05",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v06",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v07",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v08",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v09",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_02_v10",
+     "parsed": true,
+     "n": 1688,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v01",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v02",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v03",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v04",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v05",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v06",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v07",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v08",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v09",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_05_v10",
+     "parsed": true,
+     "n": 1742,
+     "d": 21,
+     "outliers": 87,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v01",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v02",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v03",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v04",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v05",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v06",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v07",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v08",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v09",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_10_v10",
+     "parsed": true,
+     "n": 1838,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v01",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v02",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v03",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v04",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v05",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v06",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v07",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v08",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v09",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_20_v10",
+     "parsed": true,
+     "n": 2068,
+     "d": 21,
+     "outliers": 413,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_norm_22",
+     "parsed": true,
+     "n": 2126,
+     "d": 21,
+     "outliers": 471,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v01",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v02",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v03",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v04",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v05",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v06",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v07",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v08",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v09",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_10_v10",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v01",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v02",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v03",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v04",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v05",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v06",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v07",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v08",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v09",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_20_v10",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_22",
+     "parsed": true,
+     "n": 2114,
+     "d": 21,
+     "outliers": 466,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 1681,
+     "d": 21,
+     "outliers": 33,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 1734,
+     "d": 21,
+     "outliers": 86,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v01",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v02",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v03",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v04",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v05",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v06",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v07",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v08",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v09",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_10_v10",
+     "parsed": true,
+     "n": 1831,
+     "d": 21,
+     "outliers": 183,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v01",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v02",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v03",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v04",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v05",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v06",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v07",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v08",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v09",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_20_v10",
+     "parsed": true,
+     "n": 2060,
+     "d": 21,
+     "outliers": 412,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_22",
+     "parsed": true,
+     "n": 2114,
+     "d": 21,
+     "outliers": 466,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Cardiotocography_withoutdupl_22",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Cardiotocography_withoutdupl_norm_22",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "Hepatitis": {
+   "adbench": {
+    "file": "15_Hepatitis.npz",
+    "dtype": "float64",
+    "n": 80,
+    "d": 19,
+    "outliers": 13,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     80,
+     19,
+     13
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    80,
+    13
+   ],
+   "variants": [
+    {
+     "variant": "Hepatitis_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v01",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v02",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v03",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v04",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v05",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v06",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v07",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v08",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v09",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_10_v10",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_16",
+     "parsed": true,
+     "n": 80,
+     "d": 19,
+     "outliers": 13,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 70,
+     "d": 19,
+     "outliers": 3,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v01",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v02",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v03",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v04",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v05",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v06",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v07",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v08",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v09",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_10_v10",
+     "parsed": true,
+     "n": 74,
+     "d": 19,
+     "outliers": 7,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Hepatitis_withoutdupl_norm_16",
+     "parsed": true,
+     "n": 80,
+     "d": 19,
+     "outliers": 13,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Hepatitis_withoutdupl_16",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Hepatitis_withoutdupl_norm_16",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "InternetAds": {
+   "adbench": {
+    "file": "17_InternetAds.npz",
+    "dtype": "float64",
+    "n": 1966,
+    "d": 1555,
+    "outliers": 368,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     1966,
+     1555,
+     368
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    3264,
+    454
+   ],
+   "variants": [
+    {
+     "variant": "InternetAds_norm_02_v01",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v02",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v03",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v04",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v05",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v06",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v07",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v08",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v09",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_02_v10",
+     "parsed": true,
+     "n": 2867,
+     "d": 1555,
+     "outliers": 57,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v01",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v02",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v03",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v04",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v05",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v06",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v07",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v08",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v09",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_05_v10",
+     "parsed": true,
+     "n": 2957,
+     "d": 1555,
+     "outliers": 147,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v01",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v02",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v03",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v04",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v05",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v06",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v07",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v08",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v09",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_10_v10",
+     "parsed": true,
+     "n": 3122,
+     "d": 1555,
+     "outliers": 312,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_norm_19",
+     "parsed": true,
+     "n": 3264,
+     "d": 1555,
+     "outliers": 454,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 1630,
+     "d": 1555,
+     "outliers": 32,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 1682,
+     "d": 1555,
+     "outliers": 84,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v01",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v02",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v03",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v04",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v05",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v06",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v07",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v08",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v09",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_10_v10",
+     "parsed": true,
+     "n": 1775,
+     "d": 1555,
+     "outliers": 177,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "InternetAds_withoutdupl_norm_19",
+     "parsed": true,
+     "n": 1966,
+     "d": 1555,
+     "outliers": 368,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "InternetAds_withoutdupl_norm_19",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [],
+   "outcome": "matched"
+  },
+  "PageBlocks": {
+   "adbench": {
+    "file": "27_PageBlocks.npz",
+    "dtype": "float64",
+    "n": 5393,
+    "d": 10,
+    "outliers": 510,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     5393,
+     10,
+     510
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    5473,
+    560
+   ],
+   "variants": [
+    {
+     "variant": "PageBlocks_02_v01",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v02",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v03",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v04",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v05",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v06",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v07",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v08",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v09",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_02_v10",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v01",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v02",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v03",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v04",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v05",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v06",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v07",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v08",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v09",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_05_v10",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_10",
+     "parsed": true,
+     "n": 5473,
+     "d": 10,
+     "outliers": 560,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PageBlocks_norm_02_v01",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v02",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v03",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v04",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v05",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v06",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v07",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v08",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v09",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_02_v10",
+     "parsed": true,
+     "n": 5013,
+     "d": 10,
+     "outliers": 100,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v01",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v02",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v03",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v04",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v05",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v06",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v07",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v08",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v09",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_05_v10",
+     "parsed": true,
+     "n": 5171,
+     "d": 10,
+     "outliers": 258,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_norm_10",
+     "parsed": true,
+     "n": 5473,
+     "d": 10,
+     "outliers": 560,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_09",
+     "parsed": true,
+     "n": 5393,
+     "d": 10,
+     "outliers": 510,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 4982,
+     "d": 10,
+     "outliers": 99,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 5139,
+     "d": 10,
+     "outliers": 256,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "PageBlocks_withoutdupl_norm_09",
+     "parsed": true,
+     "n": 5393,
+     "d": 10,
+     "outliers": 510,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "PageBlocks_withoutdupl_09",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "PageBlocks_withoutdupl_norm_09",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "Pima": {
+   "adbench": {
+    "file": "29_Pima.npz",
+    "dtype": "float64",
+    "n": 768,
+    "d": 8,
+    "outliers": 268,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     768,
+     8,
+     268
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    768,
+    268
+   ],
+   "variants": [
+    {
+     "variant": "Pima_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v01",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v02",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v03",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v04",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v05",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v06",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v07",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v08",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v09",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_10_v10",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v01",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v02",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v03",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v04",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v05",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v06",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v07",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v08",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v09",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_20_v10",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_35",
+     "parsed": true,
+     "n": 768,
+     "d": 8,
+     "outliers": 268,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 510,
+     "d": 8,
+     "outliers": 10,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 526,
+     "d": 8,
+     "outliers": 26,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v01",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v02",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v03",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v04",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v05",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v06",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v07",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v08",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v09",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_10_v10",
+     "parsed": true,
+     "n": 555,
+     "d": 8,
+     "outliers": 55,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v01",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v02",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v03",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v04",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v05",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v06",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v07",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v08",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v09",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_20_v10",
+     "parsed": true,
+     "n": 625,
+     "d": 8,
+     "outliers": 125,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Pima_withoutdupl_norm_35",
+     "parsed": true,
+     "n": 768,
+     "d": 8,
+     "outliers": 268,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Pima_withoutdupl_35",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Pima_withoutdupl_norm_35",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "SpamBase": {
+   "adbench": {
+    "file": "35_SpamBase.npz",
+    "dtype": "float64",
+    "n": 4207,
+    "d": 57,
+    "outliers": 1679,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     4207,
+     57,
+     1679
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    4601,
+    1813
+   ],
+   "variants": [
+    {
+     "variant": "SpamBase_02_v01",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v02",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v03",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v04",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v05",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v06",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v07",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v08",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v09",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_02_v10",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v01",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v02",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v03",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v04",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v05",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v06",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v07",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v08",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v09",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_05_v10",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v01",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v02",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v03",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v04",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v05",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v06",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v07",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v08",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v09",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_10_v10",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v01",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v02",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v03",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v04",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v05",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v06",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v07",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v08",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v09",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_20_v10",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_39",
+     "parsed": true,
+     "n": 4601,
+     "d": 57,
+     "outliers": 1813,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "SpamBase_norm_02_v01",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v02",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v03",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v04",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v05",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v06",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v07",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v08",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v09",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_02_v10",
+     "parsed": true,
+     "n": 2844,
+     "d": 57,
+     "outliers": 56,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v01",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v02",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v03",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v04",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v05",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v06",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v07",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v08",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v09",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_05_v10",
+     "parsed": true,
+     "n": 2934,
+     "d": 57,
+     "outliers": 146,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v01",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v02",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v03",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v04",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v05",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v06",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v07",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v08",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v09",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_10_v10",
+     "parsed": true,
+     "n": 3097,
+     "d": 57,
+     "outliers": 309,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v01",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v02",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v03",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v04",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v05",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v06",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v07",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v08",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v09",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_20_v10",
+     "parsed": true,
+     "n": 3485,
+     "d": 57,
+     "outliers": 697,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_norm_39",
+     "parsed": true,
+     "n": 4601,
+     "d": 57,
+     "outliers": 1813,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v01",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v02",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v03",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v04",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v05",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v06",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v07",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v08",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v09",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_10_v10",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v01",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v02",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v03",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v04",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v05",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v06",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v07",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v08",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v09",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_20_v10",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_40",
+     "parsed": true,
+     "n": 4207,
+     "d": 57,
+     "outliers": 1679,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 2579,
+     "d": 57,
+     "outliers": 51,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 2661,
+     "d": 57,
+     "outliers": 133,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v01",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v02",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v03",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v04",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v05",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v06",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v07",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v08",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v09",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_10_v10",
+     "parsed": true,
+     "n": 2808,
+     "d": 57,
+     "outliers": 280,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v01",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v02",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v03",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v04",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v05",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v06",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v07",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v08",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v09",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_20_v10",
+     "parsed": true,
+     "n": 3160,
+     "d": 57,
+     "outliers": 632,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "SpamBase_withoutdupl_norm_40",
+     "parsed": true,
+     "n": 4207,
+     "d": 57,
+     "outliers": 1679,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "SpamBase_withoutdupl_40",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "SpamBase_withoutdupl_norm_40",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "Stamps": {
+   "adbench": {
+    "file": "37_Stamps.npz",
+    "dtype": "float64",
+    "n": 340,
+    "d": 9,
+    "outliers": 31,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     340,
+     9,
+     31
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    340,
+    31
+   ],
+   "variants": [
+    {
+     "variant": "Stamps_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v01",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v02",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v03",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v04",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v05",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v06",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v07",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v08",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v09",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_05_v10",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_09",
+     "parsed": true,
+     "n": 340,
+     "d": 9,
+     "outliers": 31,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 315,
+     "d": 9,
+     "outliers": 6,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v01",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v02",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v03",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v04",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v05",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v06",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v07",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v08",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v09",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_05_v10",
+     "parsed": true,
+     "n": 325,
+     "d": 9,
+     "outliers": 16,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Stamps_withoutdupl_norm_09",
+     "parsed": true,
+     "n": 340,
+     "d": 9,
+     "outliers": 31,
+     "matches_dami_table": true
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Stamps_withoutdupl_09",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Stamps_withoutdupl_norm_09",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  },
+  "Wilt": {
+   "adbench": {
+    "file": "44_Wilt.npz",
+    "dtype": "float64",
+    "n": 4819,
+    "d": 5,
+    "outliers": 257,
+    "label_values": [
+     0,
+     1
+    ],
+    "readme_counts": [
+     4819,
+     5,
+     257
+    ],
+    "matches_readme": true
+   },
+   "dami_table": [
+    4839,
+    261
+   ],
+   "variants": [
+    {
+     "variant": "Wilt_02_v01",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v02",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v03",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v04",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v05",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v06",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v07",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v08",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v09",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_02_v10",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_05",
+     "parsed": true,
+     "n": 4839,
+     "d": 5,
+     "outliers": 261,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Wilt_norm_02_v01",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v02",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v03",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v04",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v05",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v06",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v07",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v08",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v09",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_02_v10",
+     "parsed": true,
+     "n": 4671,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_norm_05",
+     "parsed": true,
+     "n": 4839,
+     "d": 5,
+     "outliers": 261,
+     "matches_dami_table": true
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v01",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v02",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v03",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v04",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v05",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v06",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v07",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v08",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v09",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_02_v10",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_05",
+     "parsed": true,
+     "n": 4819,
+     "d": 5,
+     "outliers": 257,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v01",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v02",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v03",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v04",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v05",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v06",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v07",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v08",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v09",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_02_v10",
+     "parsed": true,
+     "n": 4655,
+     "d": 5,
+     "outliers": 93,
+     "matches_dami_table": false
+    },
+    {
+     "variant": "Wilt_withoutdupl_norm_05",
+     "parsed": true,
+     "n": 4819,
+     "d": 5,
+     "outliers": 257,
+     "matches_dami_table": false
+    }
+   ],
+   "matches": [
+    {
+     "variant": "Wilt_withoutdupl_05",
+     "interpretation": "V0",
+     "labels_agree": true
+    }
+   ],
+   "diagnostic": [
+    {
+     "variant": "Wilt_withoutdupl_norm_05",
+     "fraction_adbench_rows_in_variant_V1": 0.0
+    }
+   ],
+   "outcome": "matched"
+  }
+ }
+}

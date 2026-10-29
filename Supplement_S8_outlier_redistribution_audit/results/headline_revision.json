@@ -1,0 +1,171 @@
+{
+ "rankings": {
+  "ROC AUC k=10": {
+   "floor_rate": 0.2962091503267974,
+   "floor_pairs": 3825,
+   "floor_tau_median": 0.8181818181818182,
+   "preparation": {
+    "n": 20,
+    "top_differs": 13,
+    "material": 9,
+    "tau_median": 0.5550621451204888,
+    "names": 12,
+    "name_averaged_material_share": 0.4166666666666667,
+    "names_with_any_material": 6
+   },
+   "preparation_one_sided_binomial_p": 0.10605142242240519,
+   "tenth_downsample": {
+    "n": 27,
+    "top_differs": 16,
+    "material": 5,
+    "tau_median": 0.8484848484848485,
+    "names": 3,
+    "name_averaged_material_share": 0.1851851851851852,
+    "names_with_any_material": 1
+   },
+   "tenth_downsample_rate": 0.18518518518518517,
+   "detectors_with_all_k": null
+  },
+  "Average Precision k=10": {
+   "floor_rate": 0.26483660130718956,
+   "floor_pairs": 3825,
+   "floor_tau_median": 0.8181818181818182,
+   "preparation": {
+    "n": 20,
+    "top_differs": 7,
+    "material": 7,
+    "tau_median": 0.6818181818181819,
+    "names": 12,
+    "name_averaged_material_share": 0.3611111111111111,
+    "names_with_any_material": 5
+   },
+   "preparation_one_sided_binomial_p": 0.26308751174187844,
+   "tenth_downsample": {
+    "n": 27,
+    "top_differs": 14,
+    "material": 10,
+    "tau_median": 0.8181818181818182,
+    "names": 3,
+    "name_averaged_material_share": 0.3703703703703704,
+    "names_with_any_material": 2
+   },
+   "tenth_downsample_rate": 0.37037037037037035,
+   "detectors_with_all_k": null
+  },
+  "ROC AUC mean over k=1..50": {
+   "floor_rate": 0.15163398692810456,
+   "floor_pairs": 3825,
+   "floor_tau_median": 0.8333333333333334,
+   "preparation": {
+    "n": 20,
+    "top_differs": 9,
+    "material": 6,
+    "tau_median": 0.75,
+    "names": 12,
+    "name_averaged_material_share": 0.27777777777777773,
+    "names_with_any_material": 4
+   },
+   "preparation_one_sided_binomial_p": 0.07031443105654261,
+   "tenth_downsample": {
+    "n": 27,
+    "top_differs": 8,
+    "material": 2,
+    "tau_median": 0.9444444444444444,
+    "names": 3,
+    "name_averaged_material_share": 0.07407407407407407,
+    "names_with_any_material": 1
+   },
+   "tenth_downsample_rate": 0.07407407407407407,
+   "detectors_with_all_k": null
+  }
+ },
+ "planted": {
+  "cases": 98,
+  "correct": 92,
+  "correct_all_matches_rule": 95,
+  "undetermined_when_wrong": 2,
+  "by_perturbation": {
+   "row permutation": [
+    15,
+    15
+   ],
+   "label inversion": [
+    15,
+    15
+   ],
+   "permutation and label inversion": [
+    15,
+    15
+   ],
+   "duplicated row": [
+    15,
+    15
+   ],
+   "rounding to 6 decimals plus 1e-9 noise": [
+    13,
+    15
+   ],
+   "affine rescaling of every attribute": [
+    10,
+    11
+   ],
+   "substituted": [
+    9,
+    12
+   ]
+  }
+ },
+ "residuals": {
+  "KNN": {
+   "values": 4445,
+   "exact": 3524,
+   "nonexact": 921,
+   "nonexact_with_tied_scores": 921,
+   "exact_with_tied_scores": 3453,
+   "nonexact_without_tied_scores": 0,
+   "max_diff_without_ties": 0.0
+  },
+  "KNNW": {
+   "values": 4445,
+   "exact": 3864,
+   "nonexact": 581,
+   "nonexact_with_tied_scores": 580,
+   "exact_with_tied_scores": 2172,
+   "nonexact_without_tied_scores": 1,
+   "max_diff_without_ties": 1.034303717006857e-06
+  }
+ },
+ "glass_per_object": true,
+ "aloi": {
+  "rows_only_in_adbench": 27,
+  "rows_only_in_dami": 27,
+  "labels_only_in_adbench": {
+   "0": 27
+  },
+  "labels_only_in_dami": {
+   "0": 27
+  },
+  "adbench_duplicate_rows": 0
+ },
+ "adbench_cited": {
+  "ALOI": 42,
+  "Glass": 43,
+  "Ionosphere": 163,
+  "Lymphography": 26,
+  "PenDigits": 9,
+  "Shuttle": 145,
+  "Waveform": 107,
+  "WBC": 114,
+  "WDBC": 114,
+  "WPBC": 114,
+  "Annthyroid": 141,
+  "Cardiotocography": 12,
+  "Hepatitis": 36,
+  "InternetAds": 25,
+  "PageBlocks": 113,
+  "Pima": 145,
+  "SpamBase": 25,
+  "Stamps": 25,
+  "Wilt": 25
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "names": 19,
+ "matched": 15,
+ "undetermined": [
+  "ALOI",
+  "PenDigits",
+  "Shuttle",
+  "Annthyroid"
+ ],
+ "matched_not_table_variant": [
+  "WBC",
+  "Cardiotocography",
+  "InternetAds",
+  "PageBlocks",
+  "SpamBase",
+  "Wilt"
+ ],
+ "variants_parsed": 889,
+ "variants_with_native": 889,
+ "max_abs_native_diff_all": {
+  "KNN_exclude": 0.24792307692307697,
+  "KNN_include": 0.4991596638655462,
+  "KNN_shift": 0.007042253521126751,
+  "KNNW_exclude": 0.002487562189054715,
+  "KNNW_include": 0.49943977591036415
+ },
+ "max_abs_native_diff_frozen": {
+  "KNN_exclude": 0.24792307692307697,
+  "KNN_include": 0.4991596638655462,
+  "KNN_shift": 0.007042253521126751,
+  "KNNW_exclude": 0.0020000000000000018,
+  "KNNW_include": 0.49943977591036415
+ }
+}
+ALOI             undetermined n=49534  []                                       tab=2   AUC_adb=0.658 table=[0.659,0.661] all=[0.658,0.661] natmiss=0
+Glass            matched      n=214    [('Glass_withoutdupl_norm', 'V0')]       tab=1   AUC_adb=0.873 table=[0.873,0.873] all=[0.873,0.873] natmiss=0
+Ionosphere       matched      n=351    [('Ionosphere_withoutdupl_norm', 'V0')]  tab=1   AUC_adb=0.918 table=[0.918,0.918] all=[0.918,0.918] natmiss=0
+Lymphography     matched      n=148    [('Lymphography_withoutdupl_idf', 'V1')] tab=4   AUC_adb=0.996 table=[0.825,0.998] all=[0.825,0.998] natmiss=0
+PenDigits        undetermined n=6870   []                                       tab=10  AUC_adb=0.734 table=[0.984,0.994] all=[0.984,0.994] natmiss=0
+Shuttle          undetermined n=49097  []                                       tab=20  AUC_adb=0.753 table=[0.736,0.985] all=[0.736,0.985] natmiss=0
+Waveform         matched      n=3443   [('Waveform_withoutdupl_v10', 'V0')]     tab=20  AUC_adb=0.774 table=[0.728,0.788] all=[0.728,0.788] natmiss=0
+WBC              matched      n=223    [('WBC_withoutdupl_v10', 'V0')]          tab=20  AUC_adb=0.995 table=[0.983,0.998] all=[0.963,0.998] natmiss=0
+WDBC             matched      n=367    [('WDBC_withoutdupl_v10', 'V0')]         tab=20  AUC_adb=0.999 table=[0.860,0.999] all=[0.860,0.999] natmiss=0
+WPBC             matched      n=198    [('WPBC_withoutdupl_norm', 'V0')]        tab=1   AUC_adb=0.532 table=[0.532,0.532] all=[0.532,0.532] natmiss=0
+Annthyroid       undetermined n=7200   []                                       tab=2   AUC_adb=0.736 table=[0.613,0.616] all=[0.603,0.705] natmiss=0
+Cardiotocography matched      n=2114   [('Cardiotocography_withoutdupl_22', 'V0')] tab=2   AUC_adb=0.615 table=[0.562,0.616] all=[0.561,0.834] natmiss=0
+Hepatitis        matched      n=80     [('Hepatitis_withoutdupl_16', 'V0')]     tab=2   AUC_adb=0.594 table=[0.594,0.715] all=[0.331,0.893] natmiss=0
+InternetAds      matched      n=1966   [('InternetAds_withoutdupl_norm_19', 'V0')] tab=1   AUC_adb=0.698 table=[0.804,0.804] all=[0.658,0.870] natmiss=0
+PageBlocks       matched      n=5393   [('PageBlocks_withoutdupl_09', 'V0')]    tab=2   AUC_adb=0.573 table=[0.524,0.736] all=[0.512,0.952] natmiss=0
+Pima             matched      n=768    [('Pima_withoutdupl_35', 'V0')]          tab=2   AUC_adb=0.627 table=[0.627,0.720] all=[0.569,0.840] natmiss=0
+SpamBase         matched      n=4207   [('SpamBase_withoutdupl_40', 'V0')]      tab=2   AUC_adb=0.710 table=[0.563,0.716] all=[0.551,0.822] natmiss=0
+Stamps           matched      n=340    [('Stamps_withoutdupl_09', 'V0')]        tab=2   AUC_adb=0.889 table=[0.889,0.889] all=[0.889,0.944] natmiss=0
+Wilt             matched      n=4819   [('Wilt_withoutdupl_05', 'V0')]          tab=2   AUC_adb=0.712 table=[0.453,0.712] all=[0.451,0.781] natmiss=0

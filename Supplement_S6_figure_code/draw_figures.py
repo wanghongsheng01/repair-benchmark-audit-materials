@@ -5,8 +5,8 @@ Figure 1: question-specific comparisons of the audit procedure.
 Figure 2: typed repair and independent verification for a constructed example.
 Figure B.1: historical pairing audit (frozen aggregates only).
 
-Style follows the information-systems-writing skill: sans-serif 7.5-8 pt at final
-size (5.4 in = \\linewidth in elsarticle preprint), flat boxes, one accent colour,
+Style: sans-serif 7.5-8 pt at final size (drawn 5.4 in wide, scaled to
+the 31 pc sn-jnl text width), flat boxes, one accent colour,
 no slash-separated labels, no internal version codes.
 Usage: python3 draw_figures.py OUTPUT_DIR
 """
@@ -66,11 +66,14 @@ def figure1(out):
         ("Adapter compatibility", "Snapshots and cell coordinates held fixed",
          "Raw or direct\nvalue adapter", "Normalized native\nmaterialization path",
          "Agreement or discrepancy. Truth of the clean table stays unknown."),
+        ("Name-to-variant correspondence", "Producer results kept as the native control",
+         "Consumer file read under\na dataset name", "Every producer variant\nof the same name",
+         "Matched variant, other variant, or undetermined provenance."),
         ("Reference conformance", None,
          "Complete D and typed R,\nindependently resolved to E′", "Observed G and certificate,\nreplayed to G′",
          "Invalid preconditions: refuse or reject success. Business truth stays unknown."),
     ]
-    H = 5.0
+    H = 6.15
     fig, ax = canvas(H)
     row_h = 1.18
     top = H - 0.18

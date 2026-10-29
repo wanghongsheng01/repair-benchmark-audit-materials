@@ -1,0 +1,214 @@
+{
+ "source_html_sha256": "d44468af5335a952b618930c954851817661af241f499c82fd9ba7ef5d71c706",
+ "names": {
+  "ALOI": {
+   "table_row": [
+    "49534",
+    "27",
+    "1508",
+    "3.04",
+    "Image"
+   ],
+   "reference_number": 42,
+   "reference": "A. Emmott, S. Das, T. Dietterich, A. Fern, and W.-K. Wong. A meta-analysis of the anomaly detection problem. ArXiv , 1503.01158, 2015."
+  },
+  "Glass": {
+   "table_row": [
+    "214",
+    "7",
+    "9",
+    "4.21",
+    "Forensic"
+   ],
+   "reference_number": 43,
+   "reference": "I. W. Evett and E. J. Spiehler. Rule induction in forensic science. pages 152\u2013160, 1989."
+  },
+  "Ionosphere": {
+   "table_row": [
+    "351",
+    "33",
+    "126",
+    "35.90",
+    "Oryctognosy"
+   ],
+   "reference_number": 163,
+   "reference": "V. G. Sigillito, S. P. Wing, L. V. Hutton, and K. B. Baker. Classification of radar returns from the ionosphere using neural networks. Johns Hopkins APL Technic"
+  },
+  "Lymphography": {
+   "table_row": [
+    "148",
+    "18",
+    "6",
+    "4.05",
+    "Healthcare"
+   ],
+   "reference_number": 26,
+   "reference": "B. Cestnik, I. Kononenko, and I. Bratko. A knowledge-elicitation tool for sophisticated users. In European Conference on European Working Session on Learning EW"
+  },
+  "PenDigits": {
+   "table_row": [
+    "6870",
+    "16",
+    "156",
+    "2.27",
+    "Image"
+   ],
+   "reference_number": 9,
+   "reference": "F. Alimoglu and E. Alpaydin. Methods of combining multiple classifiers based on different representations for pen-based handwritten digit recognition. In TAINN"
+  },
+  "Shuttle": {
+   "table_row": [
+    "49097",
+    "9",
+    "3511",
+    "7.15",
+    "Astronautics"
+   ],
+   "reference_number": 145,
+   "reference": "S. Rayana. ODDS library, 2016."
+  },
+  "Waveform": {
+   "table_row": [
+    "3443",
+    "21",
+    "100",
+    "2.90",
+    "Physics"
+   ],
+   "reference_number": 107,
+   "reference": "W.-Y. Loh. Classification and regression trees. WIREs Data Mining and Knowledge Discovery , 1, 2011."
+  },
+  "WBC": {
+   "table_row": [
+    "223",
+    "9",
+    "10",
+    "4.48",
+    "Healthcare"
+   ],
+   "reference_number": 114,
+   "reference": "O. L. Mangasarian, W. N. Street, and W. H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research , 43(4):570\u2013577, 1995."
+  },
+  "WDBC": {
+   "table_row": [
+    "367",
+    "30",
+    "10",
+    "2.72",
+    "Healthcare"
+   ],
+   "reference_number": 114,
+   "reference": "O. L. Mangasarian, W. N. Street, and W. H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research , 43(4):570\u2013577, 1995."
+  },
+  "WPBC": {
+   "table_row": [
+    "198",
+    "33",
+    "47",
+    "23.74",
+    "Healthcare"
+   ],
+   "reference_number": 114,
+   "reference": "O. L. Mangasarian, W. N. Street, and W. H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research , 43(4):570\u2013577, 1995."
+  },
+  "Annthyroid": {
+   "table_row": [
+    "7200",
+    "6",
+    "534",
+    "7.42",
+    "Healthcare"
+   ],
+   "reference_number": 141,
+   "reference": "J. R. Quinlan. Induction of decision trees. Machine learning , 1(1):81\u2013106, 1986."
+  },
+  "Cardiotocography": {
+   "table_row": [
+    "2114",
+    "21",
+    "466",
+    "22.04",
+    "Healthcare"
+   ],
+   "reference_number": 12,
+   "reference": "D. Ayres-de Campos, J. Bernardes, A. Garrido, J. Marques-de Sa, and L. Pereira-Leite. Sisporto 2.0: a program for automated analysis of cardiotocograms. Journal"
+  },
+  "Hepatitis": {
+   "table_row": [
+    "80",
+    "19",
+    "13",
+    "16.25",
+    "Healthcare"
+   ],
+   "reference_number": 36,
+   "reference": "P. Diaconis and B. Efron. Computer-intensive methods in statistics. Scientific American , 248(5), 1983."
+  },
+  "InternetAds": {
+   "table_row": [
+    "1966",
+    "1555",
+    "368",
+    "18.72",
+    "Image"
+   ],
+   "reference_number": 25,
+   "reference": "G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov\u00e1, E. Schubert, I. Assent, and M. E. Houle. On the evaluation of unsupervised outlier detection: m"
+  },
+  "PageBlocks": {
+   "table_row": [
+    "5393",
+    "10",
+    "510",
+    "9.46",
+    "Document"
+   ],
+   "reference_number": 113,
+   "reference": "D. Malerba, F. Esposito, and G. Semeraro. A further comparison of simplification methods for decision-tree induction. In Learning from data , pages 365\u2013374. Spr"
+  },
+  "Pima": {
+   "table_row": [
+    "768",
+    "8",
+    "268",
+    "34.90",
+    "Healthcare"
+   ],
+   "reference_number": 145,
+   "reference": "S. Rayana. ODDS library, 2016."
+  },
+  "SpamBase": {
+   "table_row": [
+    "4207",
+    "57",
+    "1679",
+    "39.91",
+    "Document"
+   ],
+   "reference_number": 25,
+   "reference": "G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov\u00e1, E. Schubert, I. Assent, and M. E. Houle. On the evaluation of unsupervised outlier detection: m"
+  },
+  "Stamps": {
+   "table_row": [
+    "340",
+    "9",
+    "31",
+    "9.12",
+    "Document"
+   ],
+   "reference_number": 25,
+   "reference": "G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov\u00e1, E. Schubert, I. Assent, and M. E. Houle. On the evaluation of unsupervised outlier detection: m"
+  },
+  "Wilt": {
+   "table_row": [
+    "4819",
+    "5",
+    "257",
+    "5.33",
+    "Botany"
+   ],
+   "reference_number": 25,
+   "reference": "G. O. Campos, A. Zimek, J. Sander, R. J. Campello, B. Micenkov\u00e1, E. Schubert, I. Assent, and M. E. Houle. On the evaluation of unsupervised outlier detection: m"
+  }
+ }
+}

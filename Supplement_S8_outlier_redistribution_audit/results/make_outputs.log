@@ -1,0 +1,73 @@
+{
+ "names": 19,
+ "matched": 15,
+ "matched_V0": 14,
+ "matched_V1": [
+  "Lymphography"
+ ],
+ "matched_not_table_variant": [
+  "WBC",
+  "Cardiotocography",
+  "InternetAds",
+  "PageBlocks",
+  "SpamBase",
+  "Wilt"
+ ],
+ "undetermined": [
+  "ALOI",
+  "PenDigits",
+  "Shuttle",
+  "Annthyroid"
+ ],
+ "variants_parsed": 889,
+ "native_control": {
+  "knn_values": 4445,
+  "knn_exact": 3524,
+  "knn_max_diff": 0.007042253521126751,
+  "knnw_values": 4445,
+  "knnw_exact": 3864,
+  "knnw_max_diff": 0.002487562189054715
+ },
+ "max_dev_matched_raw": [
+  "Wilt",
+  0.2639353115587292
+ ],
+ "max_dev_matched_minmax": [
+  "Lymphography",
+  0.142018779342723
+ ],
+ "max_dev_undetermined_minmax": [
+  "Shuttle",
+  0.33308889431443955
+ ],
+ "rank_table_all": {
+  "comparisons": 73,
+  "names": [
+   "Cardiotocography",
+   "Hepatitis",
+   "InternetAds",
+   "Lymphography",
+   "PageBlocks",
+   "Pima",
+   "SpamBase",
+   "Stamps",
+   "WBC",
+   "WDBC",
+   "Waveform",
+   "Wilt"
+  ],
+  "top_differs": 34,
+  "tau_median": 0.6565076777938936,
+  "tau_min": -0.3333333333333333,
+  "max_reversed_pairs": 44
+ },
+ "rank_table_same_scaling": {
+  "comparisons": 34,
+  "names": null,
+  "top_differs": 15,
+  "tau_median": 0.8136828500569133,
+  "tau_min": 0.12307692307692308,
+  "max_reversed_pairs": 28
+ }
+}
+wrote /Users/loctek/Desktop/改投 IS-Auditing Data-Repair2DMKD/experiments/S8_outlier_benchmark_audit/results/Fig2.pdf

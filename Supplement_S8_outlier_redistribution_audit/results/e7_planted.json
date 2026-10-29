@@ -1,0 +1,2294 @@
+{
+ "summary": {
+  "cases": 98,
+  "correct": 92,
+  "correct_all_matches_rule": 95,
+  "undetermined_when_wrong": 2,
+  "by_perturbation": {
+   "row permutation": [
+    15,
+    15
+   ],
+   "label inversion": [
+    15,
+    15
+   ],
+   "permutation and label inversion": [
+    15,
+    15
+   ],
+   "duplicated row": [
+    15,
+    15
+   ],
+   "rounding to 6 decimals plus 1e-9 noise": [
+    13,
+    15
+   ],
+   "affine rescaling of every attribute": [
+    10,
+    11
+   ],
+   "substituted": [
+    9,
+    12
+   ]
+  }
+ },
+ "cases": [
+  {
+   "name": "Glass",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Glass",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Glass",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Glass_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Glass",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Glass",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Glass_withoutdupl_norm",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Ionosphere",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Ionosphere",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Ionosphere",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Ionosphere_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Ionosphere",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Ionosphere",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Ionosphere_withoutdupl_norm",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Lymphography_withoutdupl_idf",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Lymphography",
+   "perturbation": "substituted variant Lymphography_withoutdupl_norm_idf",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Lymphography_withoutdupl_norm_idf",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Lymphography_withoutdupl_idf",
+    "V2"
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Lymphography_withoutdupl_norm_idf",
+    "V0",
+    2
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Waveform_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Waveform_withoutdupl_v10",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Waveform",
+   "perturbation": "substituted variant Waveform_withoutdupl_norm_v05",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Waveform_withoutdupl_norm_v05",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Waveform_withoutdupl_norm_v05",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Waveform_withoutdupl_norm_v05",
+    "V0",
+    2
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WBC_withoutdupl_v10",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WBC",
+   "perturbation": "substituted variant WBC_withoutdupl_norm_v02",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "WBC_withoutdupl_norm_v02",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "WBC_withoutdupl_norm_v02",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WBC_withoutdupl_norm_v02",
+    "V0",
+    2
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WDBC_withoutdupl_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "WDBC_withoutdupl_v10",
+    "V2"
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": false
+  },
+  {
+   "name": "WDBC",
+   "perturbation": "substituted variant WDBC_withoutdupl_v02",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "WDBC_withoutdupl_v02",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "WDBC_withoutdupl_v02",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WDBC_withoutdupl_v02",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WPBC",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "WPBC_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WPBC",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WPBC",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "WPBC_withoutdupl_norm",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WPBC",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "WPBC",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "WPBC_withoutdupl_norm",
+    "V1"
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": false
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Cardiotocography_withoutdupl_22",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Cardiotocography_withoutdupl_22",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Cardiotocography",
+   "perturbation": "substituted variant Cardiotocography_withoutdupl_norm_10_v01",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Cardiotocography_withoutdupl_norm_10_v01",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Cardiotocography_withoutdupl_10_v01",
+    "V2"
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Cardiotocography_withoutdupl_norm_10_v01",
+    "V0",
+    2
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Hepatitis_withoutdupl_16",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Hepatitis_withoutdupl_16",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Hepatitis",
+   "perturbation": "substituted variant Hepatitis_withoutdupl_norm_05_v04",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Hepatitis_withoutdupl_norm_05_v04",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Hepatitis_withoutdupl_05_v04",
+    "V2"
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Hepatitis_withoutdupl_norm_05_v04",
+    "V0",
+    2
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "InternetAds_withoutdupl_norm_19",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "InternetAds_withoutdupl_norm_19",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "InternetAds",
+   "perturbation": "substituted variant InternetAds_withoutdupl_norm_05_v09",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "InternetAds_withoutdupl_norm_05_v09",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "InternetAds_withoutdupl_norm_05_v09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "InternetAds_withoutdupl_norm_05_v09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "PageBlocks_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "PageBlocks_withoutdupl_09",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "PageBlocks",
+   "perturbation": "substituted variant PageBlocks_withoutdupl_02_v08",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "PageBlocks_withoutdupl_02_v08",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "PageBlocks_withoutdupl_02_v08",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "PageBlocks_withoutdupl_02_v08",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Pima_withoutdupl_35",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Pima_withoutdupl_35",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Pima",
+   "perturbation": "substituted variant Pima_withoutdupl_02_v10",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Pima_withoutdupl_02_v10",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Pima_withoutdupl_02_v10",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Pima_withoutdupl_02_v10",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "SpamBase_withoutdupl_40",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "SpamBase_withoutdupl_40",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "SpamBase",
+   "perturbation": "substituted variant SpamBase_05_v08",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "SpamBase_05_v08",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "SpamBase_05_v08",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "SpamBase_05_v08",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Stamps_withoutdupl_09",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V1"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V1",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Stamps_withoutdupl_09",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Stamps",
+   "perturbation": "substituted variant Stamps_withoutdupl_02_v02",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Stamps_withoutdupl_02_v02",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Stamps_withoutdupl_02_v02",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Stamps_withoutdupl_02_v02",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "row permutation",
+   "planted_cause": "comparison: none (correspondence-invariant)",
+   "expected": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "obtained": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "permutation and label inversion",
+   "planted_cause": "adapter: label orientation",
+   "expected": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "obtained": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "labels differ",
+    "Wilt_withoutdupl_05",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "duplicated row",
+   "planted_cause": "comparison: no producer variant",
+   "expected": [
+    "undetermined",
+    null,
+    null
+   ],
+   "obtained": [
+    "undetermined",
+    null,
+    null
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "undetermined",
+    null,
+    null,
+    0
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "rounding to 6 decimals plus 1e-9 noise",
+   "planted_cause": "adapter: numeric representation",
+   "expected": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V1"
+   ],
+   "obtained": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V2"
+   ],
+   "correct": false,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": false
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "affine rescaling of every attribute",
+   "planted_cause": "adapter: feature scaling",
+   "expected": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V2"
+   ],
+   "obtained": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V2"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Wilt_withoutdupl_05",
+    "V2",
+    1
+   ],
+   "correct_all_matches_rule": true
+  },
+  {
+   "name": "Wilt",
+   "perturbation": "substituted variant Wilt_withoutdupl_02_v08",
+   "planted_cause": "comparison: other producer variant",
+   "expected": [
+    "matched",
+    "Wilt_withoutdupl_02_v08",
+    null
+   ],
+   "obtained": [
+    "matched",
+    "Wilt_withoutdupl_02_v08",
+    "V0"
+   ],
+   "correct": true,
+   "obtained_all_matches_rule": [
+    "matched",
+    "Wilt_withoutdupl_02_v08",
+    "V0",
+    1
+   ],
+   "correct_all_matches_rule": true
+  }
+ ]
+}

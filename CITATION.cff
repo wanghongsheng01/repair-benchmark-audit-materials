@@ -9,6 +9,6 @@ authors:
   - family-names: Liang
     given-names: Xiubo
     affiliation: "School of Software Technology, Zhejiang University"
-version: v1.0.0
+version: v1.1.0
 license: MIT
-keywords: [data cleaning, benchmark validation, error generation, reproducibility, BART, Raha, Baran]
+keywords: [data cleaning, benchmark validation, error generation, reproducibility, BART, Raha, Baran, outlier detection, ADBench]

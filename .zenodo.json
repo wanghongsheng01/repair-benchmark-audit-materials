@@ -1,7 +1,7 @@
 {
   "title": "Reproducibility materials for \"Auditing Data-Repair Benchmarks with Explicit Comparison Contracts\"",
   "upload_type": "dataset",
-  "description": "Protocols, author code, saved run evidence, predictions, scoring outputs and replay material for the article \"Auditing Data-Repair Benchmarks with Explicit Comparison Contracts\" (submitted to Information Systems). S1: reference experiment for supplied-authority conformance. S2: BART generator audit. S3: CSV-only matching control. S4: Raha/Baran consumer audit. S5: audit decision ledger. S6: figure code. S7: 90 extended BART generator runs with constraint-driven errors and a 50-row table. Third-party CSV files, YAML sources and upstream code are not redistributed; each folder explains how to restore them from pinned public sources.",
+  "description": "Protocols, author code, saved run evidence, predictions, scoring outputs and replay material for the article \"Comparison contracts for benchmark evaluation: attributing score discrepancies in data cleaning and outlier detection\" (an earlier version was titled \"Auditing Data-Repair Benchmarks with Explicit Comparison Contracts\"). S1: reference experiment for supplied-authority conformance. S2: BART generator audit. S3: CSV-only matching control. S4: Raha/Baran consumer audit. S5: audit decision ledger. S6: figure code. S7: 90 extended BART generator runs with constraint-driven errors and a 50-row table. S8 (new in v1.1.0): comparison-contract audit of the ADBench redistribution of the DAMI outlier-detection repository, with a crosswalk from ADBench files to DAMI variants. Third-party data, YAML sources and upstream code are not redistributed; each folder explains how to restore them from pinned public sources.",
   "creators": [
     {
       "name": "Wang, Hongsheng",
@@ -19,10 +19,13 @@
     "reproducibility",
     "BART",
     "Raha",
-    "Baran"
+    "Baran",
+    "outlier detection",
+    "evaluation methodology",
+    "ADBench"
   ],
   "license": "mit",
   "access_right": "open",
   "language": "eng",
-  "version": "v1.0.0"
+  "version": "v1.1.0"
 }
