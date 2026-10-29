@@ -150,3 +150,17 @@ against the native values under both readings of k; (iii) one-sided binomial tes
 rate against the replicate floor are reported (`code/headline_revision.py`); (iv) the sources that
 ADBench cites per dataset are extracted by `code/e9_adbench_sources.py` from the saved arXiv HTML, and
 the Glass per-object check of A5 is scripted in `code/e3c_glass_per_object.py`.
+
+### Amendment A7 (29 October 2026, after a third internal review)
+Additional analysis E10, outside the frozen endpoints: the gap between two published KNN ROC AUC values for
+the same ADBench file, ADBench's Table D4 (unsupervised KNN, PyOD default of five neighbors, min-max scaled
+features, 70/30 split, averaged over seeds) and DAMI's native KNN at label k = 4 (the fifth neighbor with the
+query point excluded, amendment A1) for the matched variant, compared with our whole-file KNN (fifth
+neighbor) after min-max scaling (`code/e10_published_pair.py`). ADBench's split and seed averaging are not
+replicated. Clarifications for the article: (i) the procedure reports all matching variants and prefers the
+least-transformed interpretation (`attribute_all` in `code/e7_planted.py`); on the 19 real files at most one
+variant matches, so E2 is unchanged; (ii) Table 8 and Fig. 2 of the article use DAMI's KNN convention
+(`KNN|exclude_series|11`), the secondary series of A1, so that they are comparable with the published
+results; the frozen convention (`KNN|exclude|10`, in `summary.json` and `headline.json`) differs by at most
+0.043 and changes no conclusion. The ADBench arXiv HTML (v2) used by E9 and E10 is downloaded by
+`code/fetch_inputs.sh` and checked against its hash.

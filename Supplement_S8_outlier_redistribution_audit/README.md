@@ -1,7 +1,7 @@
 # Supplement S8: comparison-contract audit of a redistributed outlier-detection benchmark
 
 Supplement to "Comparison contracts for benchmark evaluation: attributing score discrepancies in data
-cleaning and outlier detection" (H. Wang, X. Liang), Section 6, Tables 8 and 9 and Fig. 2.
+cleaning and outlier detection" (H. Wang, X. Liang), Section 6, Tables 8, 9 and 10 and Fig. 2. Table 8 and Fig. 2 use DAMI's KNN convention (`KNN|exclude_series|11` in `e3_e4.json`); `summary.json` and `headline.json` keep the frozen convention, which differs by at most 0.043.
 Corresponding author: Hongsheng Wang, wanghongsheng@zju.edu.cn.
 
 The audit compares the 19 `Classical` files of ADBench (commit 3dac8221081e190f157d78e93bfa8867f90d0965) that
@@ -13,7 +13,7 @@ No third-party data are redistributed; `code/fetch_inputs.sh` downloads them and
 ## Contents
 | Path | What it is |
 |---|---|
-| `protocol/PROTOCOL_S8.md` | Protocol frozen on 29 Oct 2026 before any data file was parsed, with amendments A1-A5 (all made on the same day) |
+| `protocol/PROTOCOL_S8.md` | Protocol frozen on 29 Oct 2026 before any data file was parsed, with amendments A1-A7 |
 | `protocol/input_hashes_at_freeze.sha256` | SHA-256 of the DAMI tarballs and the 19 ADBench files, recorded at freezing |
 | `code/fetch_inputs.sh` | Downloads all public inputs (about 135 MB) and verifies the hashes |
 | `code/s8_lib.py` | ARFF/NPZ readers, multiset matching, KNN/KNNW detectors, ROC AUC with ties counted one half |
@@ -26,6 +26,10 @@ No third-party data are redistributed; `code/fetch_inputs.sh` downloads them and
 | `code/e6b_rankings_robust.py` | E6b, amendment A5: best-detector changes with a replicate noise floor, tolerance 0.01, three measures (replaces E6 in the paper) |
 | `code/e7_planted.py` | E7, amendment A5: 98 planted perturbations with known causes |
 | `code/e8_aloi_rows.py` | E8: the 27 ALOI rows that differ from the deduplicated DAMI variant |
+| `code/e3c_glass_per_object.py` | E3c: DAMI per-object KNN scores for Glass locate the k+1 offset (needs `raw/dami_eval_results_Glass.csv.gz`, downloaded by `fetch_inputs.sh`) |
+| `code/e9_adbench_sources.py` | E9: sources that ADBench's dataset table cites, from its arXiv HTML (v2) |
+| `code/e10_published_pair.py` | E10, amendment A7: gap between ADBench's and DAMI's published KNN scores (article Table 10) |
+| `code/headline_revision.py` | Numbers of the revised Section 6, with binomial tests (`results/headline_revision.json`) |
 | `code/lof.py` | A LOF re-implementation that did not reproduce the native values; kept, not used |
 | `results/` | All outputs: `e1_e2.json`, `e3_e4.json`, `e5_minmax.json`, `e6_rankings.json`, `summary.json`, `headline.json`, `e3b_residuals.json`, `e6b_rankings_robust.json`, `e7_planted.json`, `e8_aloi_rows.json`, `table_s8.tex`, `Fig2.pdf`, `crosswalk_adbench_to_dami.csv`, `native_eval_hashes.sha256` |
 
@@ -41,6 +45,10 @@ python3 code/e6b_rankings_robust.py
 python3 code/e3b_residuals.py
 python3 code/e7_planted.py
 python3 code/e8_aloi_rows.py
+python3 code/e3c_glass_per_object.py
+python3 code/e9_adbench_sources.py
+python3 code/e10_published_pair.py
+python3 code/headline_revision.py
 python3 code/analyze.py
 python3 code/make_outputs.py
 ```

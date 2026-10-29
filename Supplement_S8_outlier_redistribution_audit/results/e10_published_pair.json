@@ -1,0 +1,115 @@
+{
+ "ALOI": {
+  "adbench_published": 0.6147,
+  "ours_stored_k5": 0.6907855144997167,
+  "ours_minmax_k5": 0.6942259517142626
+ },
+ "Glass": {
+  "adbench_published": 0.8229000000000001,
+  "ours_stored_k5": 0.8639566395663957,
+  "ours_minmax_k5": 0.8639566395663957,
+  "dami_variant": "Glass_withoutdupl_norm",
+  "dami_published_k5": 0.8639566395663957
+ },
+ "Ionosphere": {
+  "adbench_published": 0.8826,
+  "ours_stored_k5": 0.9259435626102293,
+  "ours_minmax_k5": 0.9259435626102293,
+  "dami_variant": "Ionosphere_withoutdupl_norm",
+  "dami_published_k5": 0.9259435626102293
+ },
+ "Lymphography": {
+  "adbench_published": 0.5590999999999999,
+  "ours_stored_k5": 0.9988262910798122,
+  "ours_minmax_k5": 0.9988262910798122,
+  "dami_variant": "Lymphography_withoutdupl_idf",
+  "dami_published_k5": 0.9988262910798122
+ },
+ "PenDigits": {
+  "adbench_published": 0.7295,
+  "ours_stored_k5": 0.7126994492946236,
+  "ours_minmax_k5": 0.7126994492946236
+ },
+ "Shuttle": {
+  "adbench_published": 0.6964,
+  "ours_stored_k5": 0.7194540188407992,
+  "ours_minmax_k5": 0.6316218560008761
+ },
+ "Waveform": {
+  "adbench_published": 0.7378,
+  "ours_stored_k5": 0.7684116063416093,
+  "ours_minmax_k5": 0.7457433443015256,
+  "dami_variant": "Waveform_withoutdupl_v10",
+  "dami_published_k5": 0.7684116063416093
+ },
+ "WBC": {
+  "adbench_published": null
+ },
+ "WDBC": {
+  "adbench_published": 0.9172,
+  "ours_stored_k5": 0.9991596638655462,
+  "ours_minmax_k5": 0.9781512605042016,
+  "dami_variant": "WDBC_withoutdupl_v10",
+  "dami_published_k5": 0.9991596638655462
+ },
+ "WPBC": {
+  "adbench_published": 0.46590000000000004,
+  "ours_stored_k5": 0.5207834296181485,
+  "ours_minmax_k5": 0.5207834296181485,
+  "dami_variant": "WPBC_withoutdupl_norm",
+  "dami_published_k5": 0.5207834296181485
+ },
+ "Annthyroid": {
+  "adbench_published": 0.7169,
+  "ours_stored_k5": 0.7511307310506331,
+  "ours_minmax_k5": 0.7343190779752132
+ },
+ "Cardiotocography": {
+  "adbench_published": 0.5623,
+  "ours_stored_k5": 0.6003069138297429,
+  "ours_minmax_k5": 0.5448905423142631,
+  "dami_variant": "Cardiotocography_withoutdupl_22",
+  "dami_published_k5": 0.6003088670361265
+ },
+ "Hepatitis": {
+  "adbench_published": 0.5276,
+  "ours_stored_k5": 0.5510907003444316,
+  "ours_minmax_k5": 0.6745120551090701,
+  "dami_variant": "Hepatitis_withoutdupl_16",
+  "dami_published_k5": 0.5510907003444316
+ },
+ "InternetAds": {
+  "adbench_published": null
+ },
+ "PageBlocks": {
+  "adbench_published": 0.8194,
+  "ours_stored_k5": 0.5560925660454639,
+  "ours_minmax_k5": 0.7812994663357868,
+  "dami_variant": "PageBlocks_withoutdupl_09",
+  "dami_published_k5": 0.5560925660454639
+ },
+ "Pima": {
+  "adbench_published": 0.7343000000000001,
+  "ours_stored_k5": 0.615160447761194,
+  "ours_minmax_k5": 0.7136865671641791,
+  "dami_variant": "Pima_withoutdupl_35",
+  "dami_published_k5": 0.615160447761194
+ },
+ "SpamBase": {
+  "adbench_published": null
+ },
+ "Stamps": {
+  "adbench_published": 0.6861,
+  "ours_stored_k5": 0.8240943731078401,
+  "ours_minmax_k5": 0.836204196680238,
+  "dami_variant": "Stamps_withoutdupl_09",
+  "dami_published_k5": 0.8240943731078401
+ },
+ "Wilt": {
+  "adbench_published": 0.4842,
+  "ours_stored_k5": 0.705954450314474,
+  "ours_minmax_k5": 0.49172234855011027,
+  "dami_variant": "Wilt_withoutdupl_05",
+  "dami_published_k5": 0.705954450314474
+ }
+}
